@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  arm-none-linux-gnueabi-ld -EL   -r -o drivers/net/built-in.o drivers/net/../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_network/mv_ethernet/built-in.o drivers/net/e100.o drivers/net/mii.o drivers/net/Space.o drivers/net/loopback.o drivers/net/arm/built-in.o drivers/net/wireless/built-in.o

@@ -1,0 +1,27 @@
+#! /bin/sh
+#
+# Created by configure
+
+CFLAGS='-Os -pipe -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64' \
+CPPFLAGS='-I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/usr/include' \
+LDFLAGS='-L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/lib -L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/usr/lib' \
+CC='/opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-gcc' \
+CXX='/opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-g++' \
+'./configure' \
+'--target=arm-linux' \
+'--host=arm-linux' \
+'--build=i386-pc-linux-gnu' \
+'--prefix=/usr' \
+'--exec-prefix=/usr' \
+'--bindir=/usr/bin' \
+'--sbindir=/usr/sbin' \
+'--libexecdir=/usr/lib' \
+'--sysconfdir=/etc' \
+'--datadir=/usr/share' \
+'--localstatedir=/var' \
+'--mandir=/usr/man' \
+'--infodir=/usr/info' \
+'--enable-shared' \
+'--disable-static' \
+'--with-sqlite3=/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/usr' \
+"$@"

@@ -1,0 +1,47 @@
+--- options.h	2007-02-22 07:51:35.000000000 -0800
++++ options.h.mine	2007-08-01 15:27:52.000000000 -0700
+@@ -51,20 +51,20 @@
+ #define DROPBEAR_SMALL_CODE
+ 
+ /* Enable X11 Forwarding - server only */
+-#define ENABLE_X11FWD
++#undef ENABLE_X11FWD
+ 
+ /* Enable TCP Fowarding */
+ /* 'Local' is "-L" style (client listening port forwarded via server)
+  * 'Remote' is "-R" style (server listening port forwarded via client) */
+ 
+-#define ENABLE_CLI_LOCALTCPFWD
+-#define ENABLE_CLI_REMOTETCPFWD
++#undef ENABLE_CLI_LOCALTCPFWD
++#undef ENABLE_CLI_REMOTETCPFWD
+ 
+-#define ENABLE_SVR_LOCALTCPFWD
+-#define ENABLE_SVR_REMOTETCPFWD
++#undef ENABLE_SVR_LOCALTCPFWD
++#undef ENABLE_SVR_REMOTETCPFWD
+ 
+ /* Enable Authentication Agent Forwarding - server only for now */
+-#define ENABLE_AGENTFWD
++#undef ENABLE_AGENTFWD
+ 
+ /* Encryption - at least one required.
+  * RFC Draft requires 3DES and recommends AES128 for interoperability.
+@@ -159,7 +159,7 @@
+  * however significantly reduce the security of your ssh connections
+  * if the PRNG state becomes guessable - make sure you know what you are
+  * doing if you change this. */
+-#define DROPBEAR_RANDOM_DEV "/dev/random"
++#define DROPBEAR_RANDOM_DEV "/dev/urandom"
+ 
+ /* prngd must be manually set up to produce output */
+ /*#define DROPBEAR_PRNGD_SOCKET "/var/run/dropbear-rng"*/
+@@ -185,7 +185,7 @@
+ /* The default file to store the daemon's process ID, for shutdown
+    scripts etc. This can be overridden with the -P flag */
+ #ifndef DROPBEAR_PIDFILE
+-#define DROPBEAR_PIDFILE "/var/run/dropbear.pid"
++#define DROPBEAR_PIDFILE "/tmp/var/run/dropbear.pid"
+ #endif
+ 
+ /* The command to invoke for xauth when using X11 forwarding.

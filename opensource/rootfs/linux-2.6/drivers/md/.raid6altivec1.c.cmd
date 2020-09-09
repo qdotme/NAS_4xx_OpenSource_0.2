@@ -1,0 +1,1 @@
+cmd_drivers/md/raid6altivec1.c := perl /opt/devel/proto/marvell/build-eabi/linux-feroceon_4_2_2_KW/drivers/md/unroll.pl 1 < drivers/md/raid6altivec.uc > drivers/md/raid6altivec1.c || ( rm -f drivers/md/raid6altivec1.c && exit 1 )

@@ -1,0 +1,8 @@
+php_sqlite3.lo: /opt/devel/proto/marvell/build-eabi/sqlite3-0.5/php_sqlite3.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/devel/proto/marvell/build-eabi/sqlite3-0.5 $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) -prefer-pic -c /opt/devel/proto/marvell/build-eabi/sqlite3-0.5/php_sqlite3.c -o php_sqlite3.lo 
+$(phplibdir)/sqlite3.la: ./sqlite3.la
+	$(LIBTOOL) --mode=install cp ./sqlite3.la $(phplibdir)
+
+./sqlite3.la: $(shared_objects_sqlite3) $(SQLITE3_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_sqlite3) $(SQLITE3_SHARED_LIBADD)
+

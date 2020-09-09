@@ -1,0 +1,1307 @@
+include/asm/hardware/ep7212.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/hardware/sa1111.h: * Copyright (C) 2000 John G Dorsey <john+@cs.cmu.edu>
+include/asm/hardware/amba_serial.h: *  Copyright (C) ARM Limited
+include/asm/hardware/amba_serial.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/hardware/amba.h: *  Copyright (C) 2003 Deep Blue Solutions Ltd, All Rights Reserved.
+include/asm/hardware/amba_kmi.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/hardware/linkup-l1110.h:* Copyright 2001 Compaq Computer Corporation.
+include/asm/hardware/linkup-l1110.h:* provided that this copyright notice is
+include/asm/hardware/icst525.h: *  Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
+include/asm/hardware/scoop.h: *  Copyright (c) 2004 Richard Purdie
+include/asm/hardware/locomo.h: * (C) Copyright 2004 John Lenz
+include/asm/hardware/clock.h: *  Copyright (C) 2004 ARM Limited.
+include/asm/hardware/clps7111.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/hardware/pci_v3.h: *  Copyright (C) ARM Limited
+include/asm/hardware/pci_v3.h: *  Copyright (C) 2000-2001 Deep Blue Solutions Ltd.
+include/asm/hardware/ep7211.h: *  Copyright (C) 2001 Blue Mug, Inc.  All Rights Reserved.
+include/asm/hardware/ssp.h: *  Copyright (C) 2003 Russell King, All Rights Reserved.
+include/asm/hardware/amba_clcd.h: * Copyright (C) 2001 ARM Limited
+include/asm/hardware/memc.h: *  Copyright (C) Russell King.
+include/asm/hardware/iomd.h: *  Copyright (C) 1999 Russell King
+include/asm/hardware/dec21285.h: *  Copyright (C) 1998 Russell King
+include/asm/hardware/ioc.h: *  Copyright (C) Russell King
+include/asm/hardware/icst307.h: *  Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
+include/asm/hardware/cs89712.h: *  Copyright (C) 2001 Thomas Gleixner autronix automation <gleixner@autronix.de>
+include/asm/arch-lh7a40x/vmalloc.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/constants.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/constants.h: *  Copyright (C) 2004 Logic Product Development
+include/asm/arch-lh7a40x/timex.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/dma.h: *  Copyright (C) 2003 Coastal Environmental Systems
+include/asm/arch-lh7a40x/irqs.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/irqs.h: *  Copyright (C) 2004 Logic Product Development
+include/asm/arch-lh7a40x/system.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/param.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-lh7a40x/memory.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/hardware.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/io.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/irq.h: *  Copyright (C) 2004 Logic Product Development
+include/asm/arch-lh7a40x/uncompress.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/registers.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm/arch-lh7a40x/registers.h: *  Copyright (C) 2004 Logic Product Development
+include/asm/arch-integrator/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm/arch-integrator/bits.h: *  Copyright (C) ARM Limited 1998. All rights reserved.
+include/asm/arch-integrator/timex.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-integrator/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-integrator/irqs.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-integrator/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-integrator/system.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-integrator/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/arch-integrator/param.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-integrator/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-integrator/platform.h: * * Copyright © ARM Limited 1998.  All rights reserved.
+include/asm/arch-integrator/memory.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-integrator/hardware.h: *  Copyright (C) 1999 ARM Limited.
+include/asm/arch-integrator/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-integrator/uncompress.h: *  Copyright (C) 1999 ARM Limited
+include/asm/assembler.h: *  Copyright (C) 1996-2000 Russell King
+include/asm/bitops.h: * Copyright 1995, Russell King.
+include/asm/bitops.h: * Various bits and pieces copyrights include:
+include/asm/bitops.h: * Big endian support: Copyright 2001, Nicolas Pitre
+include/asm/bugs.h: *  Copyright (C) 1995-2003 Russell King
+include/asm/cpu-multi32.h: *  Copyright (C) 2000 Russell King
+include/asm/arch-shark/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-shark/memory.h: * Copyright (c) 1996-1999 Russell King.
+include/asm/arch-shark/hardware.h: * Copyright (C) 1996-1999 Russell King.
+include/asm/arch-shark/io.h: * Copyright (C) 1997,1998 Russell King
+include/asm/arch-shark/uncompress.h: * Copyright (C) 1996,1997,1998 Russell King
+include/asm/thread_info.h: *  Copyright (C) 2002 Russell King.
+include/asm/proc-fns.h: *  Copyright (C) 1997-1999 Russell King
+include/asm/proc-fns.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/arch-h720x/timex.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm/arch-h720x/dma.h: * Copyright (C) 1997.1998 Russell King
+include/asm/arch-h720x/h7201-regs.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm/arch-h720x/irqs.h: * Copyright (C) 2000 Jungjun Kim
+include/asm/arch-h720x/boards.h: * Copyright (C) 2003 Thomas Gleixner <tglx@linutronix.de>
+include/asm/arch-h720x/h7202-regs.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm/arch-h720x/system.h: * Copyright (C) 2001-2002 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm/arch-h720x/param.h: * Copyright (C) 2000 Jungjun Kim
+include/asm/arch-h720x/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-h720x/memory.h: * Copyright (c) 2000 Jungjun Kim
+include/asm/arch-h720x/hardware.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm/arch-h720x/io.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-h720x/irq.h: * Copyright (C) 2000-2002 Jungjun Kim
+include/asm/arch-h720x/uncompress.h: * Copyright (C) 2001-2002 Jungjun Kim
+include/asm/arch-clps711x/vmalloc.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/timex.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-clps711x/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/syspld.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/time.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/arch-clps711x/param.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-clps711x/memory.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-clps711x/hardware.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-clps711x/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-clps711x/uncompress.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/locks.h: *  Copyright (C) 2000 Russell King
+include/asm/tlb.h: *  Copyright (C) 2002 Russell King
+include/asm/timex.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/glue.h: *  Copyright (C) 1997-1999 Russell King
+include/asm/glue.h: *  Copyright (C) 2000-2002 Deep Blue Solutions Ltd.
+include/asm/arch-iop3xx/iop331-irqs.h: * Copyright:	(C) 2003 Intel Corp.
+include/asm/arch-iop3xx/dma.h: *  Copyright (C) 2004 Intel Corp.
+include/asm/arch-iop3xx/iop331.h: * Copyright (C) 2003, 2004 Intel Corp.
+include/asm/arch-iop3xx/irqs.h: * Copyright:	(C) 2001-2003 MontaVista Software Inc.
+include/asm/arch-iop3xx/iop321.h: * Copyright (C) 2002 Rory Bolt
+include/asm/arch-iop3xx/iop321.h: * Copyright (C) 2004 Intel Corp.
+include/asm/arch-iop3xx/system.h: *  Copyright (C) 2001 MontaVista Software, Inc.
+include/asm/arch-iop3xx/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-iop3xx/iop321-irqs.h: * Copyright:	(C) 2002 Rory Bolt
+include/asm/arch-iop3xx/io.h: *  Copyright (C) 2001  MontaVista Software, Inc.
+include/asm/cpu.h: *  Copyright (C) 2004-2005 ARM Ltd.
+include/asm/atomic.h: *  Copyright (C) 1996 Russell King.
+include/asm/atomic.h: *  Copyright (C) 2002 Deep Blue Solutions Ltd.
+include/asm/procinfo.h: *  Copyright (C) 1996-1999 Russell King
+include/asm/arch-versatile/vmalloc.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-versatile/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm/arch-versatile/timex.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-versatile/dma.h: *  Copyright (C) 2003 ARM Limited.
+include/asm/arch-versatile/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-versatile/irqs.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-versatile/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-versatile/system.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-versatile/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/arch-versatile/param.h: *  Copyright (C) 2002 ARM Limited
+include/asm/arch-versatile/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-versatile/platform.h: * Copyright (c) ARM Limited 2003.  All rights reserved.
+include/asm/arch-versatile/memory.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-versatile/hardware.h: *  Copyright (C) 2003 ARM Limited.
+include/asm/arch-versatile/io.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-versatile/uncompress.h: *  Copyright (C) 2003 ARM Limited
+include/asm/arch-sa1100/bitfield.h: *	Author  	Copyright (c) Marc A. Viredaz, 1998
+include/asm/arch-sa1100/SA-1100.h: *	Author  	Copyright (c) Marc A. Viredaz, 1998
+include/asm/arch-sa1100/timex.h: * Copyright (C) 1998 
+include/asm/arch-sa1100/dma.h: * Copyright (C) 2000 Nicolas Pitre
+include/asm/arch-sa1100/h3600_gpio.h: * Copyright 2000 Compaq Computer Corporation.
+include/asm/arch-sa1100/h3600_gpio.h: * provided that this copyright notice is
+include/asm/arch-sa1100/irqs.h: * Copyright (C) 1996 Russell King
+include/asm/arch-sa1100/irqs.h: * Copyright (C) 1998 Deborah Wallach (updates for SA1100/Brutus).
+include/asm/arch-sa1100/irqs.h: * Copyright (C) 1999 Nicolas Pitre (full GPIO irq isolation)
+include/asm/arch-sa1100/h3600.h: * Copyright 2000 Compaq Computer Corporation.
+include/asm/arch-sa1100/h3600.h: * provided that this copyright notice is
+include/asm/arch-sa1100/system.h: * Copyright (c) 1999 Nicolas Pitre <nico@cam.org>
+include/asm/arch-sa1100/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-sa1100/memory.h: * Copyright (C) 1999-2000 Nicolas Pitre <nico@cam.org>
+include/asm/arch-sa1100/hardware.h: * Copyright (C) 1998 Nicolas Pitre <nico@cam.org>
+include/asm/arch-sa1100/io.h: * Copyright (C) 1997-1999 Russell King
+include/asm/arch-sa1100/ide.h: * Copyright (c) 1998 Hugo Fiennes & Nicolas Pitre
+include/asm/arch-sa1100/badge4.h: * Copyright (C) 2002 Hewlett-Packard Company
+include/asm/arch-sa1100/SA-1101.h: * Copyright (c) Peter Danielsson 1999
+include/asm/posix_types.h: *  Copyright (C) 1996-1998 Russell King.
+include/asm/rtc.h: *  Copyright (C) 2003 Deep Blue Solutions Ltd.
+include/asm/kgdb.h: * Copyright (C) 2002 MontaVista Software Inc.
+include/asm/page.h: *  Copyright (C) 1995-2003 Russell King
+include/asm/arch-ebsa110/vmalloc.h: *  Copyright (C) 1998 Russell King
+include/asm/arch-ebsa110/timex.h: *  Copyright (C) 1997, 1998 Russell King
+include/asm/arch-ebsa110/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-ebsa110/irqs.h: *  Copyright (C) 1996 Russell King
+include/asm/arch-ebsa110/system.h: *  Copyright (C) 1996-2000 Russell King.
+include/asm/arch-ebsa110/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-ebsa110/memory.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm/arch-ebsa110/hardware.h: *  Copyright (C) 1996-2000 Russell King.
+include/asm/arch-ebsa110/io.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-ebsa110/uncompress.h: *  Copyright (C) 1996,1997,1998 Russell King
+include/asm/arch-rpc/acornfb.h: *  Copyright (C) 1999 Russell King
+include/asm/arch-rpc/vmalloc.h: *  Copyright (C) 1997 Russell King
+include/asm/arch-rpc/timex.h: *  Copyright (C) 1997, 1998 Russell King
+include/asm/arch-rpc/dma.h: *  Copyright (C) 1997 Russell King
+include/asm/arch-rpc/irqs.h: *  Copyright (C) 1996 Russell King
+include/asm/arch-rpc/system.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm/arch-rpc/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-rpc/memory.h: *  Copyright (C) 1996,1997,1998 Russell King.
+include/asm/arch-rpc/hardware.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm/arch-rpc/io.h: *  Copyright (C) 1997 Russell King
+include/asm/arch-rpc/uncompress.h: *  Copyright (C) 1996 Russell King
+include/asm/ptrace.h: *  Copyright (C) 1996-2003 Russell King
+include/asm/pgtable.h: *  Copyright (C) 1995-2002 Russell King
+include/asm/fpstate.h: *  Copyright (C) 1995 Russell King
+include/asm/mmu_context.h: *  Copyright (C) 1996 Russell King.
+include/asm/floppy.h: *  Copyright (C) 1996-2000 Russell King
+include/asm/processor.h: *  Copyright (C) 1995-1999 Russell King
+include/asm/arch-epxa10db/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm/arch-epxa10db/tdkphy.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/tdkphy.h: * Copyright (c) Altera Corporation 2000.
+include/asm/arch-epxa10db/mode_ctrl00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/timex.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-epxa10db/timer00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/irqs.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/int_ctrl00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/system.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-epxa10db/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/arch-epxa10db/system.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/pld_conf00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/param.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-epxa10db/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-epxa10db/memory.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/hardware.h: *  Copyright (C) 1999 ARM Limited.
+include/asm/arch-epxa10db/hardware.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-epxa10db/ether00.h: * Copyright (c) Altera Corporation 2000.
+include/asm/arch-epxa10db/uncompress.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-epxa10db/uncompress.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/arch-epxa10db/uart00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm/xor.h: *  Copyright (C) 2001 Russell King
+include/asm/serial.h: *  Copyright (C) 1996 Russell King.
+include/asm/numnodes.h: *  Copyright (C) 2002 Russell King
+include/asm/param.h: *  Copyright (C) 1995-1999 Russell King
+include/asm/memory.h: *  Copyright (C) 2000-2002 Russell King
+include/asm/arch-ixp2000/vmalloc.h: * Copyright 2002 Intel Corp.
+include/asm/arch-ixp2000/gpio.h: * Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp2000/dma.h: * Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/ixdp2x01.h: * Copyright 2004 (c) MontaVista Software, Inc. 
+include/asm/arch-ixp2000/ixdp2x01.h: * Based on original code Copyright (c) 2002-2003 Intel Corporation
+include/asm/arch-ixp2000/irqs.h: * Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/irqs.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp2000/ixdp2x00.h: * Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/ixdp2x00.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp2000/system.h: * Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-ixp2000/platform.h: * Copyright 2004 (c) MontaVista Software, Inc. 
+include/asm/arch-ixp2000/memory.h: * Copyright (c) 2002 Intel Corp.
+include/asm/arch-ixp2000/memory.h: * Copyright (c) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp2000/hardware.h: * Copyright (C) 2001-2002 Intel Corp.
+include/asm/arch-ixp2000/hardware.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp2000/io.h: * Copyright (C) 2002  Intel Corp.
+include/asm/arch-ixp2000/irq.h: *  Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/uncompress.h: * Copyright 2002 Intel Corp.
+include/asm/arch-ixp2000/ixp2000-regs.h: * Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/ixp2000-regs.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp2000/enp2611.h: * Copyright (C) 2002 Intel Corp.
+include/asm/arch-ixp2000/enp2611.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/unistd.h.wil: *  Copyright (C) 2001-2005 Russell King
+include/asm/cacheflush.h: *  Copyright (C) 1999-2002 Russell King
+include/asm/hardware.h: *  Copyright (C) 1996 Russell King
+include/asm/leds.h: *  Copyright (C) 1998 Russell King
+include/asm/setup.h: *  Copyright (C) 1997-1999 Russell King
+include/asm/sizes.h: *  Copyright (C) ARM Limited 1998. All rights reserved.
+include/asm/io.h: *  Copyright (C) 1996-2000 Russell King
+include/asm/arch-imx/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm/arch-imx/timex.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm/arch-imx/irqs.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm/arch-imx/system.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm/arch-imx/param.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-imx/memory.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/memory.h: *  Copyright (C) 2002 Shane Nay (shane@minirl.com)
+include/asm/arch-imx/hardware.h: *  Copyright (C) 1999 ARM Limited.
+include/asm/arch-imx/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/irq.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/uncompress.h: *  Copyright (C) 1999 ARM Limited
+include/asm/arch-imx/uncompress.h: *  Copyright (C) Shane Nay (shane@minirl.com)
+include/asm/arch-imx/mx1ads.h: * Copyright (C) 2004 Robert Schwebel, Pengutronix
+include/asm/smp.h: *  Copyright (C) 2004-2005 ARM Ltd.
+include/asm/ide.h: *  Copyright (C) 1994-1996  Linus Torvalds & authors
+include/asm/parport.h: *  Copyright (C) 1999, 2000  Tim Waugh <tim@cyberelk.demon.co.uk>
+include/asm/pgalloc.h: *  Copyright (C) 2000-2001 Russell King
+include/asm/arch-ixp4xx/ixp4xx-regs.h: * Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp4xx/ixp4xx-regs.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/dma.h: * Copyright (C) 2001-2004 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/irqs.h: * Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp4xx/irqs.h: * Copyright (C) 2003 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/ixdp425.h: * Copyright 2004 (c) MontaVista, Software, Inc. 
+include/asm/arch-ixp4xx/prpmc1100.h: * Copyright 2004 (c) MontaVista, Software, Inc. 
+include/asm/arch-ixp4xx/gtwx5715.h: * Copyright 2004 (c) George T. Joseph
+include/asm/arch-ixp4xx/system.h: * Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp4xx/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-ixp4xx/platform.h: * Copyright (C) 2004 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/memory.h: * Copyright (c) 2001-2004 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/hardware.h: * Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp4xx/hardware.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/io.h: * Copyright (C) 2002-2004  MontaVista Software, Inc.
+include/asm/arch-ixp4xx/irq.h: *  Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp4xx/uncompress.h: * Copyright (C) 2002 Intel Corporation.
+include/asm/arch-ixp4xx/uncompress.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm/arch-ixp4xx/coyote.h: * Copyright 2004 (c) MontaVista, Software, Inc. 
+include/asm/arch-feroceon/serial.h: *  Copyright (C) 1999 ARM Limited
+include/asm/delay.h: * Copyright (C) 1995-2004 Russell King
+include/asm/arch-omap/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm/arch-omap/aic23.h: * Copyright (C) 2002 RidgeRun, Inc.
+include/asm/arch-omap/gpio.h: * Copyright (C) 2003 Nokia Corporation
+include/asm/arch-omap/timex.h: * Copyright (C) 2000 RidgeRun, Inc.
+include/asm/arch-omap/cpu.h: * Copyright (C) 2004 Nokia Corporation
+include/asm/arch-omap/tc.h: * Copyright (C) 2004 Nokia Corporation
+include/asm/arch-omap/pm.h: * Copyright 2002 MontaVista Software Inc.
+include/asm/arch-omap/tps65010.h: * Copyright (C) 2004 Dirk Behme <dirk.behme@de.bosch.com>
+include/asm/arch-omap/dma.h: *  Copyright (C) 2003 Nokia Corporation
+include/asm/arch-omap/board-voiceblue.h: * Copyright (C) 2004 2N Telekomunikace, Ladislav Michl <michl@2n.cz>
+include/asm/arch-omap/board-netstar.h: * Copyright (C) 2004 2N Telekomunikace, Ladislav Michl <michl@2n.cz>
+include/asm/arch-omap/irqs.h: *  Copyright (C) Greg Lonnon 2001
+include/asm/arch-omap/fpga.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm/arch-omap/fpga.h: * Copyright (C) 2002 MontaVista Software, Inc.
+include/asm/arch-omap/fpga.h: * Copyright (C) 2004 Nokia Corporation by Tony Lindrgen <tony@atomide.com>
+include/asm/arch-omap/system.h: * Copyright (c) 1999 Nicolas Pitre <nico@cam.org>
+include/asm/arch-omap/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-omap/memory.h: * Copyright (C) 2000 RidgeRun, Inc.
+include/asm/arch-omap/memory.h: * Copyright (C) 1999 ARM Limited
+include/asm/arch-omap/mux.h: * Copyright (C) 2003 Nokia Corporation
+include/asm/arch-omap/mux.h: *   Copyright (C) 2004 Texas Instruments
+include/asm/arch-omap/mux.h: *   Copyright (C) 2004 Texas Instruments
+include/asm/arch-omap/hardware.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm/arch-omap/io.h: * Copyright (C) 1997-1999 Russell King
+include/asm/arch-omap/mcbsp.h: * Copyright (C) 2002 RidgeRun, Inc.
+include/asm/arch-omap/uncompress.h: * Copyright (C) 2000 RidgeRun, Inc.
+include/asm/arch-omap/board-innovator.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm/arch-omap/board.h: *  Copyright (C) 2004	Nokia Corporation
+include/asm/arch-omap/board-h3.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm/arch-omap/board-h3.h: * Copyright (C) 2004 Texas Instruments, Inc.
+include/asm/arch-omap/board-perseus2.h: *  Copyright 2003 by Texas Instruments Incorporated
+include/asm/arch-omap/board-perseus2.h: * Copyright (C) 2001 RidgeRun, Inc. (http://www.ridgerun.com)
+include/asm/arch-cl7500/timex.h: * Copyright (C) 1999 Nexus Electronics Ltd
+include/asm/arch-cl7500/dma.h: * Copyright (C) 1999 Nexus Electronics Ltd.
+include/asm/arch-cl7500/irqs.h: * Copyright (C) 1999 Nexus Electronics Ltd
+include/asm/arch-cl7500/system.h: * Copyright (c) 1999 Nexus Electronics Ltd.
+include/asm/arch-cl7500/param.h: * Copyright (C) 1999 Nexus Electronics Ltd
+include/asm/arch-cl7500/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-cl7500/memory.h: * Copyright (c) 1996,1997,1998 Russell King.
+include/asm/arch-cl7500/hardware.h: * Copyright (C) 1996-1999 Russell King.
+include/asm/arch-cl7500/hardware.h: * Copyright (C) 1999 Nexus Electronics Ltd.
+include/asm/arch-cl7500/io.h: * Copyright (C) 1997 Russell King
+include/asm/arch-cl7500/irq.h: * Copyright (C) 1996 Russell King
+include/asm/arch-cl7500/irq.h: * Copyright (C) 1999, 2001 Nexus Electronics Ltd.
+include/asm/arch-cl7500/uncompress.h: * Copyright (C) 1999, 2000 Nexus Electronics Ltd.
+include/asm/arch-ebsa285/timex.h: *  Copyright (C) 1998 Russell King
+include/asm/arch-ebsa285/dma.h: *  Copyright (C) 1998,1999 Russell King
+include/asm/arch-ebsa285/dma.h: *  Copyright (C) 1998,1999 Philip Blundell
+include/asm/arch-ebsa285/irqs.h: * Copyright (C) 1998 Russell King
+include/asm/arch-ebsa285/irqs.h: * Copyright (C) 1998 Phil Blundell
+include/asm/arch-ebsa285/system.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm/arch-ebsa285/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-ebsa285/memory.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm/arch-ebsa285/hardware.h: *  Copyright (C) 1998-1999 Russell King.
+include/asm/arch-ebsa285/io.h: *  Copyright (C) 1997-1999 Russell King
+include/asm/arch-ebsa285/uncompress.h: *  Copyright (C) 1996-1999 Russell King
+include/asm/mach/map.h: *  Copyright (C) 1999-2000 Russell King
+include/asm/mach/dma.h: *  Copyright (C) 1998-2000 Russell King
+include/asm/mach/flash.h: *  Copyright (C) 2003 Russell King, All Rights Reserved.
+include/asm/mach/sharpsl_param.h: * Copyright (c) 2005 Richard Purdie
+include/asm/mach/pci.h: *  Copyright (C) 2000 Russell King
+include/asm/mach/time.h: * Copyright (C) 2004 MontaVista Software, Inc.
+include/asm/mach/irq.h: *  Copyright (C) 1995-2000 Russell King.
+include/asm/mach/irda.h: *  Copyright (C) 2004 Russell King.
+include/asm/mach/arch.h: *  Copyright (C) 2000 Russell King
+include/asm/cpu-single.h: *  Copyright (C) 2000 Russell King
+include/asm/arch-l7200/gp_timers.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-l7200/pmpcon.h: *   (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm/arch-l7200/gpio.h: *      (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm/arch-l7200/sys-clock.h: *   (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm/arch-l7200/timex.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/serial_l7200.h: * Copyright (c) 2000 Steven Hill (sjhill@cotw.com)
+include/asm/arch-l7200/dma.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-l7200/sib.h: *  (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm/arch-l7200/irqs.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/pmu.h: *   (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm/arch-l7200/time.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/serial.h: * Copyright (c) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/system.h: * Copyright (c) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-l7200/param.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-l7200/memory.h: * Copyright (c) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-l7200/memory.h: * Copyright (c) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/hardware.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm/arch-l7200/io.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-l7200/uncompress.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/arch-l7200/aux_reg.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm/tlbflush.h: *  Copyright (C) 1999-2003 Russell King
+include/asm/arch-s3c2410/idle.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/vmalloc.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-sdi.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-timer.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-gpio.h: * Copyright (c) 2003,2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-dsc.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/dma.h: * Copyright (C) 2003,2004 Simtec Electronics
+include/asm/arch-s3c2410/regs-clock.h: * Copyright (c) 2003,2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-serial.h: *  Copyright (C) 2002 Shane Nay (shane@minirl.com)
+include/asm/arch-s3c2410/regs-serial.h: *  Copyright (C) 2002 Shane Nay (shane@minirl.com)
+include/asm/arch-s3c2410/irqs.h: * Copyright (c) 2003-2005 Simtec Electronics
+include/asm/arch-s3c2410/regs-iic.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-rtc.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-mem.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-irq.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-udc.h: * Copyright (C) 2004 Herbert Poetzl <herbert@13thfloor.at>
+include/asm/arch-s3c2410/regs-gpioj.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-nand.h: * Copyright (c) 2004,2005 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/regs-watchdog.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-s3c2410/debug-macro.S: *  Copyright (C) 2005 Simtec Electronics
+include/asm/arch-s3c2410/regs-iis.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/arch-s3c2410/memory.h: *  Copyright (C) 1996,1997,1998 Russell King.
+include/asm/arch-s3c2410/regs-spi.h: * Copyright (c) 2004 Fetron GmbH
+include/asm/arch-s3c2410/io.h: * Copyright (C) 1997 Russell King
+include/asm/arch-s3c2410/regs-adc.h: * Copyright (c) 2004 Shannon Holland <holland@loser.net>
+include/asm/arch-s3c2410/regs-lcd.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm/checksum.h: * Copyright (C) Original authors of ../asm-i386/checksum.h
+include/asm/checksum.h: * Copyright (C) 1996-1999 Russell King
+include/asm/unistd.h: *  Copyright (C) 2001-2005 Russell King
+include/asm/domain.h: *  Copyright (C) 1999 Russell King.
+include/asm/arch-pxa/vmalloc.h: * Copyright:	(C) 2001 MontaVista Software Inc.
+include/asm/arch-pxa/bitfield.h: *	Author  	Copyright (c) Marc A. Viredaz, 1998
+include/asm/arch-pxa/mainstone.h: *  Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/pxafb.h: *  Copyright:  jfclere@sinix.net
+include/asm/arch-pxa/timex.h: * Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/corgi.h: * Copyright (c) 2004-2005 Richard Purdie
+include/asm/arch-pxa/dma.h: *  Copyright:	MontaVista Software, Inc.
+include/asm/arch-pxa/irqs.h: *  Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/system.h: * Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/ssp.h: *  Copyright (C) 2003 Russell King, All Rights Reserved.
+include/asm/arch-pxa/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm/arch-pxa/memory.h: * Copyright:	(C) 2001 MontaVista Software Inc.
+include/asm/arch-pxa/hardware.h: *  Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/irq.h: * Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/idp.h: * Copyright (c) 2001 Cliff Brake, Accelent Systems Inc.
+include/asm/arch-pxa/uncompress.h: * Copyright:	(C) 2001 MontaVista Software Inc.
+include/asm/arch-pxa/lubbock.h: *  Copyright:	MontaVista Software Inc.
+include/asm/arch-pxa/pxa-regs.h: *  Copyright:	MontaVista Software Inc.
+include/asm-arm/hardware/ep7212.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/hardware/sa1111.h: * Copyright (C) 2000 John G Dorsey <john+@cs.cmu.edu>
+include/asm-arm/hardware/amba_serial.h: *  Copyright (C) ARM Limited
+include/asm-arm/hardware/amba_serial.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/hardware/amba.h: *  Copyright (C) 2003 Deep Blue Solutions Ltd, All Rights Reserved.
+include/asm-arm/hardware/amba_kmi.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/hardware/linkup-l1110.h:* Copyright 2001 Compaq Computer Corporation.
+include/asm-arm/hardware/linkup-l1110.h:* provided that this copyright notice is
+include/asm-arm/hardware/icst525.h: *  Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
+include/asm-arm/hardware/scoop.h: *  Copyright (c) 2004 Richard Purdie
+include/asm-arm/hardware/locomo.h: * (C) Copyright 2004 John Lenz
+include/asm-arm/hardware/clock.h: *  Copyright (C) 2004 ARM Limited.
+include/asm-arm/hardware/clps7111.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/hardware/pci_v3.h: *  Copyright (C) ARM Limited
+include/asm-arm/hardware/pci_v3.h: *  Copyright (C) 2000-2001 Deep Blue Solutions Ltd.
+include/asm-arm/hardware/ep7211.h: *  Copyright (C) 2001 Blue Mug, Inc.  All Rights Reserved.
+include/asm-arm/hardware/ssp.h: *  Copyright (C) 2003 Russell King, All Rights Reserved.
+include/asm-arm/hardware/amba_clcd.h: * Copyright (C) 2001 ARM Limited
+include/asm-arm/hardware/memc.h: *  Copyright (C) Russell King.
+include/asm-arm/hardware/iomd.h: *  Copyright (C) 1999 Russell King
+include/asm-arm/hardware/dec21285.h: *  Copyright (C) 1998 Russell King
+include/asm-arm/hardware/ioc.h: *  Copyright (C) Russell King
+include/asm-arm/hardware/icst307.h: *  Copyright (C) 2003 Deep Blue Solutions, Ltd, All Rights Reserved.
+include/asm-arm/hardware/cs89712.h: *  Copyright (C) 2001 Thomas Gleixner autronix automation <gleixner@autronix.de>
+include/asm-arm/arch-lh7a40x/vmalloc.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/constants.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/constants.h: *  Copyright (C) 2004 Logic Product Development
+include/asm-arm/arch-lh7a40x/timex.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/dma.h: *  Copyright (C) 2003 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/irqs.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/irqs.h: *  Copyright (C) 2004 Logic Product Development
+include/asm-arm/arch-lh7a40x/system.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/param.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-lh7a40x/memory.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/hardware.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/io.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/irq.h: *  Copyright (C) 2004 Logic Product Development
+include/asm-arm/arch-lh7a40x/uncompress.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/registers.h: *  Copyright (C) 2004 Coastal Environmental Systems
+include/asm-arm/arch-lh7a40x/registers.h: *  Copyright (C) 2004 Logic Product Development
+include/asm-arm/arch-integrator/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm-arm/arch-integrator/bits.h: *  Copyright (C) ARM Limited 1998. All rights reserved.
+include/asm-arm/arch-integrator/timex.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-integrator/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-integrator/irqs.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-integrator/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-integrator/system.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-integrator/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/arch-integrator/param.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-integrator/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-integrator/platform.h: * * Copyright © ARM Limited 1998.  All rights reserved.
+include/asm-arm/arch-integrator/memory.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-integrator/hardware.h: *  Copyright (C) 1999 ARM Limited.
+include/asm-arm/arch-integrator/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-integrator/uncompress.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/assembler.h: *  Copyright (C) 1996-2000 Russell King
+include/asm-arm/bitops.h: * Copyright 1995, Russell King.
+include/asm-arm/bitops.h: * Various bits and pieces copyrights include:
+include/asm-arm/bitops.h: * Big endian support: Copyright 2001, Nicolas Pitre
+include/asm-arm/bugs.h: *  Copyright (C) 1995-2003 Russell King
+include/asm-arm/cpu-multi32.h: *  Copyright (C) 2000 Russell King
+include/asm-arm/arch-shark/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-shark/memory.h: * Copyright (c) 1996-1999 Russell King.
+include/asm-arm/arch-shark/hardware.h: * Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-shark/io.h: * Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-shark/uncompress.h: * Copyright (C) 1996,1997,1998 Russell King
+include/asm-arm/thread_info.h: *  Copyright (C) 2002 Russell King.
+include/asm-arm/proc-fns.h: *  Copyright (C) 1997-1999 Russell King
+include/asm-arm/proc-fns.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/arch-h720x/timex.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm-arm/arch-h720x/dma.h: * Copyright (C) 1997.1998 Russell King
+include/asm-arm/arch-h720x/h7201-regs.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm-arm/arch-h720x/irqs.h: * Copyright (C) 2000 Jungjun Kim
+include/asm-arm/arch-h720x/boards.h: * Copyright (C) 2003 Thomas Gleixner <tglx@linutronix.de>
+include/asm-arm/arch-h720x/h7202-regs.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm-arm/arch-h720x/system.h: * Copyright (C) 2001-2002 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm-arm/arch-h720x/param.h: * Copyright (C) 2000 Jungjun Kim
+include/asm-arm/arch-h720x/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-h720x/memory.h: * Copyright (c) 2000 Jungjun Kim
+include/asm-arm/arch-h720x/hardware.h: * Copyright (C) 2000 Jungjun Kim, Hynix Semiconductor Inc.
+include/asm-arm/arch-h720x/io.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-h720x/irq.h: * Copyright (C) 2000-2002 Jungjun Kim
+include/asm-arm/arch-h720x/uncompress.h: * Copyright (C) 2001-2002 Jungjun Kim
+include/asm-arm/arch-clps711x/vmalloc.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/timex.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-clps711x/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/syspld.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/time.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/arch-clps711x/param.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-clps711x/memory.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-clps711x/hardware.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-clps711x/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-clps711x/uncompress.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/locks.h: *  Copyright (C) 2000 Russell King
+include/asm-arm/tlb.h: *  Copyright (C) 2002 Russell King
+include/asm-arm/timex.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/glue.h: *  Copyright (C) 1997-1999 Russell King
+include/asm-arm/glue.h: *  Copyright (C) 2000-2002 Deep Blue Solutions Ltd.
+include/asm-arm/arch-iop3xx/iop331-irqs.h: * Copyright:	(C) 2003 Intel Corp.
+include/asm-arm/arch-iop3xx/dma.h: *  Copyright (C) 2004 Intel Corp.
+include/asm-arm/arch-iop3xx/iop331.h: * Copyright (C) 2003, 2004 Intel Corp.
+include/asm-arm/arch-iop3xx/irqs.h: * Copyright:	(C) 2001-2003 MontaVista Software Inc.
+include/asm-arm/arch-iop3xx/iop321.h: * Copyright (C) 2002 Rory Bolt
+include/asm-arm/arch-iop3xx/iop321.h: * Copyright (C) 2004 Intel Corp.
+include/asm-arm/arch-iop3xx/system.h: *  Copyright (C) 2001 MontaVista Software, Inc.
+include/asm-arm/arch-iop3xx/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-iop3xx/iop321-irqs.h: * Copyright:	(C) 2002 Rory Bolt
+include/asm-arm/arch-iop3xx/io.h: *  Copyright (C) 2001  MontaVista Software, Inc.
+include/asm-arm/cpu.h: *  Copyright (C) 2004-2005 ARM Ltd.
+include/asm-arm/atomic.h: *  Copyright (C) 1996 Russell King.
+include/asm-arm/atomic.h: *  Copyright (C) 2002 Deep Blue Solutions Ltd.
+include/asm-arm/procinfo.h: *  Copyright (C) 1996-1999 Russell King
+include/asm-arm/arch-versatile/vmalloc.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-versatile/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm-arm/arch-versatile/timex.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-versatile/dma.h: *  Copyright (C) 2003 ARM Limited.
+include/asm-arm/arch-versatile/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-versatile/irqs.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-versatile/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-versatile/system.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-versatile/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/arch-versatile/param.h: *  Copyright (C) 2002 ARM Limited
+include/asm-arm/arch-versatile/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-versatile/platform.h: * Copyright (c) ARM Limited 2003.  All rights reserved.
+include/asm-arm/arch-versatile/memory.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-versatile/hardware.h: *  Copyright (C) 2003 ARM Limited.
+include/asm-arm/arch-versatile/io.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-versatile/uncompress.h: *  Copyright (C) 2003 ARM Limited
+include/asm-arm/arch-sa1100/bitfield.h: *	Author  	Copyright (c) Marc A. Viredaz, 1998
+include/asm-arm/arch-sa1100/SA-1100.h: *	Author  	Copyright (c) Marc A. Viredaz, 1998
+include/asm-arm/arch-sa1100/timex.h: * Copyright (C) 1998 
+include/asm-arm/arch-sa1100/dma.h: * Copyright (C) 2000 Nicolas Pitre
+include/asm-arm/arch-sa1100/h3600_gpio.h: * Copyright 2000 Compaq Computer Corporation.
+include/asm-arm/arch-sa1100/h3600_gpio.h: * provided that this copyright notice is
+include/asm-arm/arch-sa1100/irqs.h: * Copyright (C) 1996 Russell King
+include/asm-arm/arch-sa1100/irqs.h: * Copyright (C) 1998 Deborah Wallach (updates for SA1100/Brutus).
+include/asm-arm/arch-sa1100/irqs.h: * Copyright (C) 1999 Nicolas Pitre (full GPIO irq isolation)
+include/asm-arm/arch-sa1100/h3600.h: * Copyright 2000 Compaq Computer Corporation.
+include/asm-arm/arch-sa1100/h3600.h: * provided that this copyright notice is
+include/asm-arm/arch-sa1100/system.h: * Copyright (c) 1999 Nicolas Pitre <nico@cam.org>
+include/asm-arm/arch-sa1100/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-sa1100/memory.h: * Copyright (C) 1999-2000 Nicolas Pitre <nico@cam.org>
+include/asm-arm/arch-sa1100/hardware.h: * Copyright (C) 1998 Nicolas Pitre <nico@cam.org>
+include/asm-arm/arch-sa1100/io.h: * Copyright (C) 1997-1999 Russell King
+include/asm-arm/arch-sa1100/ide.h: * Copyright (c) 1998 Hugo Fiennes & Nicolas Pitre
+include/asm-arm/arch-sa1100/badge4.h: * Copyright (C) 2002 Hewlett-Packard Company
+include/asm-arm/arch-sa1100/SA-1101.h: * Copyright (c) Peter Danielsson 1999
+include/asm-arm/posix_types.h: *  Copyright (C) 1996-1998 Russell King.
+include/asm-arm/rtc.h: *  Copyright (C) 2003 Deep Blue Solutions Ltd.
+include/asm-arm/kgdb.h: * Copyright (C) 2002 MontaVista Software Inc.
+include/asm-arm/page.h: *  Copyright (C) 1995-2003 Russell King
+include/asm-arm/arch-ebsa110/vmalloc.h: *  Copyright (C) 1998 Russell King
+include/asm-arm/arch-ebsa110/timex.h: *  Copyright (C) 1997, 1998 Russell King
+include/asm-arm/arch-ebsa110/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-ebsa110/irqs.h: *  Copyright (C) 1996 Russell King
+include/asm-arm/arch-ebsa110/system.h: *  Copyright (C) 1996-2000 Russell King.
+include/asm-arm/arch-ebsa110/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-ebsa110/memory.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-ebsa110/hardware.h: *  Copyright (C) 1996-2000 Russell King.
+include/asm-arm/arch-ebsa110/io.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-ebsa110/uncompress.h: *  Copyright (C) 1996,1997,1998 Russell King
+include/asm-arm/arch-rpc/acornfb.h: *  Copyright (C) 1999 Russell King
+include/asm-arm/arch-rpc/vmalloc.h: *  Copyright (C) 1997 Russell King
+include/asm-arm/arch-rpc/timex.h: *  Copyright (C) 1997, 1998 Russell King
+include/asm-arm/arch-rpc/dma.h: *  Copyright (C) 1997 Russell King
+include/asm-arm/arch-rpc/irqs.h: *  Copyright (C) 1996 Russell King
+include/asm-arm/arch-rpc/system.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-rpc/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-rpc/memory.h: *  Copyright (C) 1996,1997,1998 Russell King.
+include/asm-arm/arch-rpc/hardware.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-rpc/io.h: *  Copyright (C) 1997 Russell King
+include/asm-arm/arch-rpc/uncompress.h: *  Copyright (C) 1996 Russell King
+include/asm-arm/ptrace.h: *  Copyright (C) 1996-2003 Russell King
+include/asm-arm/pgtable.h: *  Copyright (C) 1995-2002 Russell King
+include/asm-arm/fpstate.h: *  Copyright (C) 1995 Russell King
+include/asm-arm/mmu_context.h: *  Copyright (C) 1996 Russell King.
+include/asm-arm/floppy.h: *  Copyright (C) 1996-2000 Russell King
+include/asm-arm/processor.h: *  Copyright (C) 1995-1999 Russell King
+include/asm-arm/arch-epxa10db/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm-arm/arch-epxa10db/tdkphy.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/tdkphy.h: * Copyright (c) Altera Corporation 2000.
+include/asm-arm/arch-epxa10db/mode_ctrl00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/timex.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-epxa10db/timer00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/irqs.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/int_ctrl00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/system.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-epxa10db/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/arch-epxa10db/system.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/pld_conf00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/param.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-epxa10db/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-epxa10db/memory.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/hardware.h: *  Copyright (C) 1999 ARM Limited.
+include/asm-arm/arch-epxa10db/hardware.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-epxa10db/ether00.h: * Copyright (c) Altera Corporation 2000.
+include/asm-arm/arch-epxa10db/uncompress.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-epxa10db/uncompress.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/arch-epxa10db/uart00.h: *  Copyright (C) 2001 Altera Corporation
+include/asm-arm/xor.h: *  Copyright (C) 2001 Russell King
+include/asm-arm/serial.h: *  Copyright (C) 1996 Russell King.
+include/asm-arm/numnodes.h: *  Copyright (C) 2002 Russell King
+include/asm-arm/param.h: *  Copyright (C) 1995-1999 Russell King
+include/asm-arm/memory.h: *  Copyright (C) 2000-2002 Russell King
+include/asm-arm/arch-ixp2000/vmalloc.h: * Copyright 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/gpio.h: * Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp2000/dma.h: * Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/ixdp2x01.h: * Copyright 2004 (c) MontaVista Software, Inc. 
+include/asm-arm/arch-ixp2000/ixdp2x01.h: * Based on original code Copyright (c) 2002-2003 Intel Corporation
+include/asm-arm/arch-ixp2000/irqs.h: * Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/irqs.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp2000/ixdp2x00.h: * Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/ixdp2x00.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp2000/system.h: * Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-ixp2000/platform.h: * Copyright 2004 (c) MontaVista Software, Inc. 
+include/asm-arm/arch-ixp2000/memory.h: * Copyright (c) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/memory.h: * Copyright (c) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp2000/hardware.h: * Copyright (C) 2001-2002 Intel Corp.
+include/asm-arm/arch-ixp2000/hardware.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp2000/io.h: * Copyright (C) 2002  Intel Corp.
+include/asm-arm/arch-ixp2000/irq.h: *  Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/uncompress.h: * Copyright 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/ixp2000-regs.h: * Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/ixp2000-regs.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp2000/enp2611.h: * Copyright (C) 2002 Intel Corp.
+include/asm-arm/arch-ixp2000/enp2611.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/unistd.h.wil: *  Copyright (C) 2001-2005 Russell King
+include/asm-arm/cacheflush.h: *  Copyright (C) 1999-2002 Russell King
+include/asm-arm/hardware.h: *  Copyright (C) 1996 Russell King
+include/asm-arm/leds.h: *  Copyright (C) 1998 Russell King
+include/asm-arm/setup.h: *  Copyright (C) 1997-1999 Russell King
+include/asm-arm/sizes.h: *  Copyright (C) ARM Limited 1998. All rights reserved.
+include/asm-arm/io.h: *  Copyright (C) 1996-2000 Russell King
+include/asm-arm/arch-imx/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm-arm/arch-imx/timex.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/dma.h: *  Copyright (C) 1997,1998 Russell King
+include/asm-arm/arch-imx/irqs.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/irqs.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/asm-arm/arch-imx/system.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/system.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd
+include/asm-arm/arch-imx/param.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-imx/memory.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/memory.h: *  Copyright (C) 2002 Shane Nay (shane@minirl.com)
+include/asm-arm/arch-imx/hardware.h: *  Copyright (C) 1999 ARM Limited.
+include/asm-arm/arch-imx/io.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/irq.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/uncompress.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-imx/uncompress.h: *  Copyright (C) Shane Nay (shane@minirl.com)
+include/asm-arm/arch-imx/mx1ads.h: * Copyright (C) 2004 Robert Schwebel, Pengutronix
+include/asm-arm/smp.h: *  Copyright (C) 2004-2005 ARM Ltd.
+include/asm-arm/ide.h: *  Copyright (C) 1994-1996  Linus Torvalds & authors
+include/asm-arm/parport.h: *  Copyright (C) 1999, 2000  Tim Waugh <tim@cyberelk.demon.co.uk>
+include/asm-arm/pgalloc.h: *  Copyright (C) 2000-2001 Russell King
+include/asm-arm/arch-ixp4xx/ixp4xx-regs.h: * Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp4xx/ixp4xx-regs.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/dma.h: * Copyright (C) 2001-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/irqs.h: * Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp4xx/irqs.h: * Copyright (C) 2003 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/ixdp425.h: * Copyright 2004 (c) MontaVista, Software, Inc. 
+include/asm-arm/arch-ixp4xx/prpmc1100.h: * Copyright 2004 (c) MontaVista, Software, Inc. 
+include/asm-arm/arch-ixp4xx/gtwx5715.h: * Copyright 2004 (c) George T. Joseph
+include/asm-arm/arch-ixp4xx/system.h: * Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp4xx/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-ixp4xx/platform.h: * Copyright (C) 2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/memory.h: * Copyright (c) 2001-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/hardware.h: * Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp4xx/hardware.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/io.h: * Copyright (C) 2002-2004  MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/irq.h: *  Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp4xx/uncompress.h: * Copyright (C) 2002 Intel Corporation.
+include/asm-arm/arch-ixp4xx/uncompress.h: * Copyright (C) 2003-2004 MontaVista Software, Inc.
+include/asm-arm/arch-ixp4xx/coyote.h: * Copyright 2004 (c) MontaVista, Software, Inc. 
+include/asm-arm/arch-feroceon/serial.h: *  Copyright (C) 1999 ARM Limited
+include/asm-arm/delay.h: * Copyright (C) 1995-2004 Russell King
+include/asm-arm/arch-omap/vmalloc.h: *  Copyright (C) 2000 Russell King.
+include/asm-arm/arch-omap/aic23.h: * Copyright (C) 2002 RidgeRun, Inc.
+include/asm-arm/arch-omap/gpio.h: * Copyright (C) 2003 Nokia Corporation
+include/asm-arm/arch-omap/timex.h: * Copyright (C) 2000 RidgeRun, Inc.
+include/asm-arm/arch-omap/cpu.h: * Copyright (C) 2004 Nokia Corporation
+include/asm-arm/arch-omap/tc.h: * Copyright (C) 2004 Nokia Corporation
+include/asm-arm/arch-omap/pm.h: * Copyright 2002 MontaVista Software Inc.
+include/asm-arm/arch-omap/tps65010.h: * Copyright (C) 2004 Dirk Behme <dirk.behme@de.bosch.com>
+include/asm-arm/arch-omap/dma.h: *  Copyright (C) 2003 Nokia Corporation
+include/asm-arm/arch-omap/board-voiceblue.h: * Copyright (C) 2004 2N Telekomunikace, Ladislav Michl <michl@2n.cz>
+include/asm-arm/arch-omap/board-netstar.h: * Copyright (C) 2004 2N Telekomunikace, Ladislav Michl <michl@2n.cz>
+include/asm-arm/arch-omap/irqs.h: *  Copyright (C) Greg Lonnon 2001
+include/asm-arm/arch-omap/fpga.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm-arm/arch-omap/fpga.h: * Copyright (C) 2002 MontaVista Software, Inc.
+include/asm-arm/arch-omap/fpga.h: * Copyright (C) 2004 Nokia Corporation by Tony Lindrgen <tony@atomide.com>
+include/asm-arm/arch-omap/system.h: * Copyright (c) 1999 Nicolas Pitre <nico@cam.org>
+include/asm-arm/arch-omap/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-omap/memory.h: * Copyright (C) 2000 RidgeRun, Inc.
+include/asm-arm/arch-omap/memory.h: * Copyright (C) 1999 ARM Limited
+include/asm-arm/arch-omap/mux.h: * Copyright (C) 2003 Nokia Corporation
+include/asm-arm/arch-omap/mux.h: *   Copyright (C) 2004 Texas Instruments
+include/asm-arm/arch-omap/mux.h: *   Copyright (C) 2004 Texas Instruments
+include/asm-arm/arch-omap/hardware.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm-arm/arch-omap/io.h: * Copyright (C) 1997-1999 Russell King
+include/asm-arm/arch-omap/mcbsp.h: * Copyright (C) 2002 RidgeRun, Inc.
+include/asm-arm/arch-omap/uncompress.h: * Copyright (C) 2000 RidgeRun, Inc.
+include/asm-arm/arch-omap/board-innovator.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm-arm/arch-omap/board.h: *  Copyright (C) 2004	Nokia Corporation
+include/asm-arm/arch-omap/board-h3.h: * Copyright (C) 2001 RidgeRun, Inc.
+include/asm-arm/arch-omap/board-h3.h: * Copyright (C) 2004 Texas Instruments, Inc.
+include/asm-arm/arch-omap/board-perseus2.h: *  Copyright 2003 by Texas Instruments Incorporated
+include/asm-arm/arch-omap/board-perseus2.h: * Copyright (C) 2001 RidgeRun, Inc. (http://www.ridgerun.com)
+include/asm-arm/arch-cl7500/timex.h: * Copyright (C) 1999 Nexus Electronics Ltd
+include/asm-arm/arch-cl7500/dma.h: * Copyright (C) 1999 Nexus Electronics Ltd.
+include/asm-arm/arch-cl7500/irqs.h: * Copyright (C) 1999 Nexus Electronics Ltd
+include/asm-arm/arch-cl7500/system.h: * Copyright (c) 1999 Nexus Electronics Ltd.
+include/asm-arm/arch-cl7500/param.h: * Copyright (C) 1999 Nexus Electronics Ltd
+include/asm-arm/arch-cl7500/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-cl7500/memory.h: * Copyright (c) 1996,1997,1998 Russell King.
+include/asm-arm/arch-cl7500/hardware.h: * Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-cl7500/hardware.h: * Copyright (C) 1999 Nexus Electronics Ltd.
+include/asm-arm/arch-cl7500/io.h: * Copyright (C) 1997 Russell King
+include/asm-arm/arch-cl7500/irq.h: * Copyright (C) 1996 Russell King
+include/asm-arm/arch-cl7500/irq.h: * Copyright (C) 1999, 2001 Nexus Electronics Ltd.
+include/asm-arm/arch-cl7500/uncompress.h: * Copyright (C) 1999, 2000 Nexus Electronics Ltd.
+include/asm-arm/arch-ebsa285/timex.h: *  Copyright (C) 1998 Russell King
+include/asm-arm/arch-ebsa285/dma.h: *  Copyright (C) 1998,1999 Russell King
+include/asm-arm/arch-ebsa285/dma.h: *  Copyright (C) 1998,1999 Philip Blundell
+include/asm-arm/arch-ebsa285/irqs.h: * Copyright (C) 1998 Russell King
+include/asm-arm/arch-ebsa285/irqs.h: * Copyright (C) 1998 Phil Blundell
+include/asm-arm/arch-ebsa285/system.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-ebsa285/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-ebsa285/memory.h: *  Copyright (C) 1996-1999 Russell King.
+include/asm-arm/arch-ebsa285/hardware.h: *  Copyright (C) 1998-1999 Russell King.
+include/asm-arm/arch-ebsa285/io.h: *  Copyright (C) 1997-1999 Russell King
+include/asm-arm/arch-ebsa285/uncompress.h: *  Copyright (C) 1996-1999 Russell King
+include/asm-arm/mach/map.h: *  Copyright (C) 1999-2000 Russell King
+include/asm-arm/mach/dma.h: *  Copyright (C) 1998-2000 Russell King
+include/asm-arm/mach/flash.h: *  Copyright (C) 2003 Russell King, All Rights Reserved.
+include/asm-arm/mach/sharpsl_param.h: * Copyright (c) 2005 Richard Purdie
+include/asm-arm/mach/pci.h: *  Copyright (C) 2000 Russell King
+include/asm-arm/mach/time.h: * Copyright (C) 2004 MontaVista Software, Inc.
+include/asm-arm/mach/irq.h: *  Copyright (C) 1995-2000 Russell King.
+include/asm-arm/mach/irda.h: *  Copyright (C) 2004 Russell King.
+include/asm-arm/mach/arch.h: *  Copyright (C) 2000 Russell King
+include/asm-arm/cpu-single.h: *  Copyright (C) 2000 Russell King
+include/asm-arm/arch-l7200/gp_timers.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/pmpcon.h: *   (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm-arm/arch-l7200/gpio.h: *      (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm-arm/arch-l7200/sys-clock.h: *   (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm-arm/arch-l7200/timex.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/serial_l7200.h: * Copyright (c) 2000 Steven Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/dma.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/sib.h: *  (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm-arm/arch-l7200/irqs.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/pmu.h: *   (C) Copyright 2000, S A McConnell  (samcconn@cotw.com)
+include/asm-arm/arch-l7200/time.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/serial.h: * Copyright (c) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/system.h: * Copyright (c) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/param.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-l7200/memory.h: * Copyright (c) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/memory.h: * Copyright (c) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/hardware.h: * Copyright (C) 2000 Rob Scott (rscott@mtrob.fdns.net)
+include/asm-arm/arch-l7200/io.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/uncompress.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/arch-l7200/aux_reg.h: * Copyright (C) 2000 Steve Hill (sjhill@cotw.com)
+include/asm-arm/tlbflush.h: *  Copyright (C) 1999-2003 Russell King
+include/asm-arm/arch-s3c2410/idle.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/vmalloc.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-sdi.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-timer.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-gpio.h: * Copyright (c) 2003,2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-dsc.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/dma.h: * Copyright (C) 2003,2004 Simtec Electronics
+include/asm-arm/arch-s3c2410/regs-clock.h: * Copyright (c) 2003,2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-serial.h: *  Copyright (C) 2002 Shane Nay (shane@minirl.com)
+include/asm-arm/arch-s3c2410/regs-serial.h: *  Copyright (C) 2002 Shane Nay (shane@minirl.com)
+include/asm-arm/arch-s3c2410/irqs.h: * Copyright (c) 2003-2005 Simtec Electronics
+include/asm-arm/arch-s3c2410/regs-iic.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-rtc.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-mem.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-irq.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-udc.h: * Copyright (C) 2004 Herbert Poetzl <herbert@13thfloor.at>
+include/asm-arm/arch-s3c2410/regs-gpioj.h: * Copyright (c) 2004 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-nand.h: * Copyright (c) 2004,2005 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/regs-watchdog.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-s3c2410/debug-macro.S: *  Copyright (C) 2005 Simtec Electronics
+include/asm-arm/arch-s3c2410/regs-iis.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/arch-s3c2410/memory.h: *  Copyright (C) 1996,1997,1998 Russell King.
+include/asm-arm/arch-s3c2410/regs-spi.h: * Copyright (c) 2004 Fetron GmbH
+include/asm-arm/arch-s3c2410/io.h: * Copyright (C) 1997 Russell King
+include/asm-arm/arch-s3c2410/regs-adc.h: * Copyright (c) 2004 Shannon Holland <holland@loser.net>
+include/asm-arm/arch-s3c2410/regs-lcd.h: * Copyright (c) 2003 Simtec Electronics <linux@simtec.co.uk>
+include/asm-arm/checksum.h: * Copyright (C) Original authors of ../asm-i386/checksum.h
+include/asm-arm/checksum.h: * Copyright (C) 1996-1999 Russell King
+include/asm-arm/unistd.h: *  Copyright (C) 2001-2005 Russell King
+include/asm-arm/domain.h: *  Copyright (C) 1999 Russell King.
+include/asm-arm/arch-pxa/vmalloc.h: * Copyright:	(C) 2001 MontaVista Software Inc.
+include/asm-arm/arch-pxa/bitfield.h: *	Author  	Copyright (c) Marc A. Viredaz, 1998
+include/asm-arm/arch-pxa/mainstone.h: *  Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/pxafb.h: *  Copyright:  jfclere@sinix.net
+include/asm-arm/arch-pxa/timex.h: * Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/corgi.h: * Copyright (c) 2004-2005 Richard Purdie
+include/asm-arm/arch-pxa/dma.h: *  Copyright:	MontaVista Software, Inc.
+include/asm-arm/arch-pxa/irqs.h: *  Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/system.h: * Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/ssp.h: *  Copyright (C) 2003 Russell King, All Rights Reserved.
+include/asm-arm/arch-pxa/debug-macro.S: *  Copyright (C) 1994-1999 Russell King
+include/asm-arm/arch-pxa/memory.h: * Copyright:	(C) 2001 MontaVista Software Inc.
+include/asm-arm/arch-pxa/hardware.h: *  Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/irq.h: * Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/idp.h: * Copyright (c) 2001 Cliff Brake, Accelent Systems Inc.
+include/asm-arm/arch-pxa/uncompress.h: * Copyright:	(C) 2001 MontaVista Software Inc.
+include/asm-arm/arch-pxa/lubbock.h: *  Copyright:	MontaVista Software Inc.
+include/asm-arm/arch-pxa/pxa-regs.h: *  Copyright:	MontaVista Software Inc.
+include/linux/sdla_ppp.h:* Copyright:	(c) 1995-1997 Sangoma Technologies Inc.
+include/linux/patchkey.h: * Copyright (C) 2005 Stuart Brady
+include/linux/ext2_fs_sb.h: * Copyright (C) 1992, 1993, 1994, 1995
+include/linux/ext2_fs_sb.h: *  Copyright (C) 1991, 1992  Linus Torvalds
+include/linux/ip_mp_alg.h: * Copyright (C) 2004, 2005 Einar Lueck <elueck@de.ibm.com>
+include/linux/ip_mp_alg.h: * Copyright (C) 2005 David S. Miller <davem@davemloft.net>
+include/linux/superhyway.h: * Copyright (C) 2004, 2005  Paul Mundt <lethal@linux-sh.org>
+include/linux/ufs_fs.h: * Copyright (C) 1996
+include/linux/zlib.h:  Copyright (C) 1995-1998 Jean-loup Gailly and Mark Adler
+include/linux/capi.h: * Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
+include/linux/ext3_fs.h: * Copyright (C) 1992, 1993, 1994, 1995
+include/linux/ext3_fs.h: *  Copyright (C) 1991, 1992  Linus Torvalds
+include/linux/dqblk_xfs.h: * Copyright (c) 1995-2001,2004 Silicon Graphics, Inc.  All Rights Reserved.
+include/linux/inotify.h: * Copyright (C) 2005 John McCutchan
+include/linux/pagemap.h: * Copyright 1995 Linus Torvalds
+include/linux/xattr.h:  Copyright (C) 2001 by Andreas Gruenbacher <a.gruenbacher@computer.org>
+include/linux/xattr.h:  Copyright (c) 2001-2002 Silicon Graphics, Inc.  All Rights Reserved.
+include/linux/xattr.h:  Copyright (c) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
+include/linux/i2c-vid.h:    Copyright (c) 2002 Mark D. Studebaker <mdsxyz123@yahoo.com>
+include/linux/bio.h: * Copyright (C) 2001 Jens Axboe <axboe@suse.de>
+include/linux/device.h: * Copyright (c) 2001-2003 Patrick Mochel <mochel@osdl.org>
+include/linux/kallsyms.h: *   Copyright 2002 Rusty Russell <rusty@rustcorp.com.au> IBM Corporation
+include/linux/efi.h: * Copyright (C) 1999 VA Linux Systems
+include/linux/efi.h: * Copyright (C) 1999 Walt Drummond <drummond@valinux.com>
+include/linux/efi.h: * Copyright (C) 1999, 2002-2003 Hewlett-Packard Co.
+include/linux/ethtool.h: * Copyright (C) 1998 David S. Miller (davem@redhat.com)
+include/linux/ethtool.h: * Copyright 2001 Jeff Garzik <jgarzik@pobox.com>
+include/linux/ethtool.h: * Portions Copyright 2001 Sun Microsystems (thockin@sun.com)
+include/linux/ethtool.h: * Portions Copyright 2002 Intel (eli.kupermann@intel.com,
+include/linux/libata.h:   Copyright 2003-2004 Red Hat, Inc.  All rights reserved.
+include/linux/libata.h:   Copyright 2003-2004 Jeff Garzik
+include/linux/ipmi.h: * Copyright 2002 MontaVista Software Inc.
+include/linux/thread_info.h: * Copyright (C) 2002  David Howells (dhowells@redhat.com)
+include/linux/ufs_fs_i.h: * Copyright (C) 1996
+include/linux/syscalls.h: * Copyright (c) 2004 Randy Dunlap
+include/linux/syscalls.h: * Copyright (c) 2004 Open Source Development Labs
+include/linux/yam.h: *	Copyright (C) 1998 Frederic Rible F1OAT (frible@teaser.fr)
+include/linux/libps2.h: * Copyright (C) 1999-2002 Vojtech Pavlik
+include/linux/libps2.h: * Copyright (C) 2004 Dmitry Torokhov
+include/linux/ftape-header-segment.h: * Copyright (C) 1996-1997 Claus-Justus Heine.
+include/linux/cuda.h: * Copyright (C) 1996 Paul Mackerras.
+include/linux/adfs_fs_sb.h: * Copyright (C) 1997-1999 Russell King
+include/linux/serialP.h: * Copyright (C) 1997 by Theodore Ts'o.
+include/linux/ext3_fs_i.h: * Copyright (C) 1992, 1993, 1994, 1995
+include/linux/ext3_fs_i.h: *  Copyright (C) 1991, 1992  Linus Torvalds
+include/linux/netfilter_ipv4/ipt_CONNMARK.h:/* Copyright (C) 2002,2004 MARA Systems AB <http://www.marasystems.com>
+include/linux/ultrasound.h: * Copyright (C) by Hannu Savolainen 1993-1997
+include/linux/hdlc.h: * Copyright (C) 1999-2003 Krzysztof Halasa <khc@pm.waw.pl>
+include/linux/nfs_fs.h: *  Copyright (C) 1992  Rick Sladkey
+include/linux/nfs_idmap.h: *  Copyright (c) 2002 The Regents of the University of Michigan.
+include/linux/nfs_idmap.h: *  1. Redistributions of source code must retain the above copyright
+include/linux/nfs_idmap.h: *  2. Redistributions in binary form must reproduce the above copyright
+include/linux/ext2_fs.h: * Copyright (C) 1992, 1993, 1994, 1995
+include/linux/ext2_fs.h: *  Copyright (C) 1991, 1992  Linus Torvalds
+include/linux/eventpoll.h: *  Copyright (C) 2001,...,2003	 Davide Libenzi
+include/linux/efs_fs.h: * Copyright (c) 1999 Al Smith
+include/linux/telephony.h: *		(c) Copyright 1999-2001 Quicknet Technologies, Inc.
+include/linux/ppp_defs.h: * Copyright (c) 1994 The Australian National University.
+include/linux/ppp_defs.h: * documentation is hereby granted, provided that the above copyright
+include/linux/ppp-comp.h: * Copyright (c) 1994 The Australian National University.
+include/linux/ppp-comp.h: * documentation is hereby granted, provided that the above copyright
+include/linux/nbd.h: * 1999 Copyright (C) Pavel Machek, pavel@ucw.cz. This code is GPL.
+include/linux/nbd.h: * 1999/11/04 Copyright (C) 1999 VMware, Inc. (Regis "HPReg" Duchesne)
+include/linux/nbd.h: * 2001 Copyright (C) Steven Whitehouse
+include/linux/coda.h:          Copyright (c) 1987-1999 Carnegie Mellon University
+include/linux/coda.h:                  Additional copyrights listed below
+include/linux/coda.h:                        Additional copyrights 
+include/linux/coda.h:          Copyright (c) 1987-1999 Carnegie Mellon University
+include/linux/coda.h:documentation is hereby granted,  provided  that  both  the  copyright
+include/linux/ticable.h: * Copyright (C) 2000-2002, Romain Lievin <roms@lpg.ticalc.org>
+include/linux/zutil.h: * Copyright (C) 1995-1998 Jean-loup Gailly.
+include/linux/zutil.h: * For conditions of distribution and use, see copyright notice in zlib.h
+include/linux/topology.h: * Copyright (C) 2002, IBM Corp.
+include/linux/if_bonding.h: * Portions are (c) Copyright 1995 Simon "Guru Aleph-Null" Janes
+include/linux/if_bonding.h: * (c) Copyright 1999, Thomas Davis, tadavis@lbl.gov
+include/linux/ppdev.h: * Copyright (C) 1998-9 Tim Waugh <tim@cyberelk.demon.co.uk>
+include/linux/sdladrv.h:* Copyright:	(c) 1995-2000 Sangoma Technologies Inc.
+include/linux/if_tun.h: *  Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
+include/linux/nfs4_mount.h: *  Copyright (C) 2002  Trond Myklebust
+include/linux/sysfs.h: * Copyright (c) 2001,2002 Patrick Mochel
+include/linux/sysfs.h: * Copyright (c) 2004 Silicon Graphics, Inc.
+include/linux/soundcard.h: * Copyright by Hannu Savolainen 1993-1997
+include/linux/soundcard.h: * met: 1. Redistributions of source code must retain the above copyright
+include/linux/soundcard.h: * Redistributions in binary form must reproduce the above copyright notice,
+include/linux/timex.h: * Copyright (c) David L. Mills 1993                                         *
+include/linux/timex.h: * that the above copyright notice appears in all copies and that both the   *
+include/linux/timex.h: * copyright notice and this permission notice appear in supporting          *
+include/linux/iso_fs.h:	char copyright_file_id		[ISODCL (703, 739)]; /* 7.5 dchars */
+include/linux/iso_fs.h:	char copyright_file_id		[ISODCL (703, 739)]; /* 7.5 dchars */
+include/linux/raid/md_p.h:          Copyright (C) 1996-98 Ingo Molnar, Gadi Oxman
+include/linux/raid/md.h:          Copyright (C) 1996-98 Ingo Molnar, Gadi Oxman
+include/linux/raid/md.h:          Copyright (C) 1994-96 Marc ZYNGIER
+include/linux/raid/md_k.h:          Copyright (C) 1996-98 Ingo Molnar, Gadi Oxman
+include/linux/raid/md_u.h:          Copyright (C) 1998 Ingo Molnar
+include/linux/keyctl.h: * Copyright (C) 2004 Red Hat, Inc. All Rights Reserved.
+include/linux/sc26198.h: *	Copyright (C) 1995-1998  Stallion Technologies
+include/linux/udf_fs_sb.h: * COPYRIGHT
+include/linux/key.h: * Copyright (C) 2004 Red Hat, Inc. All Rights Reserved.
+include/linux/ata.h:   Copyright 2003-2004 Red Hat, Inc.  All rights reserved.
+include/linux/ata.h:   Copyright 2003-2004 Jeff Garzik
+include/linux/coda_fs_i.h: *  Copyright (C) 1998 Carnegie Mellon University
+include/linux/pcieport_if.h: * Copyright (C) 2004 Intel
+include/linux/pcieport_if.h: * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+include/linux/hysdn_if.h: * Copyright 1999 by Werner Cornelius (werner@titro.de)
+include/linux/agpgart.h: * Copyright (C) 1999 Jeff Hartmann
+include/linux/agpgart.h: * Copyright (C) 1999 Precision Insight, Inc.
+include/linux/agpgart.h: * Copyright (C) 1999 Xi Graphics, Inc.
+include/linux/agpgart.h: * The above copyright notice and this permission notice shall be included
+include/linux/ite_gpio.h: * Copyright 2001 MontaVista Software Inc.
+include/linux/kref.h: * Copyright (C) 2004 Greg Kroah-Hartman <greg@kroah.com>
+include/linux/kref.h: * Copyright (C) 2004 IBM Corp.
+include/linux/kref.h: * Copyright (C) 2002-2003 Patrick Mochel <mochel@osdl.org>
+include/linux/kref.h: * Copyright (C) 2002-2003 Open Source Development Labs
+include/linux/ncp_fs.h: *  Copyright (C) 1995, 1996 by Volker Lendecke
+include/linux/elf-fdpic.h: * Copyright (C) 2003 Red Hat, Inc. All Rights Reserved.
+include/linux/isdn.h: * Copyright 1994,95,96 by Fritz Elfert (fritz@isdn4linux.de)
+include/linux/isdn.h: * Copyright 1995,96    by Thinking Objects Software GmbH Wuerzburg
+include/linux/isdn.h: * Copyright 1995,96    by Michael Hipp (Michael.Hipp@student.uni-tuebingen.de)
+include/linux/cycx_x25.h:* Copyright:	(c) 1998-2003 Arnaldo Carvalho de Melo
+include/linux/crypto.h: * Copyright (c) 2002 James Morris <jmorris@intercode.com.au>
+include/linux/crypto.h: * Copyright (c) 2002 David S. Miller (davem@redhat.com)
+include/linux/zftape.h: * Copyright (C) 1996, 1997 Claus-Justus Heine.
+include/linux/zconf.h: * Copyright (C) 1995-1998 Jean-loup Gailly.
+include/linux/zconf.h: * For conditions of distribution and use, see copyright notice in zlib.h 
+include/linux/key-ui.h: * Copyright (C) 2004 Red Hat, Inc. All Rights Reserved.
+include/linux/flat.h: * Copyright (C) 2002-2003  David McCullough <davidm@snapgear.com>
+include/linux/flat.h: * Copyright (C) 1998       Kenneth Albanowski <kjahds@kjahds.com>
+include/linux/gameport.h: *  Copyright (c) 1999-2002 Vojtech Pavlik
+include/linux/sctp.h: * (C) Copyright IBM Corp. 2001, 2004
+include/linux/sctp.h: * Copyright (c) 1999-2000 Cisco, Inc.
+include/linux/sctp.h: * Copyright (c) 1999-2001 Motorola, Inc.
+include/linux/sctp.h: * Copyright (c) 2001 Intel Corp.
+include/linux/sctp.h: * Copyright (c) 2001 Nokia, Inc.
+include/linux/sctp.h: * Copyright (c) 2001 La Monte H.P. Yarroll
+include/linux/com20020.h: * The original copyright of skeleton.c was as follows:
+include/linux/com20020.h: * Copyright 1993 United States Government as represented by the
+include/linux/nfs_mount.h: *  Copyright (C) 1992  Rick Sladkey
+include/linux/pm.h: *  Copyright (C) 2000 Andrew Henroid
+include/linux/cpufreq.h: *  Copyright (C) 2001 Russell King
+include/linux/b1lli.h: * Copyright 1996 by Carsten Paeth (calle@calle.in-berlin.de)
+include/linux/sdla_asy.h:* Copyright:	(c) 2000 Sangoma Technologies Inc.
+include/linux/cd1400.h: *	Copyright (C) 1996-1998  Stallion Technologies
+include/linux/cd1400.h: *	Copyright (C) 1994-1996  Greg Ungerer.
+include/linux/efs_vh.h: * Copyright (c) 1999 Al Smith
+include/linux/audit.h: * Copyright 2003-2004 Red Hat Inc., Durham, North Carolina.
+include/linux/auto_fs4.h: * Copyright 1999-2000 Jeremy Fitzhardinge <jeremy@goop.org>
+include/linux/ppp_channel.h: * Copyright 1999 Paul Mackerras.
+include/linux/jhash.h: * Copyright (C) 1996 Bob Jenkins (bob_jenkins@burtleburtle.net)
+include/linux/jhash.h: * Copyright (C) 2003 David S. Miller (davem@redhat.com)
+include/linux/cpuset.h: *  Copyright (C) 2003 BULL SA
+include/linux/cpuset.h: *  Copyright (C) 2004 Silicon Graphics, Inc.
+include/linux/rcupdate.h: * Copyright (C) IBM Corporation, 2001
+include/linux/serial_reg.h: * Copyright (C) 1992, 1994 by Theodore Ts'o.
+include/linux/wavefront.h: * Copyright (C) by Paul Barton-Davis 1998
+include/linux/umem.h: * Copyright Micro Memory INC 2001.  All rights reserved.
+include/linux/if_wanpipe_common.h:* Copyright:    (c) 2000 Sangoma Technologies Inc.
+include/linux/i8k.h: * Copyright (C) 2001  Massimo Dal Zotto <dz@debian.org>
+include/linux/syscalls.h.wil: * Copyright (c) 2004 Randy Dunlap
+include/linux/syscalls.h.wil: * Copyright (c) 2004 Open Source Development Labs
+include/linux/jbd.h: * Copyright 1998-2000 Red Hat, Inc --- All Rights Reserved
+include/linux/ioc4_common.h: * Copyright (c) 2005 Silicon Graphics, Inc.  All Rights Reserved.
+include/linux/sdla_chdlc.h: Copyright:	(c) 1995-2000 Sangoma Technologies Inc.
+include/linux/isdn_divertif.h: * Copyright by Werner Cornelius (werner@titro.de)
+include/linux/serial_8250.h: *  Copyright (C) 2004 Russell King
+include/linux/efs_fs_i.h: * Copyright (c) 1999 Al Smith
+include/linux/netfilter_bridge/ebtables.h: *  Copyright (C) 1999 Paul `Rusty' Russell & Michael J. Neuling
+include/linux/isdn/capicmd.h: * Copyright 1997 by Carsten Paeth <calle@calle.de>
+include/linux/isdn/tpam.h: * Copyright 2001 Stelian Pop <stelian.pop@fr.alcove.com>, Alcôve
+include/linux/isdn/capilli.h: * Copyright 1999 by Carsten Paeth <calle@calle.de>
+include/linux/rtc.h: * Copyright (C) 1999 Hewlett-Packard Co.
+include/linux/rtc.h: * Copyright (C) 1999 Stephane Eranian <eranian@hpl.hp.com>
+include/linux/i2c-algo-bit.h:/*   Copyright (C) 1995-99 Simon G. Vogl
+include/linux/cyclomx.h:* Copyright:	(c) 1998-2003 Arnaldo Carvalho de Melo
+include/linux/mv643xx.h: * Copyright 2002 Momentum Computer, Inc.
+include/linux/mv643xx.h: * Copyright 2002 GALILEO TECHNOLOGY, LTD. 
+include/linux/serio.h: * Copyright (C) 1999-2002 Vojtech Pavlik
+include/linux/udf_fs.h: * COPYRIGHT
+include/linux/ftape-vendors.h: *      Copyright (C) 1993-1996 Bas Laarhoven,
+include/linux/cycx_drv.h:* Copyright:	(c) 1998-2003 Arnaldo Carvalho de Melo
+include/linux/debugfs.h: *  Copyright (C) 2004 Greg Kroah-Hartman <greg@kroah.com>
+include/linux/debugfs.h: *  Copyright (C) 2004 IBM Inc.
+include/linux/mmtimer.h: * Copyright (c) 2001-2004 Silicon Graphics, Inc.  All rights reserved.
+include/linux/if_strip.h: * Copyright 1996 The Board of Trustees of The Leland Stanford
+include/linux/if_strip.h: * fee is hereby granted, provided that the above copyright
+include/linux/dvb/version.h: * Copyright (C) 2000 Holger Waechtler <holger@convergence.de>
+include/linux/dvb/dmx.h: * Copyright (C) 2000 Marcus Metzler <marcus@convergence.de>
+include/linux/dvb/frontend.h: * Copyright (C) 2000 Marcus Metzler <marcus@convergence.de>
+include/linux/dvb/osd.h: * Copyright (C) 2001 Ralph  Metzler <ralph@convergence.de>
+include/linux/dvb/ca.h: * Copyright (C) 2000 Ralph  Metzler <ralph@convergence.de>
+include/linux/dvb/audio.h: * Copyright (C) 2000 Ralph  Metzler <ralph@convergence.de>
+include/linux/dvb/video.h: * Copyright (C) 2000 Marcus Metzler <marcus@convergence.de>
+include/linux/dvb/net.h: * Copyright (C) 2000 Marcus Metzler <marcus@convergence.de>
+include/linux/i2c.h:/*   Copyright (C) 1995-2000 Simon G. Vogl
+include/linux/isdn_ppp.h: * Copyright 1994-1999  by Fritz Elfert (fritz@isdn4linux.de)
+include/linux/isdn_ppp.h: * Copyright 1995,96    Thinking Objects Software GmbH Wuerzburg
+include/linux/isdn_ppp.h: * Copyright 1995,96    by Michael Hipp (Michael.Hipp@student.uni-tuebingen.de)
+include/linux/isdn_ppp.h: * Copyright 2000-2002  by Kai Germaschewski (kai@germaschewski.name)
+include/linux/pci-acpi.h: * Copyright (C) 2004 Intel
+include/linux/pci-acpi.h: * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+include/linux/isapnp.h: *  Copyright (c) by Jaroslav Kysela <perex@suse.cz>
+include/linux/apm_bios.h: * Copyright 1994-2001 Stephen Rothwell (sfr@canb.auug.org.au)
+include/linux/efs_fs_sb.h: * Copyright (c) 1999 Al Smith
+include/linux/isdnif.h: * Copyright 1994,95,96 by Fritz Elfert (fritz@isdn4linux.de)
+include/linux/isdnif.h: * Copyright 1995,96    Thinking Objects Software GmbH Wuerzburg
+include/linux/fsl_devices.h: * Copyright 2004 Freescale Semiconductor, Inc
+include/linux/sdlasfm.h:* Copyright:	(c) 1995-1999 Sangoma Technologies Inc.
+include/linux/ac97_codec.h:#define AC97_SC_COPY              0x0004       /* Copyright status */
+include/linux/ncp_fs_i.h: *  Copyright (C) 1995 Volker Lendecke
+include/linux/jffs2.h: * Copyright (C) 2001-2003 Red Hat, Inc.
+include/linux/ds1286.h: * Copyright (C) 1998, 1999, 2003 Ralf Baechle
+include/linux/dnotify.h: * Copyright (C) 2000,2002 Stephen Rothwell
+include/linux/pci-dynids.h: *	Copyright 2003 Dell Inc.
+include/linux/moduleparam.h:/* (C) Copyright 2001, 2002 Rusty Russell IBM Corporation */
+include/linux/kernelcapi.h: * (c) Copyright 1997 by Carsten Paeth (calle@calle.in-berlin.de)
+include/linux/mc146818rtc.h: * Copyright Torsten Duwe <duwe@informatik.uni-erlangen.de> 1993
+include/linux/mc146818rtc.h: * derived from Data Sheet, Copyright Motorola 1984 (!).
+include/linux/devpts_fs.h: *  Copyright 1998-2004 H. Peter Anvin -- All Rights Reserved
+include/linux/cycx_cfm.h:* Copyright:	(c) 1998-2003 Arnaldo Carvalho de Melo
+include/linux/nfs4.h: *  Copyright (c) 2002 The Regents of the University of Michigan.
+include/linux/if_infiniband.h: * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+include/linux/if_infiniband.h: * Copyright (c) 2004 Topspin Communications.  All rights reserved.
+include/linux/agp_backend.h: * Copyright (C) 2004 Silicon Graphics, Inc.
+include/linux/agp_backend.h: * Copyright (C) 2002-2003 Dave Jones
+include/linux/agp_backend.h: * Copyright (C) 1999 Jeff Hartmann
+include/linux/agp_backend.h: * Copyright (C) 1999 Precision Insight, Inc.
+include/linux/agp_backend.h: * Copyright (C) 1999 Xi Graphics, Inc.
+include/linux/agp_backend.h: * The above copyright notice and this permission notice shall be included
+include/linux/kprobes.h: * Copyright (C) IBM Corporation, 2002, 2004
+include/linux/mtd/xip.h: * Copyright:	(C) 2004 MontaVista Software, Inc.
+include/linux/mtd/pmc551.h: *       Copyright 1999,2000 Nortel Networks
+include/linux/mtd/doc2000.h: * Copyright (C) 1999 Machine Vision Holdings, Inc.   
+include/linux/mtd/doc2000.h: * Copyright (C) 2001-2003 David Woodhouse <dwmw2@infradead.org>
+include/linux/mtd/doc2000.h: * Copyright (C) 2002-2003 Greg Ungerer <gerg@snapgear.com>
+include/linux/mtd/doc2000.h: * Copyright (C) 2002-2003 SnapGear Inc
+include/linux/mtd/nand_ecc.h: *  Copyright (C) 2000 Steven J. Hill (sjhill@realitydiluted.com)
+include/linux/mtd/ftl.h: * are Copyright (C) 1999 David A. Hinds.  All Rights Reserved.
+include/linux/mtd/inftl.h: *	(C) Copyright 2002, Greg Ungerer (gerg@snapgear.com)
+include/linux/mtd/mtd.h: * Copyright (C) 1999-2003 David Woodhouse <dwmw2@infradead.org> et al.
+include/linux/mtd/physmap.h: * Copyright (C) 2003 MontaVista Software Inc.
+include/linux/mtd/nand.h: *  Copyright (c) 2000 David Woodhouse <dwmw2@mvhi.com>
+include/linux/mtd/nand.h: *			drivers. I also changed the copyright since none
+include/linux/ufs_fs_sb.h: * Copyright (C) 1996
+include/linux/ixjuser.h: *    (c) Copyright 1999-2001  Quicknet Technologies, Inc.
+include/linux/rwsem-spinlock.h: * Copyright (c) 2001   David Howells (dhowells@redhat.com).
+include/linux/acct.h: *  Copyright (C) 1995 - 1997 Marco van Wieringen - ELM Consultancy B.V.
+include/linux/smb_fs_i.h: *  Copyright (C) 1995 by Paal-Kr. Engstad and Volker Lendecke
+include/linux/smb_fs_i.h: *  Copyright (C) 1997 by Volker Lendecke
+include/linux/i2c-algo-sgi.h: * Copyright (C) 2003 Ladislav Michl <ladis@linux-mips.org>
+include/linux/wanrouter.h:* Copyright:	(c) 1995-2000 Sangoma Technologies Inc.
+include/linux/ipmi_smi.h: * Copyright 2002 MontaVista Software Inc.
+include/linux/joystick.h: *  Copyright (C) 1996-2000 Vojtech Pavlik
+include/linux/awe_voice.h: * Copyright (C) 1996-2000 Takashi Iwai
+include/linux/hdsmart.h: * Copyright (C) 1999-2000	Michael Cornwell <cornwell@acm.org>
+include/linux/hdsmart.h: * Copyright (C) 2000		Andre Hedrick <andre@linux-ide.org>
+include/linux/ftape.h: * Copyright (C) 1994-1996 Bas Laarhoven,
+include/linux/i2c-algo-sibyte.h: * Copyright (C) 2001,2002,2003 Broadcom Corporation
+include/linux/quota.h: * Copyright (c) 1982, 1986 Regents of the University of California.
+include/linux/quota.h: * 1. Redistributions of source code must retain the above copyright
+include/linux/quota.h: * 2. Redistributions in binary form must reproduce the above copyright
+include/linux/posix_acl_xattr.h:  Copyright (C) 2000 by Andreas Gruenbacher <a.gruenbacher@computer.org>
+include/linux/posix_acl_xattr.h:  Copyright (C) 2002 SGI - Silicon Graphics, Inc <linux-xfs@oss.sgi.com>
+include/linux/nfs4_acl.h: *  Copyright (c) 2002 The Regents of the University of Michigan.
+include/linux/nfs4_acl.h: *  1. Redistributions of source code must retain the above copyright
+include/linux/nfs4_acl.h: *  2. Redistributions in binary form must reproduce the above copyright
+include/linux/lockd/sm_inter.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/nlm.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/bind.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/xdr.h: * Copyright (C) 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/xdr4.h: * Copyright (C) 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/lockd.h: * Copyright (C) 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/share.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/lockd/debug.h: * Copyright (C) 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/pktcdvd.h: * Copyright (C) 2000 Jens Axboe <axboe@suse.de>
+include/linux/pktcdvd.h: * Copyright (C) 2001-2004 Peter Osterlund <petero2@telia.com>
+include/linux/pci.h: *	Copyright 1994, Drew Eckhardt
+include/linux/pci.h: *	Copyright 1997--1999 Martin Mares <mj@ucw.cz>
+include/linux/pmu.h: * Copyright (C) 1998 Paul Mackerras.
+include/linux/generic_serial.h: *  Copyright (C) 1998 R.E.Wolff@BitWizard.nl
+include/linux/i2c-sensor.h:    Copyright (c) 1998, 1999  Frodo Looijaard <frodol@dds.nl>
+include/linux/selinux_netlink.h: * Copyright (C) 2004 Red Hat, Inc., James Morris <jmorris@redhat.com>
+include/linux/if_eql.h: * (c) Copyright 1995 Simon "Guru Aleph-Null" Janes
+include/linux/udf_fs_i.h: * COPYRIGHT
+include/linux/hiddev.h: *  Copyright (c) 1999-2000 Vojtech Pavlik
+include/linux/b1pcmcia.h: * Copyright 1999 by Carsten Paeth (calle@calle.in-berlin.de)
+include/linux/linux_logo.h: *  Copyright (C) 1996 Larry Ewing (lewing@isc.tamu.edu)
+include/linux/linux_logo.h: *  Copyright (C) 1996,1998 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
+include/linux/linux_logo.h: *  Copyright (C) 2001 Greg Banks <gnb@alphalink.com.au>
+include/linux/linux_logo.h: *  Copyright (C) 2001 Jan-Benedict Glaw <jbglaw@lug-owl.de>
+include/linux/linux_logo.h: *  Copyright (C) 2003 Geert Uytterhoeven <geert@linux-m68k.org>
+include/linux/sdlapci.h:* Copyright:	(c) 1999-2000 Sangoma Technologies Inc.
+include/linux/device-mapper.h: * Copyright (C) 2001 Sistina Software (UK) Limited.
+include/linux/device-mapper.h: * Copyright (C) 2004 Red Hat, Inc. All rights reserved.
+include/linux/i2c-algo-ite.h:/*   Copyright (C) 1995-97 Simon G. Vogl
+include/linux/serial.h: * Copyright (C) 1992 by Theodore Ts'o.
+include/linux/videotext.h: * Copyright (c) 1994-97 Martin Buck  <martin-2.buck@student.uni-ulm.de>
+include/linux/ncp_mount.h: *  Copyright (C) 1995, 1996 by Volker Lendecke
+include/linux/istallion.h: *	Copyright (C) 1996-1998  Stallion Technologies
+include/linux/istallion.h: *	Copyright (C) 1994-1996  Greg Ungerer.
+include/linux/oprofile.h: * @remark Copyright 2002 OProfile authors
+include/linux/smb_fs_sb.h: *  Copyright (C) 1995 by Paal-Kr. Engstad and Volker Lendecke
+include/linux/smb_fs_sb.h: *  Copyright (C) 1997 by Volker Lendecke
+include/linux/ext3_jbd.h: * Copyright 1998--1999 Red Hat corp --- All Rights Reserved
+include/linux/ncp_fs_sb.h: *  Copyright (C) 1995, 1996 by Volker Lendecke
+include/linux/auto_fs.h: *   Copyright 1997 Transmeta Corporation - All Rights Reserved
+include/linux/console.h: *  Copyright (C) 1993        Hamish Macdonald
+include/linux/smb.h: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+include/linux/smb.h: *  Copyright (C) 1997 by Volker Lendecke
+include/linux/mqueue.h:/* Copyright (C) 2003 Krzysztof Benedyczak & Michal Wronski
+include/linux/serial_core.h: *  Copyright (C) 2000 Deep Blue Solutions Ltd.
+include/linux/sdla_fr.h:* Copyright:	(c) 1995-2000 Sangoma Technologies Inc.
+include/linux/reiserfs_fs.h: * Copyright 1996, 1997, 1998 Hans Reiser, see reiserfs/README for licensing and copyright details
+include/linux/bfs_fs.h: *	Copyright (C) 1999 Tigran Aivazian <tigran@veritas.com>
+include/linux/irda.h: *     Copyright (c) 1999 Dag Brattli, All Rights Reserved.
+include/linux/synclink.h: * Copyright (C) 1998-2000 by Microgate Corporation
+include/linux/sunrpc/xprt.h: *  Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/gss_asn1.h: *  Copyright (c) 2000 The Regents of the University of Michigan.
+include/linux/sunrpc/gss_asn1.h: * Copyright 1995 by the Massachusetts Institute of Technology.
+include/linux/sunrpc/gss_asn1.h: * without fee is hereby granted, provided that the above copyright
+include/linux/sunrpc/gss_asn1.h: * notice appear in all copies and that both that copyright notice and
+include/linux/sunrpc/svcsock.h: * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/auth.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/stats.h: * Copyright (C) 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/xdr.h: * Copyright (C) 1995-1997 Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/gss_api.h: * Copyright (c) 2000 The Regents of the University of Michigan
+include/linux/sunrpc/timer.h: *  Copyright (C) 2002 Trond Myklebust <trond.myklebust@fys.uio.no>
+include/linux/sunrpc/auth_gss.h: * Copyright (c) 2000 The Regents of the University of Michigan
+include/linux/sunrpc/types.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/gss_spkm3.h: *  Copyright (c) 2000 The Regents of the University of Michigan.
+include/linux/sunrpc/svc.h: * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/svcauth_gss.h: * Copyright (c) 2002 The Regents of the Unviersity of Michigan
+include/linux/sunrpc/sched.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/svcauth.h: * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/clnt.h: *  Copyright (C) 1995, 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/cache.h: * Copyright (C) 2002 Neil Brown <neilb@cse.unsw.edu.au>
+include/linux/sunrpc/debug.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/gss_krb5.h: *  Copyright (c) 2000 The Regents of the University of Michigan.
+include/linux/sunrpc/gss_krb5.h: * Copyright 1995 by the Massachusetts Institute of Technology.
+include/linux/sunrpc/gss_krb5.h: * without fee is hereby granted, provided that the above copyright
+include/linux/sunrpc/gss_krb5.h: * notice appear in all copies and that both that copyright notice and
+include/linux/sunrpc/msg_prot.h: * Copyright (C) 1996, Olaf Kirch <okir@monad.swb.de>
+include/linux/sunrpc/gss_err.h: *  Copyright (c) 2002 The Regents of the University of Michigan.
+include/linux/sunrpc/gss_err.h: * Copyright 1993 by OpenVision Technologies, Inc.
+include/linux/sunrpc/gss_err.h: * provided that the above copyright notice appears in all copies and
+include/linux/sunrpc/gss_err.h: * that both that copyright notice and this permission notice appear in
+include/linux/dcookies.h: * Copyright 2002 John Levon <levon@movementarian.org>
+include/linux/llc.h: * Copyright (c) 2001 by Jay Schulist <jschlst@samba.org>
+include/linux/dcache.h: * (C) Copyright 1997 Thomas Schoebel-Theuer,
+include/linux/ipmi_msgdefs.h: * Copyright 2002 MontaVista Software Inc.
+include/linux/fsnotify.h: * (C) Copyright 2005 Robert Love
+include/linux/completion.h: * (C) Copyright 2001 Linus Torvalds
+include/linux/ide.h: *  Copyright (C) 1994-2002  Linus Torvalds & authors
+include/linux/nfsd_idmap.h: *  Copyright (c) 2002, 2003 The Regents of the University of
+include/linux/nfsd_idmap.h: *  1. Redistributions of source code must retain the above copyright
+include/linux/nfsd_idmap.h: *  2. Redistributions in binary form must reproduce the above copyright
+include/linux/reiserfs_fs_sb.h:/* Copyright 1996-2000 Hans Reiser, see reiserfs/README for licensing
+include/linux/reiserfs_fs_sb.h: * and copyright details */
+include/linux/kfifo.h: * Copyright (C) 2004 Stelian Pop <stelian@popies.net>
+include/linux/cdk.h: *	Copyright (C) 1996-1998  Stallion Technologies
+include/linux/cdk.h: *	Copyright (C) 1994-1996  Greg Ungerer.
+include/linux/ncp.h: *  Copyright (C) 1995 by Volker Lendecke
+include/linux/meye.h: * Copyright (C) 2001-2003 Stelian Pop <stelian@popies.net>
+include/linux/meye.h: * Copyright (C) 2001-2002 Alcôve <www.alcove.com>
+include/linux/meye.h: * Copyright (C) 2000 Andrew Tridgell <tridge@valinux.com>
+include/linux/if_cablemodem.h: *		Copyright 1998 Franco Venturi
+include/linux/wanpipe.h:* Copyright:	(c) 1995-2000 Sangoma Technologies Inc.
+include/linux/radix-tree.h: * Copyright (C) 2001 Momchil Velikov
+include/linux/radix-tree.h: * Portions Copyright (C) 2001 Christoph Hellwig
+include/linux/kobject.h: * Copyright (c) 2002-2003	Patrick Mochel
+include/linux/kobject.h: * Copyright (c) 2002-2003	Open Source Development Labs
+include/linux/mmc/protocol.h: * Copyright 2002 Hewlett-Packard Company
+include/linux/mmc/protocol.h: * provided that this copyright notice is
+include/linux/sdla_x25.h:* Copyright:	(c) 1995-2000 Sangoma Technologies Inc.
+include/linux/lcd.h: * Copyright (C) 2003,2004 Hewlett-Packard Company
+include/linux/backlight.h: * Copyright (C) 2003,2004 Hewlett-Packard Company
+include/linux/stallion.h: *	Copyright (C) 1996-1998  Stallion Technologies
+include/linux/stallion.h: *	Copyright (C) 1994-1996  Greg Ungerer.
+include/linux/cobalt-nvram.h: * Copyright 2001,2002 Sun Microsystems, Inc.
+include/linux/dio.h: * Copyright (C) Peter Maydell 05/1998 <pmaydell@chiark.greenend.org.uk>
+include/linux/security.h: * Copyright (C) 2001 WireX Communications, Inc <chris@wirex.com>
+include/linux/security.h: * Copyright (C) 2001 Greg Kroah-Hartman <greg@kroah.com>
+include/linux/security.h: * Copyright (C) 2001 Networks Associates Technology, Inc <ssmalley@nai.com>
+include/linux/security.h: * Copyright (C) 2001 James Morris <jmorris@intercode.com.au>
+include/linux/security.h: * Copyright (C) 2001 Silicon Graphics, Inc. (Trust Technology Group)
+include/linux/aio_abi.h: * Copyright 2000,2001,2002 Red Hat.
+include/linux/aio_abi.h: * documentation is hereby granted, provided that the above copyright
+include/linux/edd.h: *  Copyright (C) 2002, 2003, 2004 Dell Inc.
+include/linux/scx200.h:   Copyright (c) 2001,2002 Christer Weinigel <wingel@nano-system.com>
+include/linux/usbdevice_fs.h: *	Copyright (C) 2000
+include/linux/dwarf2.h:   Copyright (C) 1992, 1993, 1995, 1996, 1997, 1999, 2000, 2001, 2002,
+include/linux/usb_gadget.h: * (C) Copyright 2002-2004 by David Brownell
+include/linux/comstats.h: *	Copyright (C) 1996-1998  Stallion Technologies
+include/linux/comstats.h: *	Copyright (C) 1994-1996  Greg Ungerer.
+include/linux/delay.h: * Copyright (C) 1993 Linus Torvalds
+include/linux/efs_dir.h: * Copyright (c) 1999 Al Smith
+include/linux/harrier_defs.h: * Copyright 2001-2002 MontaVista Software Inc.
+include/linux/coda_cache.h: * Copyright (C) 1989 - 1997 Carnegie Mellon University
+include/linux/input.h: * Copyright (c) 1999-2002 Vojtech Pavlik
+include/linux/qic117.h: *      Copyright (C) 1993-1996 Bas Laarhoven,
+include/linux/i2c-algo-pcf.h:/*   Copyright (C) 1995-97 Simon G. Vogl
+include/linux/idr.h: *	Copyright (C) 2002 by Concurrent Computer Corporation
+include/linux/i2c-dev.h:    Copyright (C) 1995-97 Simon G. Vogl
+include/linux/i2c-dev.h:    Copyright (C) 1998-99 Frodo Looijaard <frodol@dds.nl>
+include/linux/i2c-id.h:/*   Copyright (C) 1995-1999 Simon G. Vogl
+include/linux/i2o.h: * (c) Copyright 1999, 2000 Red Hat Software
+include/linux/adfs_fs_i.h: * Copyright (C) 1997 Russell King
+include/linux/attribute_container.h: * Copyright (c) 2005 - James Bottomley <James.Bottomley@steeleye.com>
+include/linux/n_r3964.h: * Copyright by
+include/linux/i2o-dev.h: * (c) Copyright 1999, 2000 Red Hat Software
+include/linux/mc6821.h: * 6.11.95 copyright Joerg Dorchain (dorchain@mpi-sb.mpg.de)
+include/linux/mempolicy.h: * Copyright 2003,2004 Andi Kleen SuSE Labs
+include/linux/if_wanpipe.h:* Copyright:	(c) 2000 Sangoma Technologies Inc.
+include/linux/pnp.h: * Copyright by Adam Belay <ambx1@neo.rr.com>
+include/linux/smb_fs.h: *  Copyright (C) 1995 by Paal-Kr. Engstad and Volker Lendecke
+include/linux/smb_fs.h: *  Copyright (C) 1997 by Volker Lendecke
+include/linux/transport_class.h: * Copyright (c) 2005 - James Bottomley <James.Bottomley@steeleye.com>
+include/linux/smb_mount.h: *  Copyright (C) 1995, 1996 by Paal-Kr. Engstad and Volker Lendecke
+include/linux/smb_mount.h: *  Copyright (C) 1997 by Volker Lendecke
+include/linux/rslib.h: * Copyright (C) 2004 Thomas Gleixner (tglx@linutronix.de)
+include/linux/rslib.h: * Copyright 2002 Phil Karn, KA9Q
+include/linux/nfs_page.h: * Copyright (C) 2000 Trond Myklebust
+include/linux/genhd.h: * 	genhd.h Copyright (C) 1992 Drew Eckhardt
+include/linux/kobject_uevent.h: * Copyright (C) 2004 IBM Corp.
+include/linux/kobject_uevent.h: * Copyright (C) 2004 Greg Kroah-Hartman <greg@kroah.com>
+include/linux/mii.h: * Copyright (C) 1996, 1999, 2001 David S. Miller (davem@redhat.com)
+include/linux/zorro.h: *  Copyright (C) 1995--2003 Geert Uytterhoeven
+include/linux/nfsd/state.h: *  Copyright (c) 2001 The Regents of the University of Michigan.
+include/linux/nfsd/state.h: *  1. Redistributions of source code must retain the above copyright
+include/linux/nfsd/state.h: *  2. Redistributions in binary form must reproduce the above copyright
+include/linux/nfsd/export.h: * Copyright (C) 1995-1997 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/auth.h: * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/stats.h: * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/syscall.h: * Copyright (C) 1995-1997 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/xdr4.h: *  Copyright (c) 2002 The Regents of the University of Michigan.
+include/linux/nfsd/xdr4.h: *  1. Redistributions of source code must retain the above copyright
+include/linux/nfsd/xdr4.h: *  2. Redistributions in binary form must reproduce the above copyright
+include/linux/nfsd/nfsd.h: * Copyright (C) 1995-1997 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/cache.h: * Copyright (C) 1995, 1996 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/const.h: * Copyright (C) 1995-1997 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/interface.h: * Copyright (C) 2000 Neil Brown <neilb@cse.unsw.edu.au>
+include/linux/nfsd/debug.h: * Copyright (C) 1995 Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/xdr3.h: * Copyright (C) 1996-1998, Olaf Kirch <okir@monad.swb.de>
+include/linux/nfsd/nfsfh.h: * Copyright (C) 1995, 1996, 1997 Olaf Kirch <okir@monad.swb.de>
+include/linux/ext3_fs_sb.h: * Copyright (C) 1992, 1993, 1994, 1995
+include/linux/ext3_fs_sb.h: *  Copyright (C) 1991, 1992  Linus Torvalds
+include/linux/if_ppp.h: * Copyright (c) 1989 Carnegie Mellon University.
+include/linux/if_ppp.h: * provided that the above copyright notice and this paragraph are
+include/linux/cdrom.h: * Copyright (C) 1992         David Giller, rafetmad@oxy.edu
+include/linux/cdrom.h:#define DVD_STRUCT_COPYRIGHT	0x01
+include/linux/cdrom.h:struct dvd_copyright {
+include/linux/cdrom.h:	struct dvd_copyright	copyright;
+include/linux/cdrom.h:#define DVD_CPM_NO_COPYRIGHT	0
+include/linux/cdrom.h:#define DVD_CPM_COPYRIGHTED	1
+include/linux/concap.h: * Copyright 1997 by Henner Eisen <eis@baty.hanse.de>
+include/linux/acpi.h: * Copyright (C) 2001 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+include/linux/dm-ioctl.h: * Copyright (C) 2001 - 2003 Sistina Software (UK) Limited.
+include/linux/dm-ioctl.h: * Copyright (C) 2004 - 2005 Red Hat, Inc. All rights reserved.
+include/linux/sonypi.h: * Copyright (C) 2001-2005 Stelian Pop <stelian@popies.net>
+include/linux/sonypi.h: * Copyright (C) 2005 Narayanan R S <nars@kadamba.org>
+include/linux/sonypi.h: * Copyright (C) 2001-2002 Alcôve <www.alcove.com>
+include/linux/sonypi.h: * Copyright (C) 2001 Michael Ashley <m.ashley@unsw.edu.au>
+include/linux/sonypi.h: * Copyright (C) 2001 Junichi Morita <jun1m@mars.dti.ne.jp>
+include/linux/sonypi.h: * Copyright (C) 2000 Takaya Kinjo <t-kinjo@tc4.so-net.ne.jp>
+include/linux/sonypi.h: * Copyright (C) 2000 Andrew Tridgell <tridge@valinux.com>
+include/linux/loop.h: * Copyright 1993 by Theodore Ts'o.  Redistribution of this file is
+include/linux/lp.h: * many modifications copyright (C) 1992 Michael K. Johnson
+include/linux/jffs.h: * Copyright (C) 1999, 2000  Axis Communications AB.
+include/linux/jffs.h: * Copyright (C) 2000  Alexander Larsson (alex@cendio.se), Cendio Systems AB
+include/linux/toshiba.h: * Copyright (c) 1996-2000  Jonathan A. Buzzard (jonathan@buzzard.org.uk)
+include/linux/wireless.h: * Copyright (c) 1997-2004 Jean Tourrilhes, All Rights Reserved.

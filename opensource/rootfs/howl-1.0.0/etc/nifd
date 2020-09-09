@@ -1,0 +1,75 @@
+#!/bin/bash
+#
+# nifd:       Starts the nifd Daemon
+#
+# Version:      @(#) /etc/init.d/nifd 0.7
+#
+# chkconfig: 345 33 67
+# description: This is a daemon which runs on Howl clients to monitor the \
+#              state of a network interface.  nifd must be running on systems \
+#              that use autoipd and mDNSResponder to automatically obtain a  \
+#              Link-Local IPv4 address and do Zeroconf service discovery. \
+#              nifd should not be running otherwise.
+# processname: nifd
+# config: 
+
+OTHER_NIFD_OPTS=""
+
+# Source function library.
+. /etc/init.d/functions
+
+. /etc/sysconfig/network
+
+# Check that networking is configured.
+[ ${NETWORKING} = "no" ] && exit 0
+
+start() {
+	echo -n $"Starting nifd... "
+	nifd $OTHER_NIFD_OPTS
+	RETVAL=$?
+	echo
+	return $RETVAL
+}
+
+stop() {
+	echo -n $"Shutting down nifd services: "
+	killproc nifd
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ] ; then
+	  rm -f /var/lock/subsys/nifd
+	  rm -f /var/run/nifd.pid
+	fi
+	echo
+	return $RETVAL
+}
+
+restart() {
+	stop
+	start
+}
+
+RETVAL=0
+
+# See how we were called.
+case "$1" in
+  start)
+	start
+	;;
+  stop)
+	stop
+	;;
+  status)
+	status ypbind
+	;;
+  restart|reload)
+	restart
+	;;
+  condrestart)
+        [ -f /var/lock/subsys/nifd ] && restart || :
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|status|restart|condrestart}"
+	exit 1
+esac
+
+exit $?

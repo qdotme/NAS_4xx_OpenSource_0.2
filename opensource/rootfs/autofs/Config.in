@@ -1,0 +1,7 @@
+config MAL_PACKAGE_AUTOFS
+	bool "autofs"
+	default n
+	help
+	  Utility for kernel-based automounter for Linux
+
+	  ftp://ftp.kernel.org/pub/linux/daemons/autofs

@@ -1,0 +1,11 @@
+asnprintf.o asnprintf.o: asnprintf.c ../config.h vasnprintf.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h
+
+../config.h:
+
+vasnprintf.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:

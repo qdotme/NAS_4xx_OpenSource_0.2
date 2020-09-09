@@ -1,0 +1,8 @@
+Look in the docs directory for relatively complete HTML documentation for Howl
+
+- address known issues
+- port autoipd and nifd to FreeBSD 
+- put version #s on shared libraries
+- match Apple's DNSServiceDiscovery APIs
+- more sample programs 
+- package management

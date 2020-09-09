@@ -1,0 +1,3 @@
+tune.lo tune.o: tune.c ../../config.h
+
+../../config.h:

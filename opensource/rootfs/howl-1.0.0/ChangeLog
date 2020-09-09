@@ -1,0 +1,168 @@
+Version 1.0.0
+
+	- FIX: update to mDNSResponder core 58-8-1
+	- FIX: compile out heap debugging when NDEBUG macro is set during compilation
+	- FIX: errors encountered when parsing conf file are logged
+	- FIX: fix various unsafe sprintf calls (contributed by David Young dyoung@pobox.com)
+	- FIX: compiles cleanly using cygwin
+	- FIX: support for compiling under OpenBSD
+	- FIX: error in docs regarding swapped parameters to sw_discovery_publish_reply
+
+Version 0.9.10
+
+	- FIX: use config.h in mDNSClientAPI.h to determine which headers to include
+	- FIX: don't clobber CFLAGS in Makefile.am files
+
+Version 0.9.9
+
+	- FIX: use memmove rather than memcpy
+	- FIX: use memcmp to compare oids, rather than strcmp (contributed by John Wiseman jjwiseman@yahoo.com)
+	- FIX: sw_autoip_network_interface_make_initial_ip_address() uses uninitialized m_mac_addr (contributed by Andrea Campi andrea+howl@webcom.it)
+	- FIX: include stdint.h and use standard types in mDNSClientAPI.h (contributed by Jeff Waugh jdub@perkypants.com)
+	- FIX: make posix_interface.c easier to port other OSes (contributed by Andrea Campi andrea+how@webcom.it)
+	- FIX: check interface status before looking at link (contributed by Andrea Campi andrea+howl@webcom.it)
+	- FIX: builddir != srcdir problem (contributed by Thomas Fitzsimmons fitzsim@redhat.com)
+	- FIX: memory leaks on cleanup
+	- FIX: mDNSResponder, nifd, autoipd not linked statically
+	
+Version 0.9.8
+
+	- FIX: shared library naming scheme included the howl version number (jdub@perkypants.org)
+	- FIX: pkgconfig include pathing included the howl version number (eloli@hotmail.com)
+	- FIX: howl_config.h was being included when compiling apps that use howl (sebastien.estienne@gmail.com)
+	- FIX: publish sample had reversed callback parameters (sebastien.estienne@gmail.com)
+	- nicer printing of text records in browse example (sebastien.estienne@gmail.com)
+
+Version 0.9.7
+
+	- FIX: network interface index was not being initialized correctly on non-Linux platforms
+	- FIX: sw_mdns_stub_init() was not initializing m_pending_ops
+	- FIX: autoipd was not handling return code from fcntl correctly
+	- FIX: portability patches from GNOME team
+	- integration of patches necessary to build and run on Solaris
+
+Version 0.9.6
+
+	- Separate Apple code into separate mDNSResponder library.
+	- Add sw_discovery_query_record() to discovery API to query individual resource records
+	- Support for discovery operations on specific network interfaces
+	- Support for 64 bit Linux
+	- FIX: client side memory leak when cancelling discovery operations
+	- FIX: FreeBSD mDNSResponder didn't work with -a switch
+	- FIX: mDNSResponder would occasionally crash  when waking from sleep on Windows
+	- FIX: mDNSResponder code for parsing config files had buffer overflow
+
+Version 0.9.5
+
+	- .NET integration (no documentation yet)
+	- FIX: calling convention was incorrect in Win32 static libraries (Windows)
+	- FIX: event handlers invoked in incorrect thread
+	- FIX: timers invoked after being removed when using Win32 message pump (Windows)
+	- FIX: package on Mac OS X could fail silently (Mac OS X)
+	- FIX: remove version number from include directory path
+	- ported to NetBSD
+
+Version 0.9.4
+
+	- FIX: Windows mDNSResponder would hang computer on shutdown
+	- FIX: multi-threading bug in channel sharing code
+	- changed all sw_rendezvous_* APIs to sw_discovery_*
+	- mDNSResponder can optionally config files on startup to declare services info 
+	- added option to run mDNSResponder in separate thread in calling application
+	- autoipd must be run as root
+	- nifd must be run as root
+	- refactored autoipd
+	- 
+Version 0.9.3
+
+	- FIX: passing incorrect parameter to CreateWindow in sw_salt_init (Windows)
+	- FIX: timeout not honored in sw_salt_step (Mac OS X)
+	- FIX: mDNSResponder -i switch doesn't work with alias interfaces
+	- RPMs for RH Linux (Linux)
+	- support for pkgconfig (Linux)
+	- added -a option to mDNSResponder
+	- added sw_rendezvous_socket() and sw_rendezvous_read_socket() APIs for better integration in foreign event loops
+	- specified __stdcall convention in Howl APIs (Windows)
+	- reorganized source tree, builds one library instead of three
+
+Version 0.9.2 (Jan 21 2004)
+
+	- FIX: buffer overflow in corby orb
+	- FIX: typo in mDNSResponder script
+	- works with MINGW32 compiler
+	
+Version 0.9.1 (Jan 12 2004)
+
+	- FIX: resource leak plugged in sw_ipv4_address_init_this_host
+
+Version 0.9 (Dec 18 2003)
+
+	- Released under Porchdog Software name
+	- FIX: robust support for text records
+	- FIX: mDNSResponder could potentially crash when passed incorrect id's.
+
+Version 0.8.2 (Nov 25 2003)
+
+	- FIX: mDNSResponder returns incorrect port information on resolve_reply
+	- port to sparc linux
+	- update docs
+
+Version 0.8.1 (Nov 12 2003)
+
+	- compiles on Solaris (courtesy of Mr. Michael Walker)
+	- FIX: memory leak in client side rendezvous library upon communication error with system service
+	- FIX: potential memory leak in cleaning up socket resources upon client termination
+	- FIX: resolve replies would not be invoked under moderate load
+	- FIX: mDNSResponder crash under moderate network load
+
+Version 0.8 (Oct 29 2003)
+
+	- added APIs for publishing domains and hosts
+	- incorporates latest mDNS core source code from Apple.
+	- passes latest rendezvous conformance tests (1.2)
+	- mDNSResponder can run non-root
+	- change executable names of sample programs to mDNSPublish and mDNSBrowse
+	- update documentation
+
+Version 0.7.2b (Oct 3 2003)
+	
+	- enabled daemons to continue running when link connectivity detection fails
+
+Version 0.7.2a (Sept 30 2003)
+
+	- increased portability across Linux variants
+
+Version 0.7.2 (Sept 26 2003)
+
+	- Added single interface mode feature to mDNSResponder
+	- fixed bug: nifd now consistently restarts interfaces
+	- fixed bug: autoipd now gracefully handles pings 
+
+Version 0.7.1 (Sept 22 2003)
+
+	- Windows-specific changes
+
+Version 0.7 (Sept 22 2003)
+
+	- Howl implements automatic ip addressing per Zeroconf spec on Linux (autoipd)
+	- Howl implements network interface monitoring (nifd on Linux)
+	- aggresively minimize use of system resources
+	- FIX: all resources are cleaned up upon client termination, whether graceful or not
+	- rendezvous clients can run single or multithreaded
+	- added *nix documentation
+
+Version 0.6.1
+
+	- Howl runs on FreeBSD
+
+Version 0.6
+
+	- mDNSResponder handles SIGHUP, SIGINT 
+	- fixed bug in reading multicast packets
+	- added command line parameters for browse sample application
+	- added command line parameters for publish sample application
+	- added HTML documentation
+
+Version 0.5
+
+	- Initial public version

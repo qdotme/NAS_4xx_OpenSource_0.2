@@ -1,0 +1,42 @@
+libgpg_error_la-code-to-errno.lo libgpg_error_la-code-to-errno.o:  \
+ code-to-errno.c ../config.h ./gpg-error.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  code-to-errno.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/errno.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/features.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/predefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/cdefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/gnu/stubs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/errno.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/linux/errno.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/asm/errno.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/asm-generic/errno.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/asm-generic/errno-base.h
+
+../config.h:
+
+./gpg-error.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+code-to-errno.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/features.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/predefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/cdefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/gnu/stubs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/linux/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/asm/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/asm-generic/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/asm-generic/errno-base.h:

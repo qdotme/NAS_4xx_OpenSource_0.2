@@ -1,0 +1,7 @@
+[ ]: Add an option to bar to use the filename as the title, whenever bar is
+     given the -if command line option.
+
+[ ]: Add an option to give a printf format string to bar to use whenever
+		 generating the title.  This way multiple lines of output can be made to
+		 line up.
+

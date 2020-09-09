@@ -1,0 +1,43 @@
+md5.lo .libs/md5.o: md5.c \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/features.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/string.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/endian.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/byteswap.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+  md5.h
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/byteswap.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+
+md5.h:

@@ -1,0 +1,5 @@
+config MAL_PACKAGE_GZIP
+	bool "gzip"
+	default n
+	help
+	  gzip utility

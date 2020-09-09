@@ -1,0 +1,2 @@
+start16.o: start16.S
+reset.o: reset.S

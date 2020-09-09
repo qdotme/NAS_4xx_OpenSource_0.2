@@ -1,0 +1,2 @@
+sc520_spunk_asm.o: sc520_spunk_asm.S
+sc520_spunk_asm16.o: sc520_spunk_asm16.S

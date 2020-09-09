@@ -1,0 +1,17 @@
+VERSION=2.12r
+CC=/opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-gcc
+CFLAGS=-Os -pipe
+LDFLAGS=-L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/lib
+HAVE_NEW_GCC=yes
+HAVE_UUID=no
+HAVE_RAW_H=yes
+HAVE_NCURSES=no
+HAVE_TERMCAP=no
+NEED_LIBCRYPT=yes
+FOREIGN = --foreign-user
+HAVE_XGETTEXT=yes
+HAVE_OPENPTY=yes
+HAVE_PIVOT_ROOT=yes
+HAVE_GOOD_RPC=yes
+HAVE_ZLIB=yes
+HAVE_BLKID=no

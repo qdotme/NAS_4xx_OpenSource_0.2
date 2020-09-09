@@ -1,0 +1,10 @@
+#
+# comerr library Macintosh export file
+#
+# $Header: /var/cvs/proto/marvell_5182/package/krb5/krb5-1.4.3/src/util/et/et.pbexp,v 1.1.1.1 2006/05/19 07:08:17 arsene Exp $
+
+_com_err
+_com_err_va
+_error_message
+_add_error_table
+_remove_error_table

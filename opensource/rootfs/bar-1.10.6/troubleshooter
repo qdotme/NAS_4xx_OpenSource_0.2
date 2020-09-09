@@ -1,0 +1,130 @@
+#! /bin/sh
+
+trouble_log="trouble.log"
+
+error () {
+	echo
+	echo "*** ERROR: ${1}"
+	shift
+	while [ $# -gt 0 ]; do
+		echo "    ${1}"
+		shift
+	done
+}
+
+find_binary () {
+	if which ${1} > /dev/null 2>&1 ; then
+		eval ${1}=`which ${1} 2> /dev/null`
+	else
+		error "Program ${1} not found"
+		exit 1
+	fi
+}
+
+cmd () {
+	echo >> ${trouble_log}
+	echo "-------------------------------------------------------------------------------" >> ${trouble_log}
+	echo "Executing: $*" >> ${trouble_log}
+	echo "-------------------------------------------------------------------------------" >> ${trouble_log}
+	echo >> ${trouble_log}
+	$* >> ${trouble_log} 2>&1
+	cmd_result=$?
+	echo >> ${trouble_log}
+	echo >> ${trouble_log}
+	echo "Exit code: ${cmd_result}" >> ${trouble_log}
+	echo >> ${trouble_log}
+	echo "-------------------------------------------------------------------------------" >> ${trouble_log}
+	echo >> ${trouble_log}
+	return ${cmd_result}
+}
+
+echo "Searching for required programs..."
+find_binary grep
+find_binary sed
+find_binary awk
+find_binary cut
+find_binary cat
+find_binary ls
+find_binary rm
+find_binary script
+find_binary gzip
+
+${cat} << EOF
+
+This script will attempt to assemble a wealth of drivel that the author hopes
+will be useful in trying to resolve problems with bar and help him to increase
+bar's ease of installation and portability in future versions.
+
+Please wait...
+
+EOF
+
+if [ -f ${trouble_log} ]; then
+	${rm} -f ${trouble_log}
+fi
+if [ -f ${trouble_log}.gz ]; then
+	${rm} -f ${trouble_log}.gz
+fi
+# if [ -f ./config.log ]; then
+# 	echo "./config.log found, searching for last configure options used..."
+# 	opts=` \
+# 	${cat} ./config.log \
+# 	| ${grep} '^  \$ \.\/configure' \
+# 	| ${sed} 's,^  \$ \.\/configure,,g' \
+# 	| ${sed} 's,^ ,,g' \
+# 	`
+# 	if [ -z "${opts}" ]; then
+# 		echo "No options were used with configure"
+# 	else
+# 		echo "Options last used: ${opts}"
+# 	fi
+# else
+# 	opts='';
+# fi
+if cmd ./configure ; then
+	cmd ${cat} ./config.log
+	if cmd make ; then
+		if cmd make check ; then
+			if cmd ./bar -if ./bar -of /dev/null ; then
+				${cat} << EOF
+
+Hmm...  It looks as though bar's I/O works fine, but then the tests and/or
+this script might be missing something.
+
+EOF
+			fi
+		fi
+	fi
+	if cmd ./configure --disable-use-memalign --disable-use-iovec ; then
+		cmd ${cat} ./config.log
+		if cmd make ; then
+			if cmd make check ; then
+				if cmd ./bar -if ./bar -of /dev/null ; then
+					${cat} << EOF
+
+It appears that bar works if configured without aligned memory and vectored
+I/O support.  You might try configuring bar with --disable-use-memalign and
+--disable-use-iovec and see if that fixes things.
+
+EOF
+				fi
+			fi
+		fi
+	else
+		cmd ${cat} ./config.log
+	fi
+else
+	cmd ${cat} ./config.log
+fi
+
+echo "Compressing log file..."
+gzip -9v ${trouble_log}
+echo "Done."
+
+${cat} << EOF
+
+Please email michaelpeek@users.sourceforge.net.  Include a description of your
+problem and attach the file ${trouble_log}.gz.
+
+EOF
+# vim:ts=2:shiftwidth=2:filetype=sh:syntax=sh:

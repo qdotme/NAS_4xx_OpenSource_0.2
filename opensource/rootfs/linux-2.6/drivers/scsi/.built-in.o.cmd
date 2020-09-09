@@ -1,0 +1,1 @@
+cmd_drivers/scsi/built-in.o :=  arm-none-linux-gnueabi-ld -EL   -r -o drivers/scsi/built-in.o drivers/scsi/scsi_mod.o drivers/scsi/thor/built-in.o drivers/scsi/arm/built-in.o drivers/scsi/../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_sata/built-in.o drivers/scsi/sd_mod.o drivers/scsi/sg.o

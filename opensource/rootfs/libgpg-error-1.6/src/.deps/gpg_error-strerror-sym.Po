@@ -1,0 +1,14 @@
+gpg_error-strerror-sym.o gpg_error-strerror-sym.o: strerror-sym.c \
+  ../config.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  ./gpg-error.h err-codes-sym.h errnos-sym.h
+
+../config.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+./gpg-error.h:
+
+err-codes-sym.h:
+
+errnos-sym.h:

@@ -1,0 +1,17 @@
+$Id: Changelog.txt,v 1.1 2007/11/14 08:25:54 wiley Exp $
+
+2007/10/08:
+	Added a man page
+
+2007/09/27:
+	Support for install in different location $ PREFIX=... make install
+
+2007/09/23:
+	added a script for use in /etc/init.d
+	improved Makefile
+	creating /var/run/minissdpd.pid
+	adding synthetic messages for new devices/removed devices
+
+2007/09/19:
+	Take SSDP announce packets lifetime into account.
+

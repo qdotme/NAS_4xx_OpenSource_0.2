@@ -1,0 +1,60 @@
+#!/bin/sh
+
+src_file="./test-file-003.1.bin"
+tmp_file="./test-file-003.incomplete.bin"
+dst_file="./test-file-003.2.bin"
+
+if [ ! -c /dev/random ]; then
+	echo "*** NOTICE: Skipping test -- no /dev/random found"
+	exit 0
+fi
+
+if [ ! -f "${src_file}" ]; then
+	echo "- Creating test file (this may take a while...)"
+	dd \
+		if=/dev/random \
+		of=${tmp_file} \
+		bs=1024 \
+		count=1024 \
+		2> /dev/null
+	if [ "$?" -ne 0 ]; then
+		echo "*** ERROR: Failed to create test file"
+		echo "           Test inconclusive"
+		exit 1
+	fi
+	mv ${tmp_file} ${src_file}
+	if [ "$?" -ne 0 ]; then
+		echo "*** ERROR: Failed to create test file"
+		echo "           Test inconclusive"
+		rm -f ${tmp_file}
+		exit 1
+	fi
+else
+	echo "- Using existing test file: ${src_file}..."
+fi
+
+echo "- Copying file..."
+cp ${src_file} ${dst_file}
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: Unable to copy file"
+	echo "           Test inconclusive"
+	exit 1
+fi
+
+echo "- Copying file through bar..."
+./bar -if ${src_file} -of ${dst_file} 2> /dev/null
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: bar failed"
+	exit 1
+fi
+
+echo "- Comparing file against copy..."
+cmp ${src_file} ${dst_file} > /dev/null 2>&1
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: Files differ"
+	exit 1
+fi
+
+rm -f ${src_file} ${dst_file}
+exit 0
+

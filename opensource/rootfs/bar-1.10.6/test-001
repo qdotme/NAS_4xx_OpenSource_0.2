@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./test-001-pre | ./bar 2> /dev/null | ./test-001-post
+if [ "$?" -ne 0 ]; then exit 1; fi
+exit 0

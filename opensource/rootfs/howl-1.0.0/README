@@ -1,0 +1,22 @@
+Look in the docs directory for relatively complete HTML documentation for Howl
+
+Version 0.7.2
+=============
+Known issues 
+- the FreeBSD port does not yet include autoipd and nifd.
+- mDNSResponder does not respond with a probe when sent a
+  conflicting probe in response to a device's previous 
+  query.
+
+Changes since the previous release (0.7)
+- mDNSResponder can run on a single interface
+- Addressed Issues
+	- 	autoipd changed ip address when pinged from another
+		machine
+	- 	nifd complains of failure to restart the network 
+  		interface on an ad-hoc network.  The deamons behave
+  		appropriately in spite of this message.
+	- 	ifup did not always restore the default routes on a 
+		LAN when started by nifd, therefore, reconnecting 
+		after disconnecting required running ifdown and 
+		ifup on the interface

@@ -1,0 +1,258 @@
+ata_id.o ata_id.o: ata_id.c \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/features.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/libio.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/gconv.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/endian.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/time.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/unistd.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/environments.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/confname.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/getopt.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/fcntl.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/uio.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/stat.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/stat.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/ctype.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/string.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/errno.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/ioctl.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/ioctls.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/ioctls.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/ioctl.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm-generic/ioctl.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/ioctl-types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/ttydefaults.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/posix_types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/stddef.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/compiler.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/posix_types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/types.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/hdreg.h \
+  ../../udev/udev.h ../../config.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/param.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/limits.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/limits.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/param.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/param.h \
+  ../../udev/udev_sysdeps.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+  ../../udev/lib/libudev.h ../../udev/lib/libudev-private.h \
+  ../../config.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/syslog.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/syslog.h \
+  /opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/syslog-path.h \
+  ../../udev/lib/libudev.h ../../udev/lib/list.h ../../udev/lib/list.h
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/gconv.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/unistd.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/posix_opt.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/environments.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/confname.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/getopt.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/fcntl.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/fcntl.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/uio.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/stat.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/stat.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/ctype.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/ioctl.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/ioctls.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/ioctls.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/ioctl.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm-generic/ioctl.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/ioctl-types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/ttydefaults.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/posix_types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/stddef.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/compiler.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/posix_types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/types.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/hdreg.h:
+
+../../udev/udev.h:
+
+../../config.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/param.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/limits.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/linux/param.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/asm/param.h:
+
+../../udev/udev_sysdeps.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+../../udev/lib/libudev.h:
+
+../../udev/lib/libudev-private.h:
+
+../../config.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/syslog.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/sys/syslog.h:
+
+/opt/devel/proto/marvell/build-eabi/kernel-toolchain/arm-none-linux-gnueabi/libc/usr/include/bits/syslog-path.h:
+
+../../udev/lib/libudev.h:
+
+../../udev/lib/list.h:
+
+../../udev/lib/list.h:

@@ -1,0 +1,8 @@
+xasprintf.o xasprintf.o: xasprintf.c ../config.h xvasprintf.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h
+
+../config.h:
+
+xvasprintf.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h:

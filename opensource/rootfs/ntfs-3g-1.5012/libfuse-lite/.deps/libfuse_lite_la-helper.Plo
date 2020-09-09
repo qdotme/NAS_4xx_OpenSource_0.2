@@ -1,0 +1,109 @@
+libfuse_lite_la-helper.lo libfuse_lite_la-helper.o: helper.c ../config.h \
+  fuse_i.h ../include/fuse-lite/fuse.h ../include/fuse-lite/fuse_common.h \
+  ../include/fuse-lite/fuse_opt.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/stdint.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/features.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/predefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/cdefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/gnu/stubs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/wchar.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/wordsize.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/fcntl.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/fcntl.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/types.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/types.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/typesizes.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/time.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/endian.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/endian.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/select.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/select.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/sigset.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/time.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/sysmacros.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/pthreadtypes.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/sched.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/stat.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/stat.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/xlocale.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/utime.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/statvfs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/statvfs.h \
+  ../include/fuse-lite/fuse_lowlevel.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/uio.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/uio.h
+
+../config.h:
+
+fuse_i.h:
+
+../include/fuse-lite/fuse.h:
+
+../include/fuse-lite/fuse_common.h:
+
+../include/fuse-lite/fuse_opt.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/stdint.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/features.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/predefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/cdefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/gnu/stubs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/wchar.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/wordsize.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/fcntl.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/fcntl.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/types.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/types.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/typesizes.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/time.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/endian.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/endian.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/select.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/select.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/sigset.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/time.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/sysmacros.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/pthreadtypes.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/sched.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/stat.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/stat.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/xlocale.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/utime.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/statvfs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/statvfs.h:
+
+../include/fuse-lite/fuse_lowlevel.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/uio.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/uio.h:

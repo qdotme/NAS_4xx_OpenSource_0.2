@@ -1,0 +1,1 @@
+SUBDIRS = $(LIB_SUBDIRS)

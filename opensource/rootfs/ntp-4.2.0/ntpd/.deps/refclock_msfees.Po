@@ -1,0 +1,3 @@
+refclock_msfees.o refclock_msfees.o: refclock_msfees.c ../config.h
+
+../config.h:

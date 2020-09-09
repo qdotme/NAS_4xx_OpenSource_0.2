@@ -1,0 +1,6 @@
+config MAL_PACKAGE_BDB
+	bool "bdb"
+	default n
+	help
+	  Berkeley DB (BDB) is a high-performance, embedded database library
+	  http://www.oracle.com/database/berkeley-db.html

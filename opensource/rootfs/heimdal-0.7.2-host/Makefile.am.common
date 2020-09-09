@@ -1,0 +1,4 @@
+# $Id: Makefile.am.common,v 1.1.1.1 2007/01/11 02:33:17 wiley Exp $
+
+include $(top_srcdir)/cf/Makefile.am.common
+

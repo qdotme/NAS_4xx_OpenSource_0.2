@@ -1,0 +1,2077 @@
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/expr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/expr/math/support_64.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/tee.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tee/use/block/io.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/chroot.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/install.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/realpath.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/logname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/tail.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/fancy/tail.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/debug/yank/susv2.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/mkfifo.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/od.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/dump.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/cp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/dd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/printenv.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/id.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/selinux.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/tr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tr/equiv.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tr/classes.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/false.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/ln.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/sum.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/stty.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/chown.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/ls.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/human/readable.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/autowidth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/color/is/default.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/color.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/username.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/timestamps.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/sortfiles.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/recursive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/followlinks.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/filetypes.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/selinux.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/dirname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/cal.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/head.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/fancy/head.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/debug/yank/susv2.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/uudecode.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/pwd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/test.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/test_64.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/rm.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/date.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/date/isofmt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/date/isofmt.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/uname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/usleep.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/dos2unix.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/length.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/chmod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/mkdir.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/mv.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/md5_sha1_sum.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/md5/sha1/sum/check.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/sha1sum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/sha1sum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/md5sum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/md5sum.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/chgrp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/comm.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/mknod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/seq.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/yes.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/stat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/stat/format.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/cmp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/whoami.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/touch.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/sleep.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/sleep.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/printf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/who.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/sort.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sort/big.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/df.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/human/readable.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/du.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/human/readable.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/du/defalt/blocksize_1k.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/basename.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/nice.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/cut.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/env.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/cat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/tty.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/fold.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/debug/yank/susv2.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/true.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/uuencode.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/rmdir.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/wc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/nohup.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/echo.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/uniq.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/hostid.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/watch.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/sync.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/init/halt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/initrd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/init.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/init/init_shared.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/init/init_shared.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/init.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/init/init.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/init/init_shared.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/syslogd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/swaponoff.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/initrd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/init/coredumps.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/extra/quiet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/init/sctty.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/use/inittab.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/init/mesg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/iptunnel.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/netstat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/route.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ping6.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/ping6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/ping.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/telnetd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/telnetd/inetd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/login.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/devpts.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ping.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/ping6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/ping.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/iplink.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/inetd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/inetd/rpc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/inetd/support/biltin/chargen.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/inetd/support/biltin/daytime.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/inetd/support/biltin/time.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/inetd/support/biltin/discard.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/inetd/support/biltin/echo.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ipaddr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/zcip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ifupdown.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifupdown/mapping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/ifupdown/ipx.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifupdown/ipx.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/ifupdown/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifupdown/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/ifupdown/ipv4.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifupdown/ipv4.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifupdown/ip.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/tftp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/debug.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/blocksize.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/put.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/get.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/telnet.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/telnet/autologin.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/telnet/ttype.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/autowidth.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/route.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/httpd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/skip/feature/httpd/encode/url/str.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/httpd/encode/url/str.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/encode/url/str.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/set/remote/port/to/env.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/config/with/script/interpr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/httpd/cgi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/httpd/cgi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/cgi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/config/with/mime/types.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/skip/feature/httpd/setuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/httpd/setuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/setuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/reload/config/sighup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/skip/feature/httpd/auth/md5.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/httpd/auth/md5.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/auth/md5.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/skip/feature/httpd/basic/auth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/httpd/basic/auth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/basic/auth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/skip/feature/httpd/usage/from/inetd/only.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/httpd/usage/from/inetd/only.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/httpd/usage/from/inetd/only.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/usage/from/inetd/only.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/dnsd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ip/tunnel.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ip/route.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ip/link.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ip/address.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/fakeidentd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ftpgetput.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ftpput.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ftpget.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/nc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/nc/gaping/security/hole.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/vconfig.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/nameif.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/traceroute.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/traceroute/use/icmp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/traceroute/source/route.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/traceroute/verbose.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ipcalc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipcalc/fancy.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/nslookup.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/hostname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/wget.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/wget/ip6/literal.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/wget/authentication.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/wget/statusbar.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/iproute.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/arping.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ifconfig.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/broadcast/plus.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/hw.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/memstart/ioaddr/irq.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/slip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/status.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/interface.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/ether-wake.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/getty.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/syslogd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/wtmp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/utmp.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/vlock.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/delline.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/addgroup.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/adduser.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/shadowpasswds.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/delgroup.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/delline.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/deluser.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/shadowpasswds.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/passwd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/shadowpasswds.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/deluser.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/delline.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/shadowpasswds.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/adduser.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/addgroup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/shadowpasswds.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/sulogin.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/shadowpasswds.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/selinux.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/login.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/securetty.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/wtmp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/utmp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/selinux.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/loginutils/su.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/utmp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/selinux.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/fsck.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/fsck.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/devfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/chattr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/lsattr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/tune2fs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/util.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/jfs_user.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/findfs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/findfs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/e2label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/e2label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsck.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/kernel-jbd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_ext_attr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/fsck.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/util.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/util.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/mke2fs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/util.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2fsbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/debianutils/which.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/debianutils/run_parts.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/debianutils/pipe_progress.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/debianutils/mktemp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/debianutils/readlink.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/readlink/follow.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/debianutils/start_stop_daemon.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/findutils/xargs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/zero/term.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/termopt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/quotes.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/confirmation.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/findutils/find.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/exec.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/inum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/newer.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/xdev.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/type.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/perm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/mmin.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/mtime.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/findutils/grep.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/grep/context.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/grep/fgrep/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/grep/egrep/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/lash.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/fancy/prompt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/standalone/shell.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/extra/quiet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/fancy/prompt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/username/completion.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/tab/completion.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/savehistory.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/history.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing/vi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/command/editing.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/savehistory.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing/vi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/msh.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/fancy/prompt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/standalone/shell.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/extra/quiet.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/hush.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/fancy/prompt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/standalone/shell.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/extra/quiet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/ver.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/ash.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/shell/cmdedit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/fancy/prompt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/tab/completion.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/savehistory.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing/vi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/command/editing.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/standalone/shell.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sh/extra/quiet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/expand/prmt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/random/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/optimize/for/size.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/mail.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/ash/builtin/echo.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/builtin/echo.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/ash/cmdcmd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/cmdcmd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/getopts.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/math/support_64.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/math/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/ash/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/read/timeout.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/read/nchars.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/ash/job/control.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ash/job/control.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/editors/awk.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/awk/math.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/editors/patch.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/editors/vi.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/optimize/cursor.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/win/resize.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/set.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/setopts.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/readonly.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/dot/cmd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/use/signals.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/search.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/yankmark.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/vi/colon.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/locale/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/editors/sed.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/sysklogd/logger.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/syslogd.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/sysklogd/syslogd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipc/syslog/buffer/size.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipc/syslog.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/remote/log.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/rotate/logfile.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/ver.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/sysklogd/logread.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/logread/reduced/locking.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/sysklogd/klogd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/cpio.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/gunzip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/gunzip/uncompress.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/rpm2cpio.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/unzip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/bunzip2.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/dpkg_deb.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/deb/tar/bz2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/deb/tar/gz.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/gzip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/gunzip.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/dpkg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/deb/tar/bz2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/deb/tar/gz.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/ar.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/rpm.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/tar.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/long/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/long/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/compress.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/compress.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/gzip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/gzip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/from.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/from.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/lzma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/lzma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/bzip2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/bzip2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/tar/create.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/create.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/uncompress.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/unlzma.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/crond.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/crond/call/sendmail.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/makedevs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/makedevs/table.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/makedevs/leaf.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/mountpoint.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/rx.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/devfsd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/devfsd/verbose.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/devfsd/verbose.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/devfsd/fg/np.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/devfsd/modload.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/debug.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/debug.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/bbconfig.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/bbconfigopts.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/crontab.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/adjtimex.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/ver.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/last.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/mt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/runlevel.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/hdparm.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/getset/dma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/tristate/hwif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/drive/reset.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/unregister/hwif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/scan/hwif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/get/identity.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/dc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/time.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/setsid.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/less.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/less/regexp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/less/marks.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/less/flagcs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/less/flags.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/less/brackets.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/watchdog.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/eject.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mtab/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/miscutils/strings.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/applets/busybox.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/autowidth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/locale/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/installer.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/installer.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/applets/version.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/bt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/ver.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/applets/applets.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/applets.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/usage.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/suid/config/quiet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/suid/config.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/suid/config.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/suid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/suid.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/use/bb/pwd/grp.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/shadow_.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/use/bb/shadow.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/shadow_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/platform.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/top/cpu/usage/percentage.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/shadowpasswds.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/selinux.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/devfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/platform.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/usage.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipc/syslog.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/remote/log.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/rotate/logfile.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/ps/wide.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/pidof/omit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/pidof/single.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/blocksize.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/put.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tftp/get.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/telnetd/inetd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/telnet/autologin.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/ping6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/ping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/nc/gaping/security/hole.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipcalc/fancy.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/hw.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/memstart/ioaddr/irq.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/slip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ifconfig/status.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/setuid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/auth/md5.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/basic/auth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/httpd/usage/from/inetd/only.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/makedevs/table.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/makedevs/leaf.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/getset/dma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/tristate/hwif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/drive/reset.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/unregister/hwif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/hdio/scan/hwif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hdparm/get/identity.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/devfsd/fg/np.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/mtab/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/mount/loop.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/insmod/load/map.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/zero/term.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/termopt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/xargs/support/confirmation.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/grep/context.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/grep/egrep/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/exec.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/inum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/newer.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/type.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/perm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/mmin.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/find/mtime.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/readlink/follow.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/md5/sha1/sum/check.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/human/readable.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/autowidth.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/tail.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/stat/format.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/sort/big.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/sleep.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/color.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/timestamps.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/sortfiles.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/recursive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/followlinks.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ls/filetypes.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/head.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/echo.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/du/defalt/blocksize_1k.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/date/isofmt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/compress.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/gzip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/lzma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/bzip2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/create.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/selinux.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/use/bb/pwd/grp.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/applets.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/logger.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/klogd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/logread.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/syslogd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/msh.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/lash.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/hush.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ash.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/sh/is/msh.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/sh/is/lash.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/sh/is/hush.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/sh/is/ash.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/uptime.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/top.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/bb/sysctl.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/renice.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ps.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/pidof.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/killall.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/kill.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fuser.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/free.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/zcip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dumpleases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/udhcpc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/udhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/wget.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/vconfig.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/traceroute.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tftp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/telnetd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/telnet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/route.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ping6.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/nslookup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/netstat.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/nc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/nameif.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/iptunnel.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/iproute.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/iplink.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ipaddr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ipcalc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/inetd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ifupdown.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ifconfig.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/httpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/hostname.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ftpput.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ftpget.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fakeidentd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ether/wake.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dnsd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/arping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/watchdog.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/time.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/setsid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/strings.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rx.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/runlevel.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mountpoint.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/makedevs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/hdparm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/less.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/last.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/eject.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/devfsd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/crontab.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/crond.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/bbconfig.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/adjtimex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/umount.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/switch/root.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/swaponoff.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/setarch.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/readprofile.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rdate.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/pivot/root.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mount.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/more.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mkswap.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mdev.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/losetup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ipcs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ipcrm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/hwclock.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/hexdump.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/getopt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mkfs/minix.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fsck/minix.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/freeramdisk.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fdisk.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fdformat.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fdflush.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fbset.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dmesg.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/modprobe.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/lsmod.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rmmod.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/insmod.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/findfs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/e2label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tune2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mke2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/lsattr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fsck.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/e2fsck.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/chattr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/vlock.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sulogin.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/su.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/passwd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/login.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/getty.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/deluser.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/adduser.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/delgroup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/addgroup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mesg.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/halt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/initrd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/init.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/xargs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/grep/fgrep/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/grep/egrep/alias.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/grep.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/find.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/vi.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sed.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/patch.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/awk.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/which.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/start/stop/daemon.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/run/parts.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/readlink.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/pipe/progress.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mktemp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/setkeycodes.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/setconsole.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/reset.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/openvt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/loadkmap.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/loadfont.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dumpkmap.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/deallocvt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/clear.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/chvt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/yes.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/whoami.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/who.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/wc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/watch.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/uuencode.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/uudecode.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/usleep.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/uniq.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/uname.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tty.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/true.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/touch.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/test.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tee.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tail.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sync.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/stty.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/stat.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sort.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sleep.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/sha1sum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/seq.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rmdir.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/realpath.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/pwd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/printf.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/printenv.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/od.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/nohup.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/nice.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mv.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mknod.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mkfifo.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/mkdir.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/md5sum.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ls.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/logname.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ln.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/length.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/install.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/id.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/hostid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/head.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/fold.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/false.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/expr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/env.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/echo.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/du.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/unix2dos.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dos2unix.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dirname.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/df.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/date.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/cut.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/cp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/comm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/cmp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/chroot.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/chown.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/chmod.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/chgrp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/cat.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/cal.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/basename.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/unzip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/unlzma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/uncompress.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/tar.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rpm.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/rpm2cpio.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/gzip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/gunzip.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dpkg/deb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/dpkg.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/cpio.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/bunzip2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/ar.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/install/no/usr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/verbose/usage.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/applets.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/buffers/go/in/bss.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/buffers/go/on/stack.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libpwdgrp/pwd_grp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libpwdgrp/pwd_grp_internal.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/shadow_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libpwdgrp/pwd_grp_internal.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/shadow_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/dump.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/dump.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/find_root_device.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/bb_echo.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fancy/echo.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/human_readable.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/herror_msg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/perror_nomsg_and_die.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/wfopen.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xgetcwd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/get_terminal_width_height.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/chomp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/bb_pwd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/grp_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/pwd_.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/parse_number.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xconnect.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/qmodule.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/get_console.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/trim.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/run_shell.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/selinux.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/concat_subpath_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xgethostbyname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/perror_msg_and_die.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/procps.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/top/cpu/usage/percentage.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/error_msg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/correct_password.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/shadowpasswds.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/ask_confirmation.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/inet_common.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/restricted_shell.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/perror_msg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/kernel_version.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xregcomp.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/fgets_str.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/parse_mode.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xstat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/run_parts.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/setup_environment.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/read_package_field.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/concat_path_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/full_write.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/isdirectory.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/vperror_msg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/verror_msg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/get_line_from_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/safe_strncpy.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/safe_read.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/vdprintf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/getopt_ulflags.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ps.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/tar.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/ar.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/process_escape_sequence.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xgetlarg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xgetularg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/pwd2spwd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/shadow_.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/sha1.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/inode_hash.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/recursive_action.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xreadlink.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/messages.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/bt.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/bb/ver.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/full_read.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/herror_msg_and_die.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/create_icmp_socket.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/safe_strtol.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/vfork_daemon_rexec.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xfuncs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/xgethostbyname2.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/mtab.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/mtab/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/bb_asprintf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/safe_write.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/llist.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/make_directory.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/obscure.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/md5.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/md5/size/vs/speed.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/printf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/copyfd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/error_msg_and_die.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/pw_encrypt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/loop.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/remove_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/copy_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/preserve/hardlinks.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/vherror_msg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/change_identity.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/mtab_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/mtab/support.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/default_error_retval.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/login.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/find_mount_point.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/print_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/speed_table.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/find_pid_by_name.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/bb_askpass.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/create_icmp6_socket.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ipv6.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/last_char_is.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/device_open.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/simplify_path.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/libbb/skip_whitespace.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/modutils/insmod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature_2_6/modules.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature_2_4/modules.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/check/tainted/module.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/insmod/load/map/full.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/insmod/load/map.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/insmod/loadinkmem.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/insmod/ksymoops/symbols.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/insmod/version/checking.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/modutils/rmmod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/query/module/interface.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature_2_6/modules.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature_2_4/modules.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/modutils/modprobe.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature_2_6/modules.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/modprobe/multiple/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/modutils/lsmod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/query/module/interface.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/check/tainted/module.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/lsmod/pretty_2_6/output.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/loadkmap.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/reset.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/openvt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/deallocvt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/loadfont.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/clear.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/chvt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/dumpkmap.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/setconsole.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/console-tools/setkeycodes.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/mkfs_minix.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/minix2.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/hwclock.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hwclock/adjtime/fhs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/hwclock/longoptions.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/more.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/use/termios.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/losetup.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/mdev.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/xregex.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mdev/conf.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/fdformat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/getopt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/umount.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mtab/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mount/loop.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/umount/all.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/setarch.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/hexdump.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/dump.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/nfsmount.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/nfsmount.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mount/nfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/pivot_root.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/switch_root.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/ipcrm.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/mount.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/use/feature/mtab/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mtab/support.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mount/loop.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/mount/nfs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/fbset.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fbset/readmode.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fbset/fancy.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/fdisk.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fdisk/advanced.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/osf/label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sun/label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/sgi/label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/aix/label.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/fdisk/writable.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/readprofile.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/ipcs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/swaponoff.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/freeramdisk.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/freeramdisk.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/fdflush.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/dmesg.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/mkswap.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/rdate.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/util-linux/fsck_minix.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/minix2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/ps.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/ps/wide.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/selinux.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/sysctl.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/uptime.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/fuser.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/free.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/pidof.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/pidof/omit.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/pidof/single.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/kill.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/killall.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/top.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/top/cpu/usage/percentage.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/use/termios.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/procps/renice.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/expr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/mconf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/confdata.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/symbol.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc_proto.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc_defs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/expr.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/menu.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/conf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/util.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/zconf.tab.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/menu.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/symbol.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/expr.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/confdata.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/util.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lex.zconf.c \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lex.zconf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lkc.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/data_align.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/decompress_uncompress.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/get_header_tar_bz2.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/seek_by_char.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/filter_accept_reject_list.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/seek_by_jump.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/unarchive/tape.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/rangecoder.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/lzma/fast.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/clean/up.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/filter_accept_all.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/decompress_unzip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/data_extract_to_stdout.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/header_skip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/get_header_tar_gz.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/filter_accept_list_reassign.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/enable/feature/deb/tar/lzma.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/deb/tar/bz2.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/deb/tar/gz.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/data_skip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/find_list_entry.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/archive_xread_all.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/get_header_ar.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/ar/long/filenames.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/data_extract_to_buffer.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/header_verbose_list.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/get_header_cpio.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/get_header_tar_lzma.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/get_header_tar.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/gnu/extensions.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/tar/oldgnu/compatability.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/filter_accept_list.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/unpack_ar_archive.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/data_extract_all.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/decompress_bunzip2.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/open_transformer.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/decompress_unlzma.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/rangecoder.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/check_header_gzip.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/header_list.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/init_handle.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/archival/libunarchive/archive_xread_all_eof.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/unarchive.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/compare.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/pack.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/unparse.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/unpack.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/parse.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/gen_uuid.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid_time.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuidP.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/dirhash.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bb_compat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/valid_blk.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/freefs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/brel_ma.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/brel.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/read_bb.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bitops.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_err.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_io.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_types.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/gen_bitmap.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/res_gdt.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_types.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/irel_ma.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/irel.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/openfs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/e2image.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/rw_bitmaps.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/e2image.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/dblist_dir.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/check_desc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/rs_bitmap.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bmap.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/badblocks.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/imager.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/get_pathname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/swapfs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_ext_attr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/closefs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/dblist.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/inode_io.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/sparse.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bb_inode.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/icount.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/mkjournal.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/jfs_user.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_io.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/lookup.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/inode.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/e2image.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/inline.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/alloc_stats.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext_attr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_ext_attr.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bitmaps.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/link.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/initialize.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/version.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/mkdir.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/getsize.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/expanddir.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/alloc_sb.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/jfs_user.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/kernel-jbd.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/alloc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/read_bb_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bmove.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/dupfs.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/namei.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/unix_io.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ind_block.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/getsectsize.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/finddev.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/io_manager.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/jfs_compat.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/kernel-list.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/dirblock.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ismounted.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bitops.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs_inline.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/bitops.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/flushb.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/write_bb_file.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/alloc_tables.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/cmp_bitmaps.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/dir_iterate.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fsP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/newdir.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/fileio.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/kernel-jbd.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/jfs_compat.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/unlink.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/block.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/test_io.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/devno.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/read.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/devname.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/resolve.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/probe.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/cache.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/version.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/list.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/lfs.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/probe.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/probe.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/uuid/uuid.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkid_getsize.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/tag.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/save.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/dev.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/blkid/blkidP.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/fgetsetflags.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/mntopts.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/ls.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/pe.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/pf.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/ps.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/parse_num.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/feature.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/ostype.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/iod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/fgetsetversion.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_fs.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/hashstr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/uuid.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/ext2fs/ext2_types.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/e2fsprogs/e2p/e2p.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/iptunnel.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/iplink.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ll_proto.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ll_addr.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rtm_map.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/libnetlink.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/libnetlink.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/inet_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ll_map.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ll_map.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/libnetlink.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_parse_common_args.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rtm_map.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ll_map.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/libnetlink.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/iproute.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ipaddress.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/rt_names.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/ip_common.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/libiproute/utils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/script.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/script.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/serverpacket.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/packet.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/signalpipe.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/signalpipe.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dumpleases.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/libbb_udhcp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/version.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/libbb_udhcp.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/leases.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/leases.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/arpping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/files.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/files.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/pidfile.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/pidfile.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientsocket.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientsocket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/version.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/libbb_udhcp.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/serverpacket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/socket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/arpping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/files.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/signalpipe.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/files.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/files.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientpacket.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/packet.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/socket.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/socket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpc.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientpacket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/socket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientsocket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/signalpipe.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/script.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/packet.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/packet.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/serverpacket.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/serverpacket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/static_leases.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/arpping.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/arpping.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/libbb_udhcp.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/version.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/busybox.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/udhcp/debug.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/feature/udhcp/syslog.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/config/config/install/no/usr.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/packet.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/pidfile.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientpacket.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/clientpacket.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpc.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/dhcpd.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/options.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/networking/udhcp/common.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/getopt_mk_fifo_nod.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/cp_mv_stat.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/include/libbb.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/coreutils/libcoreutils/coreutils.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/checklist.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/textbox.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/menubox.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/msgbox.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/inputbox.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/yesno.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h
+
+/opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/util.o: /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/colors.h \
+   /opt/devel/proto/marvell/build-eabi/busybox-1.1.1/scripts/config/lxdialog/dialog.h

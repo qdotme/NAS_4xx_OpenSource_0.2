@@ -1,0 +1,94 @@
+#!/bin/sh
+
+src_file="./test-file-004.bin"
+tmp_file="./test-file-004.incomplete.bin"
+dst_file_1="./test-file-004.1.bin"
+dst_file_2="./test-file-004.2.bin"
+
+echo
+echo "NOTICE: This test takes a very long time."
+echo
+
+if [ ! -f "${src_file}" ]; then
+	echo "- Creating main test file (this may take a while...)"
+	(cd / \
+		&& tar -cf - \
+			./usr/X* \
+			./usr/bin \
+			./usr/doc \
+			./usr/include \
+			./usr/info \
+			./usr/lib \
+			./usr/sbin \
+			./usr/share \
+			./usr/src \
+			./bin \
+			./etc \
+			./lib \
+			./opt \
+			./sbin \
+			./var \
+			2> /dev/null
+		) | dd of=${tmp_file} 2> /dev/null
+	if [ "$?" -ne 0 ]; then
+		echo "*** ERROR: Failed to create test file"
+		echo "           Test inconclusive"
+		exit 1
+	fi
+	mv ${tmp_file} ${src_file}
+	if [ "$?" -ne 0 ]; then
+		echo "*** ERROR: Failed to create test file"
+		echo "           Test inconclusive"
+		exit 1
+		rm -f ${tmp_file}
+		exit 1
+	fi
+fi
+for buffer_size in 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m; do
+	for block_size in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 30 31 32 33 34 63 \
+		64 65 127 128 129 255 256 257 500 501 502 503 504 505 506 507 508 509 510 \
+		511 512 513 514 515 516 517 518 519 520 1024 2048 3096;\
+	do
+		for block_count in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 30 31 32 33 34 63 \
+		64 65 127 128 129 255 256 257 500 501 502 503 504 505 506 507 508 509 510 \
+		511 512 513 514 515 516 517 518 519 520 1024 2048 3096;\
+		do
+			rm -f ${dst_file_1} 2> /dev/null
+			rm -f ${dst_file_2} 2> /dev/null
+			dd \
+				if=${src_file} \
+				bs=${block_size} \
+				count=${block_count} \
+				of=${dst_file_1} \
+				2> /dev/null
+			if [ "$?" -ne 0 ]; then
+				echo "*** ERROR: Could not create test subfile"
+				echo "           Test inconclusive"
+				exit 1
+			fi
+			dd \
+				if=${dst_file_1} \
+				2> /dev/null \
+				| ./bar \
+					-s ${block_count}b \
+					-of ${dst_file_2} \
+					-bl ${block_size} \
+					-bs ${buffer_size} \
+					2> /dev/null \
+					#
+			if [ "$?" -ne 0 ]; then
+				echo "ERROR: bar failed"
+				exit 1
+			fi
+			cmp ${dst_file_1} ${dst_file_2}
+			if [ "$?" -ne 0 ]; then
+				echo "ERROR: Files differ"
+				echo "    Buffer Size: ${buffer_size}"
+				echo "     Block Size: ${block_size}"
+				echo "    Block Count: ${block_count}"
+				exit 1
+			fi
+		done
+	done
+done
+rm ${dst_file_1} ${dst_file_2}

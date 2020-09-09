@@ -1,0 +1,71 @@
+#!/bin/bash
+#
+# mDNSResponder:       Starts the mDNSResponder Daemon
+#
+# Version:      @(#) /etc/init.d/mDNSResponder 0.7
+#
+# chkconfig: 345 34 66
+# description: This is a daemon which runs on Howl clients to perform \
+#              Zeroconf service discovery on a network.  mDNSResponder must be running on systems \
+#              that use Howl for service discovery. \
+#              mDNSResponder should not be running otherwise.
+# processname: mDNSResponder
+# config: 
+
+OTHER_MDNSRD_OPTS=""
+
+# Source function library.
+. /etc/init.d/functions
+
+. /etc/sysconfig/network
+
+# Check that networking is configured.
+[ ${NETWORKING} = "no" ] && exit 0
+
+start() {
+	echo -n $"Starting mDNSResponder... "
+	/usr/local/bin/mDNSResponder $OTHER_MDNSRD_OPTS
+	RETVAL=$?
+	echo
+	return $RETVAL
+}
+
+stop() {
+	echo -n $"Shutting down mDNSResponder services: "
+	killproc mDNSResponder
+	RETVAL=$?
+	if [ $RETVAL -eq 0 ] ; then
+	  rm -f /var/lock/subsys/mDNSResponder
+	  rm -f /var/run/mDNSResponder.pid
+	fi
+	echo
+	return $RETVAL
+}
+
+restart() {
+	stop
+	start
+}
+
+RETVAL=0
+
+# See how we were called.
+case "$1" in
+  start)
+	start
+	;;
+  stop)
+	stop
+	;;
+  restart|reload)
+	restart
+	;;
+  condrestart)
+        [ -f /var/lock/subsys/mDNSResponder ] && restart || :
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|restart|condrestart}"
+	exit 1
+esac
+
+exit $?

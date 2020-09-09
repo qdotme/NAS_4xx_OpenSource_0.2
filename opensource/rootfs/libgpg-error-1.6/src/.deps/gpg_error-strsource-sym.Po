@@ -1,0 +1,12 @@
+gpg_error-strsource-sym.o gpg_error-strsource-sym.o: strsource-sym.c \
+  ../config.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  ./gpg-error.h err-sources-sym.h
+
+../config.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+./gpg-error.h:
+
+err-sources-sym.h:

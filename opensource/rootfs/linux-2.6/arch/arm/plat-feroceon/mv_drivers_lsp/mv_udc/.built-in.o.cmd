@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/built-in.o :=  rm -f drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/built-in.o; arm-none-linux-gnueabi-ar rcs drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/built-in.o

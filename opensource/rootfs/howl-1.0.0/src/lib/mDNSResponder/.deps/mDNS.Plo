@@ -1,0 +1,11 @@
+mDNS.lo mDNS.o: mDNS.c mDNSClientAPI.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h \
+  mDNSDebug.h mDNSPlatformFunctions.h
+
+mDNSClientAPI.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stdarg.h:
+
+mDNSDebug.h:
+
+mDNSPlatformFunctions.h:

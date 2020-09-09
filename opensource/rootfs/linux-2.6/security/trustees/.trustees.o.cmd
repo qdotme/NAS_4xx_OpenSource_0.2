@@ -1,0 +1,1 @@
+cmd_security/trustees/trustees.o := arm-none-linux-gnueabi-ld -EL   -r -o security/trustees/trustees.o security/trustees/security.o security/trustees/fs.o security/trustees/init.o security/trustees/funcs.o security/trustees/../commoncap.o

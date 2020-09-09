@@ -1,0 +1,514 @@
+<?php
+/**
+ * @version $Id: rbm_pagination.class,v 1.1.2.2 2008/11/09 09:13:01 wiley Exp $
+ *
+ * Simple pagination class - Version 0.4
+ * Release Date: August 28, 2006 - Updated at: Januar 28, 2007
+ * --------------------------------------------------------------------
+ * This class helps you creating the navigation functions for a
+ * database. It contains some simple functions for calculating
+ * the page count and everything related to it. So you don't have
+ * to care about it, yourself :-)
+ * 
+ * URL: http://codedump.jonasjohn.de/classes.htm
+ * 
+ * Copyright © 2006 Jonas John. All rights reserved.
+ * --------------------------------------------------------------------
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 
+ * 3. Neither the name of Jonas John nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+class pagination {
+
+    /*
+    ** Configuration:
+    */
+
+    // how many entries per page
+    var $per_page           = 10;
+
+    // the currently selected page
+    var $current_page       = 1;
+
+    // how many entries does the database contain
+    var $entry_count        = 0;
+
+    // Should the page numbers get filled
+    // with zeros ?
+    // Example: "03" will get "003"
+    // - pages_zero_spacing: -1 = disabled
+    // - pages_zero_spacing: 3 = 003
+    var $pages_zero_spacing = -1;
+
+
+    // these variables are needed for
+    // internal calculations:
+    var $half_pages = 0;
+    var $complete_pages = 0;
+    var $pages = 0;
+    var $_given_current_page = 0;
+
+
+    /*
+    ** set_per_page
+    **
+    ** Sets the number of entries that are displayed on each
+    ** page.
+    */
+
+    function set_per_page($n){ $this->per_page = $n; }
+
+
+    /*
+    ** get_per_page
+    **
+    ** Returns the number of entries on each page.
+    */
+
+    function get_per_page(){ return $this->per_page; }
+
+
+    /*
+    ** set_current_page
+    **
+    ** Sets the current page
+    */
+
+    function set_current_page($p){
+
+        // fix number:
+        $cur_page = intval(preg_replace('/[^0-9]/', '', $p));
+        $cur_page = ($cur_page<=0) ? 1 : $cur_page;
+
+        $this->current_page = $cur_page;
+        $this->_given_current_page = $cur_page;
+    }
+
+
+    /*
+    ** get_curpage
+    **
+    ** Returns the current page
+    */
+
+    function get_curpage(){ return $this->current_page; }
+
+
+    /*
+    ** set_max
+    **
+    **
+    */
+
+    function set_max($n){ $this->entry_count = intval($n); }
+
+
+    /*
+    ** calc
+    **
+    ** Calculates the page count.
+    */
+
+    function calc(){
+
+        $this->half_pages = $this->entry_count % $this->per_page;
+
+        $this->complete_pages = $this->entry_count - $this->half_pages;
+
+        $this->pages = $this->complete_pages / $this->per_page;
+        if ($this->half_pages != 0){ $this->pages++; }
+
+        // Page number is too high -> does not exist,
+        // replace with last number
+        if ($this->current_page > $this->pages){
+            $this->current_page = $this->pages;
+        }
+
+    }
+
+
+    /*
+    ** get_first_id
+    **
+    ** Returns the first id.
+    */
+
+    function get_first_id(){
+        return ($this->current_page * $this->per_page) - $this->per_page;
+    }
+
+
+    /*
+    ** get_last_id
+    **
+    ** Returns the last id.
+    */
+
+    function get_last_id(){
+        if ($this->pages == $this->current_page){
+            return $this->entry_count;
+        }
+        else {
+            return ($this->per_page * $this->current_page);
+        }
+    }
+
+
+    /*
+    ** get_sql_limit
+    **
+    ** Returns the SQL-Limit statement.
+    */
+
+    function get_sql_limit(){
+        return 'LIMIT '.$this->get_first_id().',' . $this->per_page;
+    }
+
+
+    /*
+    ** get_prev_page
+    **
+    ** Returns the previous page.
+    */
+
+    function get_prev_page(){
+        $id = $this->current_page - 1;
+        return ($id <= 0) ? 1 : $id;
+    }
+
+
+    /*
+    ** get_page_count
+    **
+    ** Returns the count of all pages.
+    */
+
+    function get_page_count(){ return $this->pages; }
+
+
+    /*
+    ** get_next_page
+    **
+    **
+    */
+
+    function get_next_page(){
+        // create back page
+        $id = $this->current_page + 1;
+        return ($id > $this->pages) ? $this->pages : $id;
+    }
+
+
+    /*
+    ** exists_page
+    **
+    ** Returns whether a page exists or not.
+    */
+
+    function exists_page($p){
+        $p = intval($p);
+        return ($p > $this->pages || $p <= 0) ? false : true;
+    }
+
+
+    /*
+    ** exists_current_page
+    **
+    ** Returns whether the current page exists or not.
+    */
+
+    function exists_current_page(){
+        return $this->exists_page($this->_given_current_page);
+    }
+
+
+    /*
+    ** get_prev_link
+    **
+    ** Returns the previous link.
+    */
+
+    function get_prev_link($link_template, $no_link=''){
+
+        if ($this->pages <= 1){ return ''; }
+
+        // create back page
+        $back_id = $this->get_prev_page();
+
+        if ($this->current_page > 1){
+            $link_template = str_replace('%pg', $back_id, $link_template);
+        }
+        else { $link_template = $no_link; }
+
+        return $link_template;
+    }
+
+
+    /*
+    ** get_next_link
+    **
+    ** Returns the next link.
+    */
+
+    function get_next_link($link_template, $no_link=''){
+
+        // create back page
+        $id = $this->get_next_page();
+
+        if ($this->current_page < $this->pages){
+            $link_template = str_replace('%pg', $id, $link_template);
+        }
+        else { $link_template = $no_link; }
+
+        return $link_template;
+    }
+
+
+    /*
+    ** showing_from_to
+    **
+    **
+    */
+
+    function showing_from_to($link_template){
+
+        $link_template = str_replace('%from', $this->get_first_id(), $link_template);
+        $link_template = str_replace('%to', $this->get_last_id(), $link_template);
+
+        return $link_template;
+
+    }
+
+
+    /*
+    ** get_pages
+    **
+    ** Returns the listing of all pages. The links can be formatted
+    ** trought the parameters.
+    */
+
+    function get_pages($link_template, $spacer=" ", $s, $e){
+
+        $page_links = array();
+
+        for ($x=1; $x <= $this->pages; $x++){
+            $num_title = ($this->pages_zero_spacing != -1 && ($this->pages_zero_spacing - strlen($x)) > 0) ? str_repeat('0', $this->pages_zero_spacing - strlen($x)) . $x : $x;
+            $link = str_replace('%pg', $x, $link_template);
+            $link = str_replace('%title', $num_title, $link);
+            $link = ($x == $this->current_page) ? $s.$link.$e : $link;
+            $page_links[] = $link;
+        }
+
+        $page_links = implode($spacer, $page_links);
+
+        return $page_links;
+    }
+
+
+    /*
+    ** get_dynamic_centered_pages
+    **
+    ** link_template  =  Link template (Example: '<a href="?pg=%pg">%title</a>')
+    ** spacer         =  Spacer (Example: ' ' or ',')
+    ** start          =  Current page start Tag (Example: '<b>')
+    ** end            =  Current page end Tag (Example: '</b>')
+    ** per_page       =  Show X page numbers in navigation (Example: 3)
+    **
+    ** Returns: "«« 01 02 03 04 05 06 07 »»" (HTML)
+    */
+
+    function get_dynamic_centered_pages($_link_template, $_spacer, $_start, $_end, $_per_page = 3){
+
+        $page_links = array();
+
+        $start = $this->current_page - $_per_page;
+        $start = ($start < 1) ? 1 : $start;
+
+        $end = $this->current_page + $_per_page;
+        $end = ($end > $this->pages) ? $this->pages : $end;
+
+        // first page:
+        $x = 1; $num_title = '&laquo;&laquo;';
+        $link = str_replace('%pg', $x, $_link_template);
+        $link = str_replace('%title', $num_title, $link);
+        $link = ($x == $this->current_page) ? $_start.$link.$_end : $link;
+        $page_links[] = $link;
+
+
+        $dx = (($_per_page*2)-($end - $start));
+
+        if (($end+$dx) > $this->pages)
+            $start -= $dx;
+        else
+            $end += $dx;
+
+
+        // repeat pages:
+        $start = ($start <= 0)?1:$start;
+        for ($x = $start; $x <= $end; $x++){
+            $num_title = ($this->pages_zero_spacing != -1 && ($this->pages_zero_spacing - strlen($x)) > 0) ? str_repeat('0', $this->pages_zero_spacing - strlen($x)) . $x : $x;
+            $link = str_replace('%pg', $x, $_link_template);
+            $link = str_replace('%title', $num_title, $link);
+            $link = ($x == $this->current_page) ? $_start.$link.$_end : $link;
+            $page_links[] = $link;
+        }
+
+        // last page:
+        $x = $this->pages; $num_title = '&raquo;&raquo;';
+
+        $link = str_replace('%pg', $x, $_link_template);
+        $link = str_replace('%title', $num_title, $link);
+        $link = ($x == $this->current_page) ? $_start.$link.$_end : $link;
+        $page_links[] = $link;
+
+        // combine links:
+        $page_links = implode($_spacer, $page_links);
+        return $page_links;
+    }
+
+
+    /*
+    ** get_dynamic_parent_pages
+    **
+    ** link_template  =  Link template (Example: '<a href="?pg=%pg">%title</a>')
+    ** spacer         =  Spacer (Example: ' ' or ',')
+    ** start          =  Current page start Tag (Example: '<b>')
+    ** end            =  Current page end Tag (Example: '</b>')
+    ** per_page       =  Show X page numbers in navigation (Example: 8)
+    **
+    ** Returns: "«« « 001 002 003 004 005 006 » »»" (HTML)
+    */
+
+    function get_dynamic_parent_pages($_link_template='<a href="?pg=%pg">%title</a>', $_spacer=' ', $_start='<b>', $_end='</b>', $_per_page = 8){
+
+        $p_pages = ceil($this->pages / $_per_page);
+
+        $start = floor($this->current_page / $_per_page) * $_per_page;
+
+        if (($this->current_page % $_per_page) == 0)
+            $start = (floor($this->current_page / $_per_page)-1) * $_per_page;
+
+        $end = $start + $_per_page;
+
+        $start++;
+
+        $page_links = array();
+
+        // first page:
+        $x = 1; $num_title = '&laquo;&laquo;';
+        $link = str_replace('%pg', $x, $_link_template);
+        $link = str_replace('%title', $num_title, $link);
+        $page_links[] = $link;
+
+        // prev. page:
+
+        $start = ($start < 1) ? 1 : $start;
+
+        $x = $start - 1;
+        $x = ($x < 1) ? 1 : $x;
+
+        $num_title = '&laquo;';
+        $link = str_replace('%pg', $x, $_link_template);
+        $link = str_replace('%title', $num_title, $link);
+        $page_links[] = $link;
+
+        // remove pages on last:
+        if (ceil($this->current_page / $_per_page) == ceil($this->pages / $_per_page))
+            $end -= $_per_page - ($this->pages % $_per_page);
+
+        for ($x = $start; $x <= $end; $x++){
+            $num_title = ($this->pages_zero_spacing != -1 && ($this->pages_zero_spacing - strlen($x)) > 0) ? str_repeat('0', $this->pages_zero_spacing - strlen($x)) . $x : $x;
+            $link = str_replace('%pg', $x, $_link_template);
+            $link = str_replace('%title', $num_title, $link);
+            $link = ($x == $this->current_page) ? $_start.$link.$_end : $link;
+            $page_links[] = $link;
+        }
+
+        // next page:
+        $x = $end+1;
+        $x = ($x > $this->pages) ? $this->pages : $x;
+        $num_title = '&raquo;';
+        $link = str_replace('%pg', $x, $_link_template);
+        $link = str_replace('%title', $num_title, $link);
+        $page_links[] = $link;
+
+        // last page:
+        $x = $this->pages; $num_title = '&raquo;&raquo;';
+        $link = str_replace('%pg', $x, $_link_template);
+        $link = str_replace('%title', $num_title, $link);
+        $page_links[] = $link;
+
+        // combine links:
+        $page_links = implode($_spacer, $page_links);
+        return $page_links;
+    }
+
+
+    /*
+    ** get_select_box
+    **
+    ** Creates a select box by page numbers
+    */
+
+    function get_select_box($name, $prefix='', $onchange=''){
+
+        $options = array();
+
+        for ($x=1; $x <= $this->pages; $x++){
+            $sel = ($x == $this->current_page) ? ' selected="selected"' : '';
+            $link = '<option value="'.$x.'"'.$sel.'>' . $prefix . $x . '</option>';
+            $options[] = $link;
+        }
+
+        $onchange = ($onchange == '') ? '' : ' onchange="'.$onchange.'"';
+
+        $options = implode("\n", $options);
+        $options = "<select name=\"$name\"$onchange>\n$options\n</select>";
+
+        return $options;
+    }
+
+
+    /*
+    ** page_x_of
+    **
+    **
+    */
+
+    function page_x_of($link_template){
+
+        $link_template = str_replace('%current', $this->current_page, $link_template);
+        $link_template = str_replace('%cur', $this->current_page, $link_template);
+        $link_template = str_replace('%all', $this->pages, $link_template);
+
+        return $link_template;
+    }
+
+    // Follow the white rabbit.
+}
+?>

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/mv_udc.ko := arm-none-linux-gnueabi-ld -EL  -r -o drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/mv_udc.ko drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/mv_udc.o drivers/usb/gadget/../../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_udc/mv_udc.mod.o

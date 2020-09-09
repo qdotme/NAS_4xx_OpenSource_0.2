@@ -1,0 +1,5 @@
+config MAL_PACKAGE_FUSE
+	bool "fuse"
+	default n
+	help
+	Filesystem in Userspace

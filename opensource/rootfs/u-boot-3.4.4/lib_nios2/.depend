@@ -1,0 +1,1 @@
+divmod.o: divmod.c math.h

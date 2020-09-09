@@ -1,0 +1,63 @@
+lzo1b_rr.lo lzo1b_rr.o: lzo1b_rr.c config1b.h lzo_conf.h \
+  ../include/lzo/lzoconf.h ../config.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/limits.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  ../include/lzo/lzodefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/string.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/features.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/predefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/cdefs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/gnu/stubs.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/string.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/string2.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/stdlib.h \
+  miniacc.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/assert.h \
+  lzo_ptr.h ../include/lzo/lzo1b.h lzo1b_de.h stats1b.h lzo1b_cc.h \
+  lzo1b_r.ch
+
+config1b.h:
+
+lzo_conf.h:
+
+../include/lzo/lzoconf.h:
+
+../config.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/limits.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+../include/lzo/lzodefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/string.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/features.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/predefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/sys/cdefs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/gnu/stubs.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/string.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/bits/string2.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/stdlib.h:
+
+miniacc.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/../../../../arm-linux-gnueabi/sys-include/assert.h:
+
+lzo_ptr.h:
+
+../include/lzo/lzo1b.h:
+
+lzo1b_de.h:
+
+stats1b.h:
+
+lzo1b_cc.h:
+
+lzo1b_r.ch:

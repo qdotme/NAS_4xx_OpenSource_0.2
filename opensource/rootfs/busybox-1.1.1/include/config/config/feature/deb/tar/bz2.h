@@ -1,0 +1,1 @@
+#define CONFIG_FEATURE_DEB_TAR_BZ2 1

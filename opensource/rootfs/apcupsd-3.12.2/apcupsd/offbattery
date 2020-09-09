@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/usr/sbin/wixsendevent ups 4
+
+exit 0
+

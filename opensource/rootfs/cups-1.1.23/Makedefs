@@ -1,0 +1,191 @@
+#
+# "$Id: Makedefs.in,v 1.1.1.1.12.1 2009/02/03 08:27:03 wiley Exp $"
+#
+#   Common makefile definitions for the Common UNIX Printing System (CUPS).
+#
+#   Copyright 1997-2005 by Easy Software Products, all rights reserved.
+#
+#   These coded instructions, statements, and computer programs are the
+#   property of Easy Software Products and are protected by Federal
+#   copyright law.  Distribution and use rights are outlined in the file
+#   "LICENSE.txt" which should have been included with this file.  If this
+#   file is missing or damaged please contact Easy Software Products
+#   at:
+#
+#       Attn: CUPS Licensing Information
+#       Easy Software Products
+#       44141 Airport View Drive, Suite 204
+#       Hollywood, Maryland 20636 USA
+#
+#       Voice: (301) 373-9600
+#       EMail: cups-info@cups.org
+#         WWW: http://www.cups.org
+#
+
+#
+# Programs...
+#
+
+AR		=	/opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-ar
+AWK		=	gawk
+CC		=	 /opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-gcc
+CXX		=	 /opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-gcc
+DSO		=	$(CC)
+HTMLDOC		=	
+INSTALL		=	/usr/bin/install -c
+LIBTOOL		=	
+LN		=	/bin/ln -sf
+MV		=	/bin/mv
+NROFF		=	/usr/bin/nroff
+RANLIB		=	/opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-ranlib
+RM		=	/bin/rm -f
+SED		=	/bin/sed
+SHELL		=	/bin/sh
+STRIP		=	/opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-strip --remove-section=.comment --remove-section=.note
+
+#
+# Installation programs...
+#
+
+INSTALL_BIN	=	/opt/devel/proto/marvell/build-eabi/cups-1.1.23/install-sh -c -m 755 -s
+INSTALL_DATA	=	$(INSTALL) -m 644
+INSTALL_DIR	=	$(INSTALL) -d
+INSTALL_LIB	=	$(LIBTOOL) $(INSTALL) -m 755
+INSTALL_MAN	=	$(INSTALL) -m 644
+INSTALL_SCRIPT	=	$(INSTALL) -m 755
+
+#
+# Default user and group for the scheduler...
+#
+
+CUPS_USER	=	root
+CUPS_GROUP	=	root
+
+#
+# Libraries...
+#
+
+LIBCUPS		=	libcups.so.2
+LIBCUPSIMAGE	=	libcupsimage.so.2
+LIBJPEG		=	
+LIBMALLOC	=	
+LIBPAPER	=	
+LIBPNG		=	
+LIBSLP		=	
+LIBTIFF		=	
+LIBZ		=	
+
+#
+# Program options...
+#
+# OPTIM   defines the common compiler optimization/debugging options.
+# OPTIONS defines other compile-time options (currently only -dDEBUG for
+#         extra debug info)
+#
+
+ARFLAGS		=	crvs
+BACKLIBS	=	
+CFLAGS		=	$(RC_CFLAGS) $(SSLFLAGS) -I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -Ino -I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -Ino -Os -pipe -I.. $(OPTIONS)
+COMMONLIBS	=	
+CXXFLAGS	=	$(RC_CFLAGS) -I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -Ino -I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -I/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/include -Ino  -I.. $(OPTIONS)
+CXXLIBS		=	-lsupc++
+DSOFLAGS	=	-L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/lib -Lno -Wl,-rpath,/usr/lib  -Wl,-soname,$@ -shared $(OPTIM)
+DSOLIBS		=	$(LIBPNG) $(LIBTIFF) $(LIBJPEG) $(LIBZ) $(COMMONLIBS)
+IMGLIBS		=	 -lm
+LDFLAGS		=	-L../cups -L../filter $(RC_CFLAGS) -L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/lib -Lno -L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/lib -Wl,-rpath,/usr/lib $(OPTIM)
+LINKCUPS	=	-lcups
+LINKCUPSIMAGE	=	-lcupsimage
+LIBS		=	$(LINKCUPS) $(NETLIBS) -lcrypt  $(COMMONLIBS)
+NETLIBS		=	 -lnsl
+OPTIM		=	-fPIC -Os -pipe 
+OPTIONS		=
+PAMLIBS		=	
+SSLFLAGS	=	-DOPENSSL_DISABLE_OLD_DES_SUPPORT
+SSLLIBS		=	-lssl -lcrypto
+
+#
+# Directories...
+#
+# The first section uses the GNU names (which are *extremely*
+# difficult to find in a makefile because they are lowercase...)
+# We have to define these first because autoconf uses ${prefix}
+# and ${exec_prefix} for most of the other directories...
+#
+# This is immediately followed by definition in ALL CAPS for the
+# needed directories...
+#
+
+bindir		=	/usr/bin
+datadir		=	/usr/share
+exec_prefix	=	/usr
+includedir	=	${prefix}/include
+infodir		=	${prefix}/info
+libdir		=	/usr/lib
+libexecdir	=	/usr/lib
+localstatedir	=	/usr/var
+mandir		=	/usr/man
+oldincludedir	=	/usr/include
+prefix		=	/usr
+sbindir		=	/usr/sbin
+sharedstatedir	=	${prefix}/com
+srcdir		=	.
+sysconfdir	=	/etc
+top_srcdir	=	.
+
+BUILDROOT	=	$(DSTROOT)
+
+AMANDIR		=	$(BUILDROOT)/usr/man
+BINDIR		=	$(BUILDROOT)/usr/bin
+DATADIR		=	$(BUILDROOT)/usr/share/cups
+DOCDIR		=	$(BUILDROOT)/usr/man
+INCLUDEDIR	=	$(BUILDROOT)$(includedir)
+INITDIR		=	
+INITDDIR	=	/etc/init.d
+LIBDIR		=	$(BUILDROOT)$(libdir)
+LOCALEDIR	= 	$(BUILDROOT)/usr/share/locale
+LOGDIR		= 	$(BUILDROOT)/var/log
+MANDIR		=	$(BUILDROOT)/usr/man
+PMANDIR		=	$(BUILDROOT)/usr/man
+REQUESTS	= 	$(BUILDROOT)/usr/var/spool/cups
+SBINDIR		=	$(BUILDROOT)/usr/sbin
+SERVERBIN	= 	$(BUILDROOT)/usr/lib/cups
+SERVERROOT	= 	$(BUILDROOT)/etc/cups
+
+CAT1EXT		=	1
+CAT3EXT		=	3
+CAT5EXT		=	5
+CAT8EXT		=	8
+MAN8EXT		=	8
+MAN8DIR		=	8
+
+PAMDIR		=	$(BUILDROOT)
+PAMFILE		=	
+
+
+#
+# Rules...
+#
+
+.SILENT:
+.SUFFIXES:	.a .c .cxx .h .man .o .0 .1 .1m .3 .5 .8 .z
+.c.o:
+	echo Compiling $<...
+	$(CC) $(OPTIM) $(CFLAGS) -c $<
+.cxx.o:
+	echo Compiling $<...
+	$(CXX) $(OPTIM) $(CXXFLAGS) -c $<
+.man.0 .man.1 .man.1m .man.3 .man.5 .man.8:
+	echo Formatting $<...
+	$(RM) $@
+	-$(NROFF) -man $< >$@
+.man.z:
+	echo Formatting $<...
+	$(RM) $@ $@.tmp $@.tmp.z
+	-$(NROFF) -man $< >$@.tmp
+	pack -f $@.tmp
+	$(MV) $@.tmp.z $@
+
+
+#
+# End of "$Id: Makedefs.in,v 1.1.1.1.12.1 2009/02/03 08:27:03 wiley Exp $"
+#

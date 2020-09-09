@@ -1,0 +1,1 @@
+cmd_drivers/md/raid6int16.c := perl /opt/devel/proto/marvell/build-eabi/linux-feroceon_4_2_2_KW/drivers/md/unroll.pl 16 < drivers/md/raid6int.uc > drivers/md/raid6int16.c || ( rm -f drivers/md/raid6int16.c && exit 1 )

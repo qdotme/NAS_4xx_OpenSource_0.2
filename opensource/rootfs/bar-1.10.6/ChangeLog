@@ -1,0 +1,436 @@
+bar (1.10.5) stable; urgency=low
+
+  * Modified configure scripts:
+    - Now tests to find the page size of the compiling system and uses this
+      value by default.  This can be overridden w/ --with-page-size.
+    - Compiles and runs tests to see if sysconf() returns a usable value.  On
+      some systems -1 was being returned, but since the configure script found
+      a sysconf() function it was configuring bar to use it, but bar would
+      bomb with an error when it tried to use posix_memalign() w/ -1 as the
+      system's memory page size.  So now, even if you have sysconf()
+      available, if sysconf() returns -1 for the page size, bar will be
+      configured not to use aligned memory.
+    - Compiles and runs tests to see if posix_memalign() is usable.  In the
+      event of failure, separate assertions in the test code will reveal
+      whether posix_memalign() failed because if EINVAL, ENOMEM, or if there
+      was some other error.  (This test could be made smarter.  At the moment
+      the only action taken is that the configure script will log the
+      assertion to config.log.  But it wouldn't be too hard to notify the user
+      of the error returned and/or take some specific action.)
+    - In the event that posix_memalign() checks fail, retry the test two more
+      times.  Once defining _GNU_SOURCE and, if that fails, a second time
+      defining _XOPEN_SOURCE=600.  I've not run accross any systems that need
+      these defined, but according to some man pages they may need be.
+    - Compiles and runs tests on aligned memory usability -- merely a
+      formailty at this point though.  The above checks should be sufficient.
+    - Prints out configuration settings for the user in an easily-readable
+      format, so that it is obvious from the start how bar is configured to
+      operate.  Also, some helpful text is printed on how to troubleshoot bar
+      and point the user to the new TROUBLESHOOTING text file.
+  * Fixed a reported bug in io.c's use of posix_memalign() reported by Doncho
+    N. Gunchev.
+  * New file, TROUBLESHOOTING, gives the user some things to try and
+    instructions on how to report bugs.
+  * ChangeLog is now a link to debian/changelog.  All future changelog entries
+    will follow a debian format.
+  * Original changelog contents:
+    
+    2005-04-01: Release 1.10.4
+    
+      - Minor code change to allow bar to compile on systems without
+        snprintf().
+    
+    2005-01-19: Release 1.10.3
+    
+    	- Bug sighted in ioWrite() by Chris Gentle, sank same:
+    
+    				avail = io.buffer_size = io.buffer_used;
+    
+    		Not only should this have been:
+    
+    				avail = io.buffer_size - io.buffer_used;
+    
+        But the variable avail is not even used in ioWrite().  Shame on me for
+        not noticing.
+    		
+    		The offending lines have been removed.
+    
+    2004-11-23: Release 1.10.2
+    
+    	- Discovered the problem with memalign.  Apparently memalign has two
+    		definitions depending upon your version and flavor of OS:
+    
+    			memalign(size, boundary)
+    
+    		and
+    
+    			memalign(boundary, size)
+    
+    		New configure tests were designed, but bar still segfaults on some
+    		systems, even after identifying which flavor of memalign to use.
+    		
+        Tests seem to show that using aligned memory gives less than a 1%
+        speed increase, so I have decided to not worry about it.  The use of
+        memalign has been discontinued, although the use of posix_memalign is
+        still used if found.  If posix_memalign is available, and
+        --disable-use-memalign has not been set, then use posix_memalign,
+        otherwise use malloc.
+    
+    	- Fixed a bug in the use of posix_memalign.
+    
+      - Bar now has some default colors compiled in, in case ansi is turned on
+        and no colors are defined via a .barrc file.
+    
+    	- Removed test-args from the list of tests.  The command line arguments
+        haven't changed in many versions now, and I have no intention of
+        changing them in the future.
+    
+    2004-11-10: Release 1.10.1
+    
+      - The strange I/O bug bit again.  Tim Bynum reported an esoteric read
+        error under cygwin that sounded suspiciously similar to the EFAULT bug
+        seen earlier.  With his help, I was able to track down the problem to
+        my use of aligned memory as an I/O buffer.
+    
+    		Created some elaborate tests within configure to try to reproduce the
+    		problem so that the use of aligned memory allocation can be turned off
+    		automatically on systems where this bug occurs:
+    
+    		Changed the way aligned memory was tested in the configure script:
+    			a) Test to see if aligned memory is supported by the OS
+    			b) If so, test to see if aligned memory works with read()/write()
+    			c) If so, was --enable-use-memalign passed to configure
+    			d) If so, attempt to use aligned memory allocation.
+    
+    		Changed the way vectored I/O was tested in the configure script:
+    			a) Test to see if vectored I/O is supported by OS
+    			b) If so, test to see if vectored I/O works with our chosen method of
+    				 memory allocation
+    			c) If so, was --disable-use-iovec passed to configure
+    			d) If not, attempt to use vectored I/O
+    
+    		Unfortunately, the tests pass with flying colors, while bar still fails.
+    
+    		Aligned memory allocation is now disabled by default.  It can be enabled
+    		by passing --enable-use-memalign to configure.
+    
+      - Added a test to the configure script such that if HAVE_SYSCONF is
+        defined, check to see if _SC_PAGE_SIZE and _SC_PAGESIZE are defined.
+        Use whichever one is found.
+    
+    	- Spellcheck!  It's a wonderful thing.
+    
+    2004-11-09: Release 1.10
+    
+    	- The new changes to the I/O have been thoroughly tested on a number of
+    		architectures and are believed to be safe.
+    
+    2004-09-22: (development continues)
+    	
+      - The ring buffer seems to have problems with readv() on some
+        architectures.  Investigating...
+    		
+        On the RedHat-9 system of the sourceforge compilefarm, readv() returns
+        an error and sets errno to EFAULT (segmentation fault) when
+        vec[0].iov_base > io.buffer.  The only reference to EFAULT I could
+        find was in _UNIX System V Network Programming_, where EFAULT is said
+        to be set when there is a pointer problem.  But the values of vec[]
+        have been verified as valid.  On a Fedora Core 2 system this does not
+        happen.  In fact, on no other system tested has this problem surfaced.
+    		
+    		I'm clueless.
+    
+        Therefore I am exploring the possibility of using a workaround.  I
+        have written a configure test to check the operation of readv().  If
+        the problem is found then iovec I/O will be disabled and bar will use
+        regular read()/write() instead.  The configure option
+        --disable-use-iovec has also been added, so that the user may override
+        the results of the configure test and disable the use of iovec even if
+        configure thinks it's safe.
+    
+    2004-09-22: (development continues)
+    
+      - Incorporated changes submitted by Christopher Chan-Nui to increase
+        throughput and decrease CPU usage.  His changes include implementing a
+        page-aligned circular buffer in memory, and a larger default buffer
+        size.
+    
+    		The default buffer size can now be changed by passing
+    		--with-buffer-size=SIZE when running configure.  The new default buffer
+    		size is 512K.
+    
+        Changing your buffer size may or may not create a difference,
+        depending on your application of bar.  For something fast, like I/O to
+        memory or to a fast hard drive, a larger buffer of say 1M might be
+        worth your while.  But for I/O to something slow, like a tape drive,
+        the cost of using so much memory might not outweigh the increase in
+        performance.
+    
+    	- Chan-Nui's patch also changed the way the twiddle is updated.
+    		Specifically it only updated the twiddle (a) if there was data written,
+    		and (b) only when the rest of the line was updated.  I decided to use a
+    		twiddle as feedback that something was happening even for long update
+        delays.  The problem is that on some machines, notably Linux on PC's,
+        the twiddle goes so fast that all it does is slam a slow terminal
+        connection, creating a bottleneck.  Therefore I have made two changes
+        to the way the twiddle is updated:
+    
+        1) The twiddle is turned off by default.  This means that in order to
+        see the twiddle, you have to either specify -dtw or -da on the command
+        line, or you have to put "display-twiddle: yes" in the resource file.
+        This new default behavior can be changed by specifying
+        --enable-default-twiddle when running configure.
+    
+        2) The twiddle will only update once a second, and then only if data
+        was actually copied.
+    	
+    	- These changes have drastically increased the throughput of bar on both
+        SPARC and Intel architectures.  As a comparison between version 1.09
+        and 1.10, the following throughput was seen using various buffer sizes
+        with the following command line:
+    
+    			bar -if /dev/zero -of /dev/null
+    
+    		Where:
+    
+    								 bar-1.09                             bar-1.10
+    		-----------------------------------  -----------------------------------
+    		buffer |        throughput           buffer |        throughput
+    		 size  | i686-Linux   E4500-Solaris   size  | i686-Linux   E4500-Solaris
+    		-------|------------|--------------  -------|------------|--------------
+    			 1K  |   83.2MB/s |    8.4MB/s        1K  |  135.2MB/s |   16.0MB/s
+    			 2K  |  116.2MB/s |   11.8MB/s        2K  |  269.7MB/s |   32.1MB/s
+    			 4K  |  144.0MB/s |   14.1MB/s        4K  |  520.7MB/s |   56.9MB/s
+    			 8K  |  162.9MB/s |   15.5MB/s        8K  |  973.9MB/s |   92.3MB/s
+    			16K  |  137.5MB/s |   16.4MB/s       16K  |    1.4GB/s |  136.3MB/s
+    			32K  |  138.8MB/s |   16.9MB/s       32K  |    2.7GB/s |  178.7MB/s
+    			64K  |  127.6MB/s |   17.2MB/s       64K  |    5.0GB/s |  211.6MB/s
+    		 128K  |  135.1MB/s |   17.2MB/s      128K  |    9.0GB/s |  233.0MB/s
+    		 256K  |  133.7MB/s |   17.3MB/s      256K  |   14.8GB/s |  242.2MB/s
+    		 512K  |  129.8MB/s |   17.3MB/s      512K  |   22.1GB/s |  248.4MB/s
+    			 1M  |  128.2MB/s |   17.3MB/s        1M  |   29.2GB/s |  251.1MB/s
+    			 2M  |  126.9MB/s |   17.3MB/s        2M  |   35.0GB/s |  255.5MB/s
+    			 4M  |  126.5MB/s |   17.1MB/s        4M  |   38.0GB/s |  255.3MB/s
+    			 8M  |  125.5MB/s |   17.1MB/s        8M  |   39.5GB/s |  246.9MB/s
+    			16M  |  124.7MB/s |   16.2MB/s       16M  |   40.6GB/s |  254.2MB/s
+    			32M  |  126.1MB/s |   16.0MB/s       32M  |   40.8GB/s |  244.6MB/s
+    			64M  |  128.0MB/s |   15.5MB/s       64M  |   41.2GB/s |  248.9MB/s
+    		 128M  |  128.0MB/s |   15.6MB/s      128M  |   41.4GB/s |  253.3MB/s
+    		 256M  |  129.0MB/s |   15.6MB/s      256M  |   41.9GB/s |  243.3MB/s
+    		 512M  |  128.0MB/s |   14.4MB/s      512M  |   40.9GB/s |  227.6MB/s
+    			 1G  |   62.1MB/s |   13.5MB/s        1G  |   40.9GB/s |  202.1MB/s
+    
+    2004-05-27: Release 1.09
+    
+    	IDEAS:
+    	- Add an option to handle multi-volume output, and display progress of
+    		current volume. Problems to overcome:
+    		- Automatically adjusting expected volume size:
+    			- If no volume size is given, count the first volume and expect that
+    				much for subsequent volume?
+    			- If for instance you're writing to a tape drive with hardware
+    				compression, and the volume size changes from one volume to the next
+            dependent on the data written, how should bar handle the expected
+            size of the next volume?
+    		- Retrying a failed volume:
+    			- Where do you store the data to be re-written?
+    			- Knowing the difference between failed media and end-of-media?
+        - Should multi-volume capability be a separate program that bar pipes
+          to, or should I overhaul bar itself and make it vastly more
+          complicated?
+    		- How to handle closing and re-opening a device between media changes:
+    			- At the end of a volume, should bar:
+    				- Prompt and wait for input?
+    				- Run a program or script?
+    				- Both (configurable)?
+    			- When opening the next volume, should bar:
+    				- Open the same device?
+    				- Prompt for a new device?
+    				- Read output from a program or script?
+    				- Some configurable option to select one of these three?
+    
+    
+    
+      Incorporated 'b'lock-size changes submitted by Michael T Bendzick.
+      Added the -bl/--block-size command line option and the "block-size"
+      resource file keyword to allow the user to specify the default block
+      size used.  This option is only used in specifying the size of the
+      expected data stream on the command line and does not affect the I/O
+      routines.  When specifying data size in terms of blocks the -k (size of
+      a kilobyte) is ignored.
+    
+    	Incorporated a spelling correction by Michael T Bendzick.
+    
+      Added -dtp/--display-total-percent/-ntp/--no-total-percent command line
+      options, and the "display-total-percent" resource file keyword to allow
+      the user to specify that bar is not to display the total percent of
+      expected input in summary reports.
+    
+      Fixed minor bug where the background color for a space was not
+      initialized.  Added -ti/--title command line option and "title" resource
+      file keyword to specify a title to display on the status line during
+      data I/O.  This option takes a string up to 80 characters in length
+      (excess characters will be truncated).
+    
+      Added -dti/-nti/--display-title/--no-title command line options and the
+      "display-title" resource file keyword to toggle the displaying of a
+      title.  Even if activated, nothing will be printed if no title string is
+      set.
+    
+      Added -tifg/-tibg/-tib/-tin/--title-foreground/--title-background/
+      --title-bold command line options and "title-foreground",
+      "title-background", "title-bold" resource file options to specify the
+      colors used in displaying the title string.
+    
+    2004-01-06: Release 1.08
+    
+    	Added an option to display the throughput as bits/sec instead of as
+    	bytes/sec.
+    
+      Added an option to display the the data count as bits instead of as
+      bytes.
+    
+    2003-12-15: Release 1.07
+    
+    	Added an option to throttle the throughput to a given number of bytes per
+    	second.
+    
+    	Modified autoconf yet again for hopefully greater portability.
+    
+    	Configure now assumes -sw-1 by default on *-pc-cygwin systems.
+    
+    2003-12-13: Release 1.06.3
+    
+    	Fixed another signal handler error that would cause bar to exit with
+    	errno == EINTR if the window size changed during a call to select().
+    
+    2003-12-10: Release 1.06.2
+    
+    	Fixed a bug that could potentially hose the terminal: installed a signal
+    	handler that removed O_NONBLOCK from I/O descriptors when Control-C is
+    	pressed.
+    
+    	Minor cleanup of some code.
+    
+    2003-12-09: Release 1.06.1
+    
+      Added an option to force bar to display the elapsed time only, not the
+      eta.
+    
+    2003-11-13: Release 1.06
+    
+      Chris Gentle pointed out that bar is unable to open files greater than
+      2gb under Linux.  Modified args.c to include O_LARGEFILE (if defined) to
+      open() when opening files for the --in-file and --out-file arguments.
+      Modified autoconf script to test for native Large File support.  If that
+      test fails, autoconf will test to see if defining _FILE_OFFSET_BITS or
+      _LARGE_FILES allows bar to open and stat files greater than 2gb.
+    
+    	Added error.h/error.c to give more descriptive error messages when stuff
+    	fails.
+    
+      Added O_CREAT to open() for -of/--out-file option to allow bar to create
+      a file, and modified the creation mode for rw-rw-rw-.  (Duh!)
+    
+    	Added #include <sys/time.h> to io.c for i686-pc-cygwin.
+    
+    	Added test-types.c to facilitate porting tests.
+    
+      Fixed a bug in args.c number parser where the command line option --size
+      18446744073709551615 would produce a parse error resulting from the
+      inability of the parser to find the nonexistent units multiplier
+      character.
+    
+      Tested bar on the various platforms available on the SourceForge compile
+      farm.  See PORTING for a list.  Cleaned up code and many compile
+      warnings on several platforms.
+    
+    	Modified number parser in args.c to be smart enough to recognize that "."
+    	followed by a units multiplier is not a valid number.  (Ex: -s .m)
+    
+      Added resource file parsing for ~/.barrc and ./.barrc.  Required
+      revamping argument parsing in args.c.
+    
+    	Fixed a bug in test-args.c whereby test110() would fail on line 15321 on
+    	systems where size_t is 8 bytes instead of 4.
+    
+    2003-11-04: Release 1.05
+    
+    	Chris Gentle supplied a patch for the --no-summary command line option.
+    
+    	Added code to query the terminal to find the terminal width and to update
+    	itself when the terminal size changes.
+    
+    	Rewrote command line parsing algorithms for cleaner code.  Fixed an error
+    	when parsing fractional size arguments. (i.e. "<x>.<y>" numbers, such as
+    	"1.38m".)
+    
+    	Ran ispell on the stupid manual page.
+    
+    2003-10-31: Release 1.04
+    
+    	Chris Gentle supplied a patch for the --no-time command line option.
+    
+    	Updated display code to include petabyte (2^50) and exabyte (2^60) in
+    	addition to kilo, mega, giga, and tera.
+    
+    	Updated command line argument parser to include 'P'etabyte and 'E'xabyte
+    	modifiers to size arguments.
+    
+      Added -n* and --no-* command line options to turn off pieces of the
+      display.
+    
+    	Added -d* and --display-* command line options to turn on pieces of the
+    	display.
+    
+      Added -sw and --screen-width command line options to allow the user to
+      set the width of the display.
+    
+    	Added types.h and supporting autoconf tests for type uint64.
+    
+    	Updated man page.
+    
+    2003-09-09: Release 1.03
+    
+    	Anand Mitra supplied modifications that drastically reduced CPU usage.
+    
+    	Minor code restructuring for optimization.
+    
+    	Minor changes to autoconf scripts and code, (hopefully) to make bar more
+    	portable.
+    
+    	Introduced a manual page.
+    
+      Introduced command line option -t / --timeout as a way to specify the
+      number of microseconds select() is to wait for a change in I/O.
+    
+    	Reversed the order of the ChangeLog file so most recent changes appear
+    	first.  (Duh.)
+    
+    	One more minor bug fix to the display code.
+    
+    
+    2003-08-20: Release 1.02
+    
+    	Minor bug fix to autoconf.
+    
+    
+    2003-08-18: Release 1.01
+    
+    	Minor bug fixes in the display algorithms.
+    
+    
+    2003-08-14: Release 1.0
+    
+    	Initial release.
+    
+    # vim:et:ts=2:shiftwidth=2
+
+ -- Michael S. Peek <peek@tiem.utk.edu>  Fri, 10 Mar 2006 09:50:48 -0500
+
+bar (1.10.4) stable; urgency=low
+
+  * Initial Release.
+
+ -- Michael Peek <peek@tiem.utk.edu>  Thu, 16 Jun 2005 13:50:15 -0400
+

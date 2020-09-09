@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-feroceon-kw/../plat-feroceon/mv_drivers_lsp/mv_cesa/built-in.o :=  arm-none-linux-gnueabi-ld -EL   -r -o arch/arm/mach-feroceon-kw/../plat-feroceon/mv_drivers_lsp/mv_cesa/built-in.o arch/arm/mach-feroceon-kw/../plat-feroceon/mv_drivers_lsp/mv_cesa/cesa_dev.o arch/arm/mach-feroceon-kw/../plat-feroceon/mv_drivers_lsp/mv_cesa/cesa_ocf_drv.o

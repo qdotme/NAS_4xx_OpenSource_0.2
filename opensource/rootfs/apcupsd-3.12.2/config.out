@@ -1,0 +1,40 @@
+
+
+Configuration on Wed Mar 25 12:46:09 CST 2009:
+
+  Host: 		      arm-unknown-linux-gnu -- redhat (Tettnang)
+  Apcupsd version:	      3.12.2 (18 January 2006)
+  Source code location:       .
+  Install binaries:	      /usr/sbin
+  Install config files:       /etc/apcupsd
+  Install man files:	      /usr/man
+  Nologin file in:	      /etc
+  PID directory:	      /var/run
+  LOG dir (events, status)    /var/log
+  LOCK dir (for serial port)  /var/lock
+  Power Fail dir	      /etc/apcupsd
+  Compiler:		      /opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-g++ 3.4.3
+  Compiler flags:	      -Os -pipe -Wall 
+  Linker flags: 	       -L/opt/devel/proto/marvell/build-eabi/staging_dir/arm-linux-gnueabi/lib
+  Host and version:	      redhat (Tettnang)
+  Shutdown Program:	      /sbin/shutdown
+  Port/Device:		      /dev/ttyS0
+  Network Info Port (CGI):    3551
+  Master/slave Port:	      6666
+  UPSTYPE		      apcsmart
+  UPSCABLE		      smart
+
+  drivers (no-* are disabled): apcsmart dumb no-net usb no-snmp no-test
+
+  enable-master-slave:	      no
+  enable-nis:		      yes
+  with-nisip:		      no
+  enable-cgi:		      yes
+  with-cgi-bin: 	      /etc/apcupsd
+  with-libwrap: 	      no
+  enable-nls:		      no
+  enable-libintl:	      no
+  enable-powerflute:	      no
+  enable-pthreads:	      yes
+  enable-dist-install:	      no
+  

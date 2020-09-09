@@ -1,0 +1,3 @@
+map_vme.o map_vme.o: map_vme.c ../config.h
+
+../config.h:

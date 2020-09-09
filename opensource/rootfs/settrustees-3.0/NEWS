@@ -1,0 +1,25 @@
+Note: I try to write very descriptive log messages when I commit changes.
+Run git log for much more information.
+
+December 24, 2007:
+	Finished split of userspace/kernel portion of trustees.  From now
+	on, trustees will be developed as a fork of the vanilla kernel.
+	This is much simpler to manage updating for newer kernels.
+
+November 7, 2007:
+    Added testsuite.  See testsuite/README for more details.  The actual
+    tests still need to be written, but the framework is mostly there.
+
+November 7, 2007:
+    Redid caching code, see commit message for more details.  Added hash_size
+    module parameter for setting size of hash table.
+
+June 10, 2007:
+    Bumped for kernel 2.6.21, this is now required for trustees.   In the
+    future, multiple stable kernel revisions will be supported.
+
+    trusteesfs was removed in favor of securityfs which is already
+    in the kernel.  You should mount -t securityfs none /sys/kernel/security
+    upon boot.  In the future, most security modules should be using
+    this interface.  It is no longer necessary to unmount this to remove
+    the trustees module and it can be mounted prior to loading trustees.

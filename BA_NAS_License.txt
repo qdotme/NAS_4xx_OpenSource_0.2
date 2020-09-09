@@ -1,0 +1,186 @@
+Copyright
+
+Copyright © 2007 - 2009 Seagate Technology LLC. All rights reserved.
+No part of this publication or the Seagate BlackArmor NAS software,
+in source code or object code form, may be reproduced, stored in a retrieval
+system, or transmitted in any form or by any means, electronic,
+mechanical, photocopying, recording or otherwise, without the prior written
+consent of Seagate Technology LLC.
+Contact information is available on the web at http://www.seagate.com
+
+This product includes software copyrighted by the following projects and/or Licenses
+GNU LESSER GENERAL PUBLIC LICENSE : see lgpl-3.0.txt
+GPL 2.0      : see GNU_General_Public_License.txt
+GPL 3.0      : see GNU_General_Public_License_v3.txt
+BSD Licenses : see bsdlicense.txt
+MIT Licenses : see MIT_License.txt
+Creative Common License: http://creativecommons.org/licenses/by/3.0/us/
+"This product includes PHP, freely available from <http://www.php.net/>".
+Mozilla Public License : http://www.mozilla.org/MPL/
+
+Copyrights for the open source software components are provided in the
+Licenses folder on your BlackArmor NAS Client software CD.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, provided that the above
+copyright notice(s) and this permission notice appear in all copies of the Software
+and that both the above copyright notice(s) and this permission notice appear in
+supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+
+PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL
+THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR
+ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER
+RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE
+OR PERFORMANCE OF THIS SOFTWARE.
+
+
+LINUX  FIRMWARE FOR Seagate BlackArmor NAS
+Copyright 2006-2009 Marvell Corporation
+Copyright 2009 Seagate Technology LLC.
+All Rights Reserved
+
+THIS SOFTWARE IS OFFERED "AS IS", AND SEAGATE GRANTS NO WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, BY STATUTE, COMMUNICATION OR OTHERWISE.  SEAGATE SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A SPECIFIC PURPOSE OR NONINFRINGEMENT CONCERNING THIS SOFTWARE."
+
+No part of this publication or the Seagate BlackArmor NAS software,
+in source code or object code form, may be reproduced, stored in a retrieval
+system, or transmitted in any form or by any means, electronic,
+mechanical, photocopying, recording or otherwise, without the prior written
+consent of Seagate Technology LLC.
+Contact information is available on the web at http://www.seagate.com
+
+
+This product includes copyrighted Windows Client software which includes
+ - The Ultimate Packer for eXecutables Copyright (c) 1996-2000 Markus Oberhumer & Laszlo Molnar
+ - UPX is unmodified. You can download the sources directly from http://upx.sourceforge.net/
+ - Open source modifications can be found at
+    - http://download.acronis.com/gpl/fox.zip
+    - http://download.acronis.com/gpl/linux2.6.tar.bz2
+    - http://download.acronis.com/gpl/mouse.zip
+
+
+This product includes software copyrighted by various individuals and groups.  This includes
+sprintf: Copyright 2003 K&L Productions
+overlibmws: Foteos Macrides (author and Copyright holder)
+xp_progressbar: Copyright 2004 Brian Gosselin of ScriptAsylum.com
+Ajax progress bar: Copyright (C) 2006 Michele Ferretti
+PickList II script (aka Menu Swapper)- By Phil Webb
+Base64 encode/decode http://www.webtoolkit.info/
+The PHP License, version 3.0 Copyright (c) 1999 - 2006 The PHP Group. (php-4.4.2)
+wixUpload.class Copyright (c) 2004 - 2006, Olaf Lederer
+jquery-1.3.1.min.js, jquery.js: * Copyright (c) 2009 John Resig
+jquery-1.3.1.min.js: Copyright 2009, The Dojo Foundation
+jquery.blockUI.js: Copyright (c) 2007-2008 M. Alsup
+filetree.js: Creative Commons License and is copyrighted (C)2008 by Cory S.N. LaViska.
+prototype.js, prototype-1.6.0.2.js: (c) 2005-2008 Sam Stephenson
+ajax_dn_tasks.js, ajax_index.js, etc: Copyright (C) 2006 Michele Ferretti
+jkl-parsexml.js: Copyright 2005-2007 Kawasaki Yusuke
+php.js: copyright 2008 Kevin van Zonneveld ...
+xml.inci, rbm_xml.inc, ...: XML Library, by Keith Devens
+rbm_pagination.class: Copyright © 2006 Jonas John.
+rbm_size_readable.inc: Aidan Lister
+bbcode.php: www.way2web.net
+eXtplorer: copyright soeren 2007
+GeSHi: GPL http://qbnz.com/highlighter/documentation.php
+inputfilter.php: copyright: Daniel Morris
+JSON.php: copyright   2005 Michal Migurski
+lib_zip.php: The QuiX project
+standalone.php: Copyright (C) 2007 Open Source Matters.
+Tiny.xml: copyright (c) 2000-2006 Lee Thomason
+db-4.2.52: Copyright (c) 1990-2003 Sleepycat Software
+clog/clog-1.0.1: Copyright (c) 2001 Jeffrey D. Wheelhouse
+lxdialog: Savio Lam GPL
+conf.c, ...: Copyright (C) 2002 Roman Zippel
+Makefiles, inittab : buildroot2 Copyright (C) 2002-2005 Erik Andersen
+zconf.tab.c: (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003 Free Software Foundation, Inc.
+zlib-1.2.3: Copyright (C) 1995-2005 Jean-loup Gailly and Mark Adler
+hdparm-8.9: Mark Lord (mlord@pobox.com)
+heimdal-0.7.2: Copyright (c) 2004 Kungliga Tekniska Högskolan
+howl-1.0.0: Copyright (c) 2003, 2004 Porchdog Software
+krb5/krb5-1.4.3: Copyright (c) 2001, Dr Brian Gladman
+libupnp/libupnp-1.6.0: Copyright (c) 2000-2003 Intel Corporation
+lighttpd/lighttpd-1.4.18: Copyright (c) 2004, Jan Kneschke, incremental
+tcp_wrappers_7.6: Copyright 1995 by Wietse Venema
+minissdpd/minissdpd-1.0-RC10, ...: Copyright (c) 2007, Thomas BERNARD
+ncurses-5.6: Copyright (c) 1998-2004,2006 Free Software Foundation, Inc.
+pcre-5.0: Copyright (c) 1997-2004 University of Cambridge
+popt-1.7: Copyright (c) 1998  Red Hat Software
+zeroconf.c: Copyright (c) 2006 Anand Kumria
+libjpeg/jpeg-6b:  "this software is based in part on the work of the Independent JPEG Group".
+libxml2-2.5.11: Copyright (C) 1998-2002 Daniel Veillard.
+lxdialog: AUTHOR: Savio Lam
+mini_httpd-1.19: Copyright © 1995 by Jef Poskanzer
+mini_sendmail-1.3.6: Copyright © 1999 by Jef Poskanzer
+ntp-4.2.0: Copyright (c) David L. Mills 1992-2003
+from_local.c: Copyright 1984,1990 Sun Microsystems
+openssh/openssh-5.2p1: Copyright (c) 1995 Tatu Ylonen <ylo@cs.hut.fi>, Espoo, Finland
+fw_env: Copyright 2002 Wolfgang Denk, DENX Software Engineering
+libevent/libevent-1.1a: Copyright (c) 2000-2004 Niels Provos <provos@citi.umich.edu>
+   parts by
+   Copyright (C) 2003  Free Software Foundation, Inc.
+   Copyright (c) 2005 Nick Mathewson <nickm@freehaven.net>
+   Copyright (c) 2000 Dug Song <dugsong@monkey.org>
+daemon.c, portmap.c, strerror.c: Copyright (c) 1988 Regents of the 
+   University of California.
+postgresql/postgresql-8.0.9:
+   Portions Copyright (c) 1996-2005, PostgreSQL Global Development Group
+   Portions Copyright (c) 1994, The Regents of the University of California
+lltd-rc1: Microsoft Windows Rally Development Kit
+   Copyright (c) Microsoft Corporation 2005.
+gd/gd-1.8.4: see gd/gd-1.8.4/readme.txt
+   Portions copyright Spring Harbor Laboratory, Boutell.Com, etc
+libpng/libpng-1.2.12: see libpng/libpng-1.2.12/LICENSE
+   Copyright (c) 2004, 2006 Glenn Randers-Pehrson, and others
+lprng/LPRng-3.8.28: see lprng/LPRng-3.8.28/COPYRIGHT
+   Copyright (c) 1986-2001 Patrick Powell
+netsnmp/net-snmp-5.1.2: see netsnmp/net-snmp-5.1.2/COPYING
+   Copyright 1989, 1991, 1992 by Carnegie Mellon University
+   Copyright (c) 2001-2003, Networks Associates Technology, Inc
+   copyright (c) 2001-2003, Cambridge Broadband Ltd.
+   Copyright © 2003 Sun Microsystems, Inc.
+   Copyright (c) 2003-2004, Sparta, Inc
+openldap-2.3.20: see openldap-2.3.20/LICENSE
+   Copyright 1998-2006 The OpenLDAP Foundation
+openssl-0.9.8e-host: see openssl-0.9.8e-host/LICENSE
+   Copyright (c) 1998-2007 The OpenSSL Project.
+ppp/ppp-2.4.3: see ppp/ppp-2.4.3/README
+sqlite3-0.5: see sqlite3-0.5/COPYING
+   Copyright (c) 2005,2006 Bruno Fleisch
+tcp_wrappers_7.6: see DISCLAIMER
+   Copyright 1995 by Wietse Venema.
+   Copyright (c) 1987 Regents of the University of California.
+u-boot-3.4.4: see u-boot-3.4.4/README and u-boot-3.4.4/CREDITS
+   Copyright 2000 - 2005 # Wolfgang Denk, DENX Software Engineering
+util-linux-2.12r: see util-linux-2.12r/README and util-linux-2.12r/COPYRIGHT
+drag_and_sort-0.4.0: see drag_and_sort-0.4.0/COPYRIGHT
+quota-3.14: see quota-3.14/COPYRIGHT
+
+
+This product includes additional application software copyrighted by various individuals and groups.  This includes
+curl-7.16.4: Copyright (c) 1996 - 2006, Daniel Stenberg, <daniel@haxx.se>
+dropbear-0.49:Copyright (c) 2002-2006 Matt Johnston
+   Portions copyright (c) 2004 Mihnea Stoenescu
+epeg-0.9.0:Copyright (C) 2000 Carsten Haitzler and various contributors
+ImageMagick-6.3.3:Copyright 1999-2007 ImageMagick Studio LLC, a non-profit
+   organization dedicated to making software imaging
+   solutions freely available.
+jpegsrc.v6b:copyright (C) 1991-1998, Thomas G. Lane.
+libpng-1.2.18:Copyright (c) 2004, 2006-2007 Glenn Randers-Pehrson
+tiff-3.8.2:Copyright (c) 1988-1997 Sam Leffler
+   Copyright (c) 1991-1997 Silicon Graphics, Inc.
+openssl-0.9.8e: Copyright (c) 1998-2007 The OpenSSL Project.
+   Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+zlib-1.2.3: (C) 1995-2004 Jean-loup Gailly and Mark Adler
+   Boost Software License - Version 1.0 - August 17th, 2003
+zip232.tgz: Copyright (c) 1990-2006 Info-ZIP
+strnatcmp.c/h: Copyright (C) 2000, 2004 by Martin Pool <mbp sourcefrog net>
+TinyXML: Copyright (c) 2000-2002 Lee Thomason
+TiCPP: Copyright (c) 2006 Ryan Pusztai, Ryan Mulder
+libxml2-2.5.11: Copyright (C) 1998-2003 Daniel Veillard.
+

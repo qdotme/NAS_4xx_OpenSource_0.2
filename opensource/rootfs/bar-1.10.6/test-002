@@ -1,0 +1,49 @@
+#!/bin/sh
+
+files="
+	*
+	"
+
+src_file="test-file-002.1.tar"
+dst_file="test-file-002.2.tar"
+if [ -f ${src_file} ]; then
+	rm -f ${src_file}
+fi
+tar -cf ${src_file} ${files}
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: Could not create test file"
+	echo "           Test inconclusive"
+	exit 1
+fi
+cp ${src_file} ${dst_file}
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: Unable to copy test file"
+	echo "           Test inconclusive"
+	exit 1
+fi
+
+./bar -if ${src_file} -of ${dst_file} 2> /dev/null
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: ./bar failed"
+	exit 1
+fi
+cmp ${src_file} ${dst_file} > /dev/null 2>&1
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: Files differ"
+	exit 1
+fi
+
+cat ${src_file} | ./bar 2> /dev/null > ${dst_file}
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: ./bar failed"
+	exit 1
+fi
+cmp ${src_file} ${dst_file} > /dev/null 2>&1
+if [ "$?" -ne 0 ]; then
+	echo "*** ERROR: Files differ"
+	exit 1
+fi
+
+rm -f ${src_file} ${dst_file}
+
+exit 0

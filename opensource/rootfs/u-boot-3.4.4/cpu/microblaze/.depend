@@ -1,0 +1,2 @@
+cpu.o: cpu.c
+interrupts.o: interrupts.c

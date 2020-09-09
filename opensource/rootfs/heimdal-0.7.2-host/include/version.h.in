@@ -1,0 +1,2 @@
+const char *heimdal_long_version = "@(#)$Version: Heimdal 0.7.2 by @USER@ on @HOST@ (i686-pc-linux-gnu) @DATE@ $";
+const char *heimdal_version = "Heimdal 0.7.2";

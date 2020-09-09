@@ -1,0 +1,7 @@
+#!/bin/sh
+
+dd if=/dev/zero bs=1024 count=102400 \
+| ./bar -s 102400k \
+| dd of=./test-file-i.bin
+./bar -if ./test-file-i.bin -of /dev/null
+

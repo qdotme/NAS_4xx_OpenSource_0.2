@@ -1,0 +1,411 @@
+disk-utils/raw.c: * Copyright Red Hat Software, 1999, 2000
+disk-utils/fsck.minix.8:.\" Copyright 1992, 1993, 1994 Rickard E. Faith (faith@cs.unc.edu)
+disk-utils/mkswap.8:.\" Copyright 1998 Andries E. Brouwer (aeb@cwi.nl)
+disk-utils/isosize.c:    unsigned char copyright_file_id         [ISODCL (703, 739)]; /* 7.5 dchars */
+disk-utils/elvtune.c: *  Copyright (C) 2000 Andrea Arcangeli <andrea@suse.de> SuSE
+disk-utils/fsck.minix.c: * mounted partition.  Code adapted from e2fsck, Copyright (C) 1993,
+disk-utils/setfdprm.8:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+disk-utils/fdformat.8:.\" Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+disk-utils/mkfs.minix.8:.\" Copyright 1992, 1993, 1994 Rickard E. Faith (faith@cs.unc.edu)
+disk-utils/fsck.cramfs.c: * Copyright (C) 2000-2001 Transmeta Corporation
+disk-utils/mkfs.cramfs.c: * Copyright (C) 1999-2001 Transmeta Corporation
+disk-utils/mkswap.c: * the Linux copyright.
+disk-utils/blockdev.8:.\" Copyright 1998 Andries E. Brouwer (aeb@cwi.nl)
+disk-utils/mkfs.minix.c: * the Linux copyright.
+disk-utils/mkfs.minix.c: * an already mounted partition.  Code adapted from mke2fs, Copyright
+disk-utils/Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)
+disk-utils/mkfs.bfs.8:.\" Copyright 1999 Andries E. Brouwer (aeb@cwi.nl)
+fdisk/sfdisk.8:.\" Copyright 1995 Andries E. Brouwer (aeb@cwi.nl)
+fdisk/sfdisk.8:.\" -- Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+fdisk/fdiskbsdlabel.c:   Copyright (c) 1987, 1988 Regents of the University of California.
+fdisk/fdiskbsdlabel.c:   1. Redistributions of source code must retain the above copyright
+fdisk/fdiskbsdlabel.c:   2. Redistributions in binary form must reproduce the above copyright
+fdisk/cfdisk.8:.\" Copyright 1994 Kevin E. Martin (martin@cs.unc.edu)
+fdisk/cfdisk.8:.\" manual provided the copyright notice and this permission notice are
+fdisk/cfdisk.8:Print the version number and copyright.
+fdisk/cfdisk.c: *     Copyright (C) 1994 Kevin E. Martin (martin@cs.unc.edu)
+fdisk/cfdisk.c:	N_("Copyright (C) 1994-1999 Kevin E. Martin & aeb"),
+fdisk/cfdisk.c:copyright(void) {
+fdisk/cfdisk.c:    fprintf(stderr, _("Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"));
+fdisk/cfdisk.c:    copyright();
+fdisk/cfdisk.c:	    copyright();
+fdisk/sfdisk.c: * Copyright (C) 1995  Andries E. Brouwer (aeb@cwi.nl)
+fdisk/llseek.c: * Copyright (C) 1994 Remy Card.  This file may be redistributed
+fdisk/fdisksgilabel.c: * Copyright (C) Andreas Neuper, Sep 1998.
+fdisk/fdiskaixlabel.h: * Copyright (C) Andreas Neuper, Sep 1998.
+fdisk/fdisk.c: * Copyright (C) 1992  A. V. Le Blanc (LeBlanc@mcc.ac.uk)
+fdisk/fdiskbsdlabel.h: * Copyright (c) 1987, 1988 Regents of the University of California.
+fdisk/fdiskbsdlabel.h: * 1. Redistributions of source code must retain the above copyright
+fdisk/fdiskbsdlabel.h: * 2. Redistributions in binary form must reproduce the above copyright
+fdisk/README.cfdisk:    Copyright (C) 1994 Kevin E. Martin (martin@cs.unc.edu)
+fdisk/fdisksgilabel.h: * Copyright (C) Andreas Neuper, Sep 1998.
+fdisk/fdisk.8:.\" Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+fdisk/fdisk.8:.\" Copyright 1998 Andries E. Brouwer (aeb@cwi.nl)
+fdisk/Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)
+getopt/getopt.c:    Copyright (c) 1997, 1998, 1999, 2000  Frodo Looijaard <frodol@dds.nl>
+getopt/README:copy it, it is copyright (c) 1997 by Frodo Looijaard <frodol@dds.nl>.
+getopt/README:Files in the gnu directory are from glibc-2.0.4: copyright (C) 1987, 88, 
+getopt/gnu/getopt.c:   Copyright (C) 1987, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97
+getopt/gnu/getopt1.c:   Copyright (C) 1987,88,89,90,91,92,93,94,96,97 Free Software Foundation, Inc.
+getopt/gnu/getopt.h:   Copyright (C) 1989,90,91,92,93,94,96,97 Free Software Foundation, Inc.
+getopt/COPYING: Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+getopt/COPYING:  We protect your rights with two steps: (1) copyright the software, and
+getopt/COPYING:a notice placed by the copyright holder saying it may be distributed
+getopt/COPYING:means either the Program or any derivative work under copyright law:
+getopt/COPYING:copyright notice and disclaimer of warranty; keep intact all the
+getopt/COPYING:    announcement including an appropriate copyright notice and a
+getopt/COPYING:certain countries either by patents or by copyrighted interfaces, the
+getopt/COPYING:original copyright holder who places the Program under this License
+getopt/COPYING:to ask for permission.  For software which is copyrighted by the Free
+getopt/COPYING:OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+getopt/COPYING:WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+getopt/COPYING:the "copyright" line and a pointer to where the full notice is found.
+getopt/COPYING:    Copyright (C) 19yy  <name of author>
+getopt/COPYING:    Gnomovision version 69, Copyright (C) 19yy name of author
+getopt/COPYING:school, if any, to sign a "copyright disclaimer" for the program, if
+getopt/COPYING:  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+lib/err.c: * Copyright (c) 1993
+lib/err.c: * 1. Redistributions of source code must retain the above copyright
+lib/err.c: * 2. Redistributions in binary form must reproduce the above copyright
+lib/md5.c: * written by Colin Plumb in 1993, no copyright is claimed.
+licenses/COPYING.UCB: * Copyright (c) 1989 The Regents of the University of California.
+licenses/COPYING.UCB: * 1. Redistributions of source code must retain the above copyright
+licenses/COPYING.UCB: * 2. Redistributions in binary form must reproduce the above copyright
+licenses/COPYING.GPL: Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+licenses/COPYING.GPL:  We protect your rights with two steps: (1) copyright the software, and
+licenses/COPYING.GPL:a notice placed by the copyright holder saying it may be distributed
+licenses/COPYING.GPL:means either the Program or any derivative work under copyright law:
+licenses/COPYING.GPL:copyright notice and disclaimer of warranty; keep intact all the
+licenses/COPYING.GPL:    announcement including an appropriate copyright notice and a
+licenses/COPYING.GPL:certain countries either by patents or by copyrighted interfaces, the
+licenses/COPYING.GPL:original copyright holder who places the Program under this License
+licenses/COPYING.GPL:to ask for permission.  For software which is copyrighted by the Free
+licenses/COPYING.GPL:OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+licenses/COPYING.GPL:WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+licenses/COPYING.GPL:the "copyright" line and a pointer to where the full notice is found.
+licenses/COPYING.GPL:    Copyright (C) 19yy  <name of author>
+licenses/COPYING.GPL:    Gnomovision version 69, Copyright (C) 19yy name of author
+licenses/COPYING.GPL:school, if any, to sign a "copyright disclaimer" for the program, if
+licenses/COPYING.GPL:  Yoyodyne, Inc., hereby disclaims all copyright interest in the program
+login-utils/shutdown.8:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+login-utils/last.c: * Copyright (c) 1987 Regents of the University of California.
+login-utils/last.c: * provided that the above copyright notice and this paragraph are
+login-utils/simpleinit.8:.\" Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+login-utils/initctl.8:.\" Copyright (C) 2000-2001  Richard Gooch
+login-utils/vipw.c: * Copyright (c) 1987 Regents of the University of California.
+login-utils/vipw.c: * 1. Redistributions of source code must retain the above copyright
+login-utils/vipw.c: * 2. Redistributions in binary form must reproduce the above copyright
+login-utils/passwd.1:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+login-utils/wall.1:.\" Copyright (c) 1989, 1990 The Regents of the University of California.
+login-utils/wall.1:.\" 1. Redistributions of source code must retain the above copyright
+login-utils/wall.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+login-utils/vipw.8:.\" Copyright (c) 1983, 1991 The Regents of the University of California.
+login-utils/vipw.8:.\" 1. Redistributions of source code must retain the above copyright
+login-utils/vipw.8:.\" 2. Redistributions in binary form must reproduce the above copyright
+login-utils/ttymsg.c: * Copyright (c) 1989, 1993
+login-utils/ttymsg.c: * 1. Redistributions of source code must retain the above copyright
+login-utils/ttymsg.c: * 2. Redistributions in binary form must reproduce the above copyright
+login-utils/initctl.c:    Copyright (C) 2000  Richard Gooch
+login-utils/login.c:   subject to the copyright notice below.
+login-utils/login.c: * Copyright (c) 1980, 1987, 1988 The Regents of the University of California.
+login-utils/login.c: * provided that the above copyright notice and this paragraph are
+login-utils/login.1:.\" Copyright 1993 Rickard E. Faith (faith@cs.unc.edu)
+login-utils/mesg.c: * Copyright (c) 1987, 1993
+login-utils/mesg.c: * 1. Redistributions of source code must retain the above copyright
+login-utils/mesg.c: * 2. Redistributions in binary form must reproduce the above copyright
+login-utils/Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)
+login-utils/mesg.1:.\" Copyright (c) 1987, 1990, 1993
+login-utils/mesg.1:.\" 1. Redistributions of source code must retain the above copyright
+login-utils/mesg.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+login-utils/wall.c: * Copyright (c) 1988, 1990, 1993
+login-utils/wall.c: * 1. Redistributions of source code must retain the above copyright
+login-utils/wall.c: * 2. Redistributions in binary form must reproduce the above copyright
+Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)
+MCONFIG:# Copyright 1995 Rickard E. Faith (faith@cs.unc.edu)
+misc-utils/whereis.c: * Copyright (c) 1980 The Regents of the University of California.
+misc-utils/whereis.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/whereis.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/script.c: * Copyright (c) 1980 Regents of the University of California.
+misc-utils/script.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/script.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/cal.1:.\" Copyright (c) 1989, 1990, 1993
+misc-utils/cal.1:.\" 1. Redistributions of source code must retain the above copyright
+misc-utils/cal.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/whereis.1:.\" Copyright (c) 1980, 1990 The Regents of the University of California.
+misc-utils/whereis.1:.\" 1. Redistributions of source code must retain the above copyright
+misc-utils/whereis.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/write.c: * Copyright (c) 1989, 1993
+misc-utils/write.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/write.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/scriptreplay.pl:=head1 COPYRIGHT
+misc-utils/look.1:.\" Copyright (c) 1990, 1993
+misc-utils/look.1:.\" 1. Redistributions of source code must retain the above copyright
+misc-utils/look.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/logger.c: * Copyright (c) 1983, 1993
+misc-utils/logger.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/logger.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/look.c: * Copyright (c) 1991, 1993
+misc-utils/look.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/look.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/cal.c: * Copyright (c) 1989, 1993, 1994
+misc-utils/cal.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/cal.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/sparc-solaris-hostid.sh:# Copyright 1999 Peter Jones, <pjones@redhat.com> .  
+misc-utils/write.1:.\" Copyright (c) 1989, 1993
+misc-utils/write.1:.\" 1. Redistributions of source code must retain the above copyright
+misc-utils/write.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/setterm.1:.\" Copyright 1990 Gordon Irlam (gordoni@cs.ua.oz.au)
+misc-utils/setterm.1:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+misc-utils/chkdupexe.1:.\" Copyright 1995 Rickard E. Faith (faith@cs.unc.edu)
+misc-utils/chkdupexe.1:.\" manual provided the copyright notice and this permission notice are
+misc-utils/chkdupexe.1:.\" the source, must acknowledge the copyright and authors of this work.
+misc-utils/kill.1:.\" Copyright 1994 Salvatore Valente (svalente@mit.edu)
+misc-utils/kill.1:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+misc-utils/reset.1:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+misc-utils/kill.c: * Copyright (c) 1988, 1993, 1994
+misc-utils/kill.c: * 1. Redistributions of source code must retain the above copyright
+misc-utils/kill.c: * 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/chkdupexe.pl:# Copyright 1993 Nicolai Langfeldt. janl@math.uio.no
+misc-utils/setterm.c: * Copyright (C) 1990 Gordon Irlam (gordoni@cs.ua.oz.au).  Conditions of use,
+misc-utils/setterm.c: * modification, and redistribution are contained in the file COPYRIGHT that
+misc-utils/script.1:.\" Copyright (c) 1980, 1990 Regents of the University of California.
+misc-utils/script.1:.\" 1. Redistributions of source code must retain the above copyright
+misc-utils/script.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/logger.1:.\" Copyright (c) 1983, 1990, 1993
+misc-utils/logger.1:.\" 1. Redistributions of source code must retain the above copyright
+misc-utils/logger.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+misc-utils/scriptreplay.1:.SH "COPYRIGHT"
+misc-utils/scriptreplay.1:.IX Header "COPYRIGHT"
+misc-utils/Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)
+mount/umount.8:.\" Copyright (c) 1996 Andries Brouwer
+mount/realpath.c: * Copyright (C) 1993 Rick Sladkey <jrs@world.std.com>
+mount/nfsmount.c: * Copyright (C) 1993 Rick Sladkey <jrs@world.std.com>
+mount/nfsmount.h: * INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC
+mount/nfsmount.h: * Copyright (c) 1985, 1990 by Sun Microsystems, Inc.
+mount/fstab.5:.\" Copyright (c) 1980, 1989, 1991 The Regents of the University of California.
+mount/fstab.5:.\" 1. Redistributions of source code must retain the above copyright
+mount/fstab.5:.\" 2. Redistributions in binary form must reproduce the above copyright
+mount/mount.8:.\" Copyright (c) 1996-2004 Andries Brouwer
+mount/nfsmount.x:% * INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC
+mount/nfsmount.x:% * Copyright (c) 1985, 1990 by Sun Microsystems, Inc.
+mount/swapon.8:.\" Copyright (c) 1980, 1991 Regents of the University of California.
+mount/swapon.8:.\" 1. Redistributions of source code must retain the above copyright
+mount/swapon.8:.\" 2. Redistributions in binary form must reproduce the above copyright
+mount/rpcsvc/nfsmount_xdr.c: * INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC
+mount/rpcsvc/nfsmount_xdr.c: * Copyright (c) 1985, 1990 by Sun Microsystems, Inc.
+mount/rpcsvc/nfsmount_clnt.c: * INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC
+mount/rpcsvc/nfsmount_clnt.c: * Copyright (c) 1985, 1990 by Sun Microsystems, Inc.
+mount/rpcsvc/nfsmount.h: * INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC
+mount/rpcsvc/nfsmount.h: * Copyright (c) 1985, 1990 by Sun Microsystems, Inc.
+mount/rpcsvc/nfsmount.x:% * INFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC
+mount/rpcsvc/nfsmount.x:% * Copyright (c) 1985, 1990 by Sun Microsystems, Inc.
+partx/efi.h:  Copyright (C) 2001 Dell Computer Corporation <Matt_Domsch@dell.com>
+partx/gpt.h:    Copyright (C) 2000-2001 Dell Computer Corporation <Matt_Domsch@dell.com> 
+partx/crc32.c: * This code is in the public domain; copyright abandoned.
+partx/gpt.c:    Copyright (C) 2000-2001 Dell Computer Corporation <Matt_Domsch@dell.com> 
+po/sl.po:# Copyright (C) 2002, 2003 Free Software Foundation, Inc.
+po/sl.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/sl.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/sl.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/sl.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/et.po:# Copyright (C) 2002 Free Software Foundation, Inc.
+po/et.po:# Copyright (C) 2002 Meelis Roos <mroos@linux.ee>
+po/et.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/et.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/et.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/et.po:msgstr "Copyright (C) 1994-2000 Kevin E. Martin & aeb\n"
+po/sv.po:# Copyright (C) 2001, 2002, 2003, 2004 Free Software Foundation, Inc.
+po/sv.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/sv.po:msgstr "Copyright © 1994-1999 Kevin E. Martin och aeb"
+po/sv.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/sv.po:msgstr "Copyright © 1994-2002 Kevin E. Martin och aeb\n"
+po/fi.po:# Copyright © 2002, 2003 Lauri Nurmi <lanurmi@iki.fi>
+po/fi.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/fi.po:msgstr "Copyright © 1994-1999 Kevin E. Martin & aeb"
+po/fi.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/fi.po:msgstr "Copyright © 1994-2002 Kevin E. Martin & aeb\n"
+po/po2tbl.sed:# Copyright (C) 1995 Free Software Foundation, Inc.
+po/ru.po:# Copyright (C) 2003 Free Software Foundation Inc.
+po/ru.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/ru.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/ru.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/ru.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/es.po:# Copyright (C) 2000 Beth Powell <bpowell@turbolinux.com>.
+po/es.po:# Copyright (C) 2001, 2002, 2003 Santiago Vila Doncel <sanvila@unex.es>.
+po/es.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/es.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/es.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/es.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/da.po:# Copyright (C) 2002, 2004 Free Software Foundation, Inc.
+po/da.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/da.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/da.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/da.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/ja.po:# Copyright (C) 2001 Free Software Foundation, Inc.
+po/ja.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/ja.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/ja.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/ja.po:msgstr "Copyright (C) 1994-2000 Kevin E. Martin & aeb\n"
+po/util-linux.pot:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/util-linux.pot:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/ca.po:# Copyright (C) 2002, 2003 Free Software Foundation, Inc.
+po/ca.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/ca.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/ca.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/ca.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/de.po:# Copyright (C) 1999, 2000, 2001 Elrond <Elrond@Wunder-Nett.org>; Copyright (C) 2001, 2002 Karl Eichwalder.
+po/de.po:# Copyright (C) 1999, 2000, 2001 Elrond <Elrond@Wunder-Nett.org>.
+po/de.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/de.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/de.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/de.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/pt_BR.po:# Copyright (C) 2000 Free Software Foundation, Inc.
+po/pt_BR.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/pt_BR.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/pt_BR.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/pt_BR.po:msgstr "Copyright (C) 1994-2000 Kevin E. Martin & aeb\n"
+po/uk.po:# Copyright (C) 2004 Free Software Foundation
+po/uk.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/uk.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/uk.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/uk.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/tr.po:# Copyright Â© 2004 NilgÃ¼n Belma BugÃ¼ner.
+po/tr.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/tr.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/nl.po:# Copyright (C) 2002, 2003 Free Software Foundation, Inc.
+po/nl.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/nl.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/nl.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/nl.po:msgstr "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/fr.po:# Copyright © 2004 Free Software Foundation, Inc.
+po/fr.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/fr.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/fr.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/fr.po:msgstr "Copyright © 1994-2002 Kevin E. Martin & aeb\n"
+po/it.po:# Copyright (C) 2000 Free Software Foundation, Inc.
+po/it.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/it.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/it.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/it.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb\n"
+po/cs.po:msgid "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/cs.po:msgstr "Copyright (C) 1994-1999 Kevin E. Martin & aeb"
+po/cs.po:msgid "Copyright (C) 1994-2002 Kevin E. Martin & aeb\n"
+po/cs.po:msgstr "Copyright (C) 1994-2000 Kevin E. Martin & aeb\n"
+sys-utils/ctrlaltdel.8:.\" Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/renice.8:.\" Copyright (c) 1983, 1991, 1993
+sys-utils/renice.8:.\" 1. Redistributions of source code must retain the above copyright
+sys-utils/renice.8:.\" 2. Redistributions in binary form must reproduce the above copyright
+sys-utils/tunelp.8:.\" This file Copyright (C) 1992-1997 Michael K. Johnson <johnsonm@redhat.com>
+sys-utils/tunelp.8:.\" This file Copyright (C) 1998      Andrea Arcangeli   <andrea@e-mind.com>
+sys-utils/cytune.c: * Copyright 1995 Nick Simicich (njs@scifi.emi.net)
+sys-utils/cytune.c: * 1. Redistributions of source code must retain the above copyright
+sys-utils/cytune.c: * 2. Redistributions in binary form must reproduce the above copyright
+sys-utils/arch.c: * Copyright 1993 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/flock.c:    Copyright (C) 2004 Yggdrasil Computing, Inc.
+sys-utils/dmesg.8:.\" Copyright 1993 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/ipc.texi:Copyright @copyright{} 1992  krishna balasubramanian
+sys-utils/ipc.texi:@comment  The following two commands start the copyright page.
+sys-utils/ipc.texi:Copyright @copyright{} 1992  krishna balasubramanian
+sys-utils/rdev.8:.\" Copyright 1992, 1993 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/ipcs.8:.\" Copyright 1993 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/tunelp.c:*	Copyright (C) 1992-1997 Michael K. Johnson, johnsonm@redhat.com      *
+sys-utils/tunelp.c: * Fixed copyright and license.
+sys-utils/sln.c:   Copyright (C) 1986, 1989, 1990, 1991, 1993 Free Software Foundation, Inc.
+sys-utils/ipcrm.8:.\" Copyright 2002 Andre C. Mazzone (linuxdev@karagee.com)
+sys-utils/readprofile.c: *  Copyright (C) 1994,1996 Alessandro Rubini (rubini@ipvvis.unipv.it)
+sys-utils/renice.c: * Copyright (c) 1983, 1989, 1993
+sys-utils/renice.c: * 1. Redistributions of source code must retain the above copyright
+sys-utils/renice.c: * 2. Redistributions in binary form must reproduce the above copyright
+sys-utils/cytune.8:.\" Copyright 1995 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/cytune.8:.\" manual provided the copyright notice and this permission notice are
+sys-utils/cytune.8:.\" the source, must acknowledge the copyright and authors of this work.
+sys-utils/dmesg.c: * Copyright 1993 Theodore Ts'o (tytso@athena.mit.edu)
+sys-utils/ipc.info:   Copyright (C) 1992  krishna balasubramanian
+sys-utils/Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)
+sys-utils/arch.1:.\" Copyright 1993 Rickard E. Faith (faith@cs.unc.edu)
+text-utils/odsyntax.c: * Copyright (c) 1990 The Regents of the University of California.
+text-utils/odsyntax.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/odsyntax.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/ul.1:.\" Copyright (c) 1980, 1991, 1993
+text-utils/ul.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/ul.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/more.1:.\" Copyright (c) 1988, 1990 The Regents of the University of California.
+text-utils/more.1:.\" Copyright (c) 1988 Mark Nudleman
+text-utils/more.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/more.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/col.c: * Copyright (c) 1990 The Regents of the University of California.
+text-utils/col.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/col.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/colcrt.c: * Copyright (c) 1980, 1993
+text-utils/colcrt.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/colcrt.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/od.1:.\" Copyright (c) 1990, 1993
+text-utils/od.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/od.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/hexsyntax.c: * Copyright (c) 1990 The Regents of the University of California.
+text-utils/hexsyntax.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/hexsyntax.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/more.c: * Copyright (C) 1980 The Regents of the University of California.
+text-utils/more.c: * provided that the above copyright notice and this paragraph are
+text-utils/tailf.c: * Copyright 1996, 2003 Rickard E. Faith (faith@acm.org)
+text-utils/tailf.c: * The above copyright notice and this permission notice shall be included
+text-utils/tailf.c: * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+text-utils/LICENSE.pg: *	Copyright (c) 2000-2001 Gunnar Ritter. All rights reserved.
+text-utils/LICENSE.pg: * 1. Redistributions of source code must retain the above copyright
+text-utils/LICENSE.pg: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/pg.c: *	Copyright (c) 2000-2001 Gunnar Ritter. All rights reserved.
+text-utils/pg.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/pg.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/pg.c:const char *copyright =
+text-utils/pg.c:"@(#)pg 1.44 2/8/02. Copyright (c) 2000-2001 Gunnar Ritter. ";
+text-utils/pg.c:				write(1, copyright + 4, strlen(copyright + 4));
+text-utils/hexdump.c: * Copyright (c) 1989 The Regents of the University of California.
+text-utils/hexdump.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/hexdump.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/conv.c: * Copyright (c) 1989 The Regents of the University of California.
+text-utils/conv.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/conv.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/display.c: * Copyright (c) 1989 The Regents of the University of California.
+text-utils/display.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/display.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/hexdump.h: * Copyright (c) 1989 The Regents of the University of California.
+text-utils/hexdump.h: * 1. Redistributions of source code must retain the above copyright
+text-utils/hexdump.h: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/ul.c: * Copyright (c) 1980, 1993
+text-utils/ul.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/ul.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/col.1:.\" Copyright (c) 1990 The Regents of the University of California.
+text-utils/col.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/col.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/column.c: * Copyright (c) 1989, 1993, 1994
+text-utils/column.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/column.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/hexdump.1:.\" Copyright (c) 1989, 1990, 1993
+text-utils/hexdump.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/hexdump.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/tailf.1:.\" Copyright 1996, 2003 Rickard E. Faith (faith@acm.org)
+text-utils/tailf.1:.\" manual provided the copyright notice and this permission notice are
+text-utils/tailf.1:.\" the source, must acknowledge the copyright and authors of this work.
+text-utils/parse.c: * Copyright (c) 1989 The Regents of the University of California.
+text-utils/parse.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/parse.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/colrm.1:.\" Copyright (c) 1980, 1990 The Regents of the University of California.
+text-utils/colrm.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/colrm.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/column.1:.\" Copyright (c) 1989, 1990, 1993
+text-utils/column.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/column.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/rev.c: * Copyright (c) 1987, 1992 The Regents of the University of California.
+text-utils/rev.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/rev.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/rev.1:.\" Copyright (c) 1985, 1992 The Regents of the University of California.
+text-utils/rev.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/rev.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/clear.1:.\" Copyright 1992 Rickard E. Faith (faith@cs.unc.edu)
+text-utils/colrm.c: * Copyright (c) 1980 Regents of the University of California.
+text-utils/colrm.c: * 1. Redistributions of source code must retain the above copyright
+text-utils/colrm.c: * 2. Redistributions in binary form must reproduce the above copyright
+text-utils/colcrt.1:.\" Copyright (c) 1980, 1990, 1993
+text-utils/colcrt.1:.\" 1. Redistributions of source code must retain the above copyright
+text-utils/colcrt.1:.\" 2. Redistributions in binary form must reproduce the above copyright
+text-utils/Makefile:# Copyright 1992, 1993, 1994, 1995 Rickard E. Faith (faith@cs.unc.edu)

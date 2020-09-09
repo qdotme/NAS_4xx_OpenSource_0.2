@@ -1,0 +1,1 @@
+cmd_drivers/scsi/../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_sata/built-in.o :=  arm-none-linux-gnueabi-ld -EL   -r -o drivers/scsi/../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_sata/built-in.o drivers/scsi/../../arch/arm/plat-feroceon/mv_drivers_lsp/mv_sata/mvsata.o

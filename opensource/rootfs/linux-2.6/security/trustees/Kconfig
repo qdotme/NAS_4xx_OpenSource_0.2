@@ -1,0 +1,15 @@
+config SECURITY_TRUSTEES
+	tristate "Trustees ACLS"
+	depends on SECURITY
+	help
+	  Implements a system similar to Netware ACLS allowing
+	  global configuration of recursive ACLs via a centralized
+	  file.  ACLs can be added to an entire directory tree and
+	  masked out on subdirectories.  Trustees allows complex
+	  permissions to be enforced system-wide without needing to
+	  touch every file or maintain thousands of ugly POSIX
+	  ACLs. See http://trustees.aeruder.net for more
+	  information on trustees and the associated user-space
+	  tools.
+
+	  If you are unsure how to answer this question, answer N.

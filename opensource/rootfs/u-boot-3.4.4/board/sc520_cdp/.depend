@@ -1,0 +1,2 @@
+sc520_cdp_asm.o: sc520_cdp_asm.S
+sc520_cdp_asm16.o: sc520_cdp_asm16.S

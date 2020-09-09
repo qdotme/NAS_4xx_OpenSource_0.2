@@ -1,0 +1,9 @@
+config MAL_PACKAGE_CTORRENT
+	bool "ctorrent"
+	default n
+	help
+	  CTorrent is a BitTorrent client implemented in C++ to be
+	  lightweight and quick. 
+
+	  http://ctorrent.sourceforge.net/
+	  http://www.rahul.net/dholmes/ctorrent/

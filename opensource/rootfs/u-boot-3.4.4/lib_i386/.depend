@@ -1,0 +1,3 @@
+bios.o: bios.S bios.h
+bios_pci.o: bios_pci.S bios.h
+realmode_switch.o: realmode_switch.S

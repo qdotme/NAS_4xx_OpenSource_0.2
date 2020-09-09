@@ -1,0 +1,5 @@
+config MAL_PACKAGE_ETHTOOL
+	bool "ethtool"
+	default y
+	help
+	  ethtool Utility

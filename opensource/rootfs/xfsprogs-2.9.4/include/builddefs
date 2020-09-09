@@ -1,0 +1,131 @@
+#
+# Copyright (c) 2004-2006 Silicon Graphics, Inc.
+# All Rights Reserved.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation.
+#
+# This program is distributed in the hope that it would be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write the Free Software Foundation,
+# Inc.,  51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#
+# include/builddefs.  Generated from builddefs.in by configure.
+#
+
+ifndef _BUILDDEFS_INCLUDED_
+_BUILDDEFS_INCLUDED_ = 1
+
+DEBUG = -DDEBUG
+OPTIMIZER = -g -O2
+MALLOCLIB = 
+LOADERFLAGS =  -L/opt/devel/proto/marvell/build-eabi/e2fsprogs-1.39/lib
+
+LIBRT = -lrt
+LIBUUID = -luuid
+LIBPTHREAD = -lpthread
+LIBTERMCAP = 
+LIBEDITLINE = 
+LIBREADLINE = 
+LIBXFS = $(TOPDIR)/libxfs/libxfs.la
+LIBXCMD = $(TOPDIR)/libxcmd/libxcmd.la
+LIBXLOG = $(TOPDIR)/libxlog/libxlog.la
+LIBDISK = $(TOPDIR)/libdisk/libdisk.la
+LIBHANDLE = $(TOPDIR)/libhandle/libhandle.la
+
+DK_INC_DIR = ${prefix}/include/disk
+
+prefix = /usr
+exec_prefix = ${prefix}
+datarootdir = @datarootdir@
+
+PKG_NAME	= xfsprogs
+PKG_USER	= wiley
+PKG_GROUP	= wiley
+PKG_RELEASE	= 1
+PKG_VERSION	= 2.9.4
+PKG_PLATFORM	= linux
+PKG_DISTRIBUTION= Linux
+PKG_BIN_DIR	= /usr/bin
+PKG_SBIN_DIR	= /usr/sbin
+PKG_LIB_DIR	= ${exec_prefix}/lib
+PKG_DEVLIB_DIR	= ${exec_prefix}/libexec
+PKG_INC_DIR	= ${prefix}/include/xfs
+PKG_MAN_DIR	= ${prefix}/man
+PKG_DOC_DIR	= ${prefix}/share/doc/xfsprogs
+PKG_LOCALE_DIR	= ${prefix}/share/locale
+
+CC		= /opt/devel/proto/marvell/build-eabi/staging_dir/bin/arm-linux-gnueabi-gcc
+AWK		= /bin/awk
+SED		= /bin/sed
+TAR		= /bin/tar
+ZIP		= /bin/gzip
+MAKE		= /usr/bin/gmake
+ECHO		= /bin/echo
+SORT		= /bin/sort
+LN_S		= ln -s
+LIBTOOL		= /opt/devel/proto/marvell/build-eabi/xfsprogs-2.9.4/libtool
+MAKEDEPEND	= /bin/true
+
+MSGFMT		= 
+MSGMERGE	= 
+XGETTEXT	= 
+
+RPM		= /bin/rpm
+RPMBUILD	= /usr/bin/rpmbuild
+RPM_VERSION	= 4
+
+ENABLE_SHARED	= yes
+ENABLE_GETTEXT	= no
+ENABLE_EDITLINE	= no
+ENABLE_READLINE	= no
+
+HAVE_ZIPPED_MANPAGES = true
+
+HAVE_FADVISE = yes
+HAVE_MADVISE = yes
+HAVE_MINCORE = yes
+HAVE_SENDFILE = yes
+HAVE_GETMNTENT = yes
+HAVE_GETMNTINFO = 
+
+GCCFLAGS = -funsigned-char -fno-strict-aliasing -Wall
+
+ifeq ($(PKG_PLATFORM),linux)
+PCFLAGS = -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 $(GCCFLAGS)
+DEPENDFLAGS = -D__linux__
+endif
+ifeq ($(PKG_PLATFORM),darwin)
+PCFLAGS = -traditional-cpp $(GCCFLAGS)
+DEPENDFLAGS = -D__APPLE__
+endif
+ifeq ($(PKG_PLATFORM),irix)
+PLDLIBS = -ldisk -lgen
+DEPENDFLAGS = -D__sgi__
+endif
+ifeq ($(PKG_PLATFORM),freebsd)
+PLDLIBS = -L/usr/local/lib -lintl
+PCFLAGS = -I/usr/local/include $(GCCFLAGS)
+DEPENDFLAGS = -D__FreeBSD__
+endif
+
+GCFLAGS = $(OPTIMIZER) $(DEBUG) \
+	  -DVERSION=\"$(PKG_VERSION)\" -DLOCALEDIR=\"$(PKG_LOCALE_DIR)\"  \
+	  -DPACKAGE=\"$(PKG_NAME)\" -I$(TOPDIR)/include $(UUIDINC)
+
+# First, Global, Platform, Local CFLAGS
+CFLAGS += $(FCFLAGS) $(GCFLAGS) $(PCFLAGS) $(LCFLAGS)
+
+include $(TOPDIR)/include/buildmacros
+
+endif
+
+#
+# For targets that should always be rebuilt,
+# define a target that is never up-to-date.
+# Targets needing this should depend on $(_FORCE)
+_FORCE = __force_build

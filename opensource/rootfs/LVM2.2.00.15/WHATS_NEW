@@ -1,0 +1,172 @@
+Version 2.00.15 - 19 Apr 2004
+=============================
+  configure --with-owner= --with-group= to avoid -o and -g args to 'install'
+
+Version 2.00.14 - 16 Apr 2004
+=============================
+  Use 64-bit file functions by default.
+
+Version 2.00.13 - 16 Apr 2004
+=============================
+  Set devices/md_component_detection = 1 to ignore devices containing md
+  superblocks. [Luca Berra]
+  Ignore error setting selinux file context if fs doesn't support it.
+
+Version 2.00.12 - 14 Apr 2004
+=============================
+  Install a default lvm.conf into /etc/lvm if there isn't one already.
+  Allow different installation dir for lvm.static (configure --staticdir=)
+  Fix inverted selinux error check.
+  Recognise power2 in /proc/devices.
+  Fix counting in lvs_in_vg_opened. [It ignored devices open more than once.]
+
+Version 2.00.11 - 8 Apr 2004
+============================
+  Set fallback_to_lvm1 in lvm.conf (or configure --enable-lvm1_fallback)
+  to run lvm1 binaries if running a 2.4 kernel without device-mapper.
+
+Version 2.00.10 - 7 Apr 2004
+============================
+  More fixes for static build.
+  Add basic selinux support.
+  Fix sysfs detection.
+
+Version 2.00.09 - 31 Mar 2004
+=============================
+  Update copyright notices for Red Hat.
+  Fix vgmknodes to remove dud /dev/mapper entries. (libdevmapper update reqd).
+  Add LVM1-style colon output to vgdisplay.
+  lvchange --refresh to reload active LVs.
+  Add string display to memory leak dump.
+  Add locking flags & memlock option.
+  Add list_versions to library.
+  Ignore open hidden LVs when checking if deactivation is OK.
+  Suppress move percentage when device inactive.
+  Add lv_info_by_lvid.
+  Various tidy-ups to the build process.
+  Rebaseline internal verbose level.
+  Add --nolocking option for read operations if locking is failing.
+  Add option to compile into a library.
+  When compiled without libdevmapper, only print warning message once.
+  Fix lvreduce PV extent calculations.
+  Fix DESTDIR to work with configure path overrides.
+  Always use / as config file separator & rename internal config file variables.
+  Add support for tagging PV/VG/LVs and hosts.
+  Fix rare bug in recognition of long cmdline argument forms.
+  Add basic internationalisation infrastructure.
+  Don't recurse symlinked dirs such as /dev/fd on 2.6 kernels.
+  Update autoconf files.
+  Add sysfs block device filtering for 2.6 kernels.
+  Update refs for move to sources.redhat.com.
+
+Friday 14th November 2003
+=========================
+Some bug fixes & minor enhancements, including:
+  Backwards compatibility with LVM1 metadata improved.
+  Missing man pages written.
+  Tool error codes made more consistent.
+  vgmknodes written.
+  O_DIRECT can be turned off if it doesn't work in your kernel.
+  dumpconfig to display the active configuration file
+
+You need to update libdevmapper before using 'vgmknodes' or 'vgscan --mknodes'.
+If your root filesystem is on an LV, you should run one of those two
+commands to fix up the special files in /dev in your real root filesystem 
+after finishing with your initrd.  Also, remember you can use
+'vgchange --ignorelockingfailure' on your initrd if the tool fails because
+it can't write a lock file to a read-only filesystem.
+
+Wednesday 30th April 2003
+=========================
+A pvmove implementation is now available for the new metadata format.
+
+When running a command that allocates space (e.g. lvcreate), you can now
+restrict not only which disk(s) may be used but also the Physical Extents 
+on those disks.  e.g. lvcreate -L 10 vg1 /dev/hda6:1000-2000:3000-4000
+
+
+Monday 18th November 2002
+========================
+
+The new format of LVM metadata is ready for you to test!
+  We expect it to be more efficient and more robust than the original format.
+  It's more compact and supports transactional changes and replication.
+  Should things go wrong on a system, it's human-readable (and editable).
+
+Please report any problems you find to the mailing list, 
+linux-lvm@sistina.com.  The software has NOT yet been thoroughly
+tested and so quite possibly there'll still be some bugs in it.
+Be aware of the disclaimer in the COPYING file.
+
+While testing, we recommend turning logging on in the configuration file 
+to provide us with diagnostic information:
+  log {
+        file="/tmp/lvm2.log"
+	level=7
+	activation=1
+  }
+
+You should schedule regular backups of your configuration file and
+metadata backups and archives (normally kept under /etc/lvm).
+
+Please read docs/example.conf and "man lvm.conf" to find out more about 
+the configuration file.
+
+To convert an existing volume group called vg1 to the new format using
+the default settings, use "vgconvert -M2 vg1".  See "man vgconvert".
+
+-M (or --metadatatype in its long form) is a new flag to indicate which
+format of metadata the command should use for anything it creates.
+Currently, the valid types are "lvm1" and "lvm2" and they can be
+abbreviated to "1" and "2" respectively.  The default value for this
+flag can be changed in the global section in the config file.
+
+Backwards-compatible support for the original LVM1 metadata format is
+maintained, but it can be moved into a shared library or removed
+completely with configure's --with-lvm1 option.
+
+Under LVM2, the basic unit of metadata is the volume group.  Different
+volume groups can use different formats of metadata - vg1 could use
+the original LVM1 format while vg2 used the new format - but you can't
+mix formats within a volume group.  So to add a PV to an LVM2-format
+volume group you must run "pvcreate -M2" on it, followed by "vgextend".
+
+With LVM2-format metadata, lvextend will let you specify striping
+parameters.  So an LV could consist of two or more "segments" - the
+first segment could have 3 stripes while the second segment has just 2.
+
+LVM2 maintains a backup of the current metadata for each volume group
+in /etc/lvm/backup, and puts copies of previous versions in
+/etc/lvm/archive.  "vgcfgbackup" and "vgcfgrestore" can be used to
+create and restore from these files.  If you fully understand what 
+you're doing, metadata can be changed by editing a copy of a current
+backup file and using vgcfgrestore to reload it.
+
+Please read the pvcreate man page for more information on the new
+format for metadata.
+
+All tools that can change things have a --test flag which can be used
+to check the effect  of a set of cmdline args without really making the
+changes.
+
+
+What's not finished?
+====================
+The internal cache.  If you turn on debugging output you'll see lots of
+repeated messages, many of which will eventually get optimised out.
+
+--test sometimes causes a command to fail (e.g. vgconvert --test) even 
+though the real command would work: again, fixing this is waiting for 
+the work on the cache.
+
+Several of the tools do not yet contain the logic to handle full
+recovery: combinations of pvcreate and vgcfgrestore may sometimes be
+needed to restore metadata if a tool gets interrupted or crashes or
+finds something unexpected.  This applies particularly to tools that
+work on more than one volume group at once (e.g. vgsplit).
+
+Display output.  Some metadata information cannot yet be displayed.
+
+Recovery tools to salvage "lost" metadata directly from the disks:
+but we hope the new format will mean such tools are hardly ever needed!
+

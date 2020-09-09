@@ -1,0 +1,14 @@
+libgpg_error_la-strsource.lo libgpg_error_la-strsource.o: strsource.c \
+  ../config.h ./gpg-error.h \
+  /opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h \
+  gettext.h err-sources.h
+
+../config.h:
+
+./gpg-error.h:
+
+/opt/devel/proto/marvell/build-eabi/staging_dir/bin/../lib/gcc/arm-linux-gnueabi/3.4.3/include/stddef.h:
+
+gettext.h:
+
+err-sources.h:

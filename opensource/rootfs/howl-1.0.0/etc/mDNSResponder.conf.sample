@@ -1,0 +1,6 @@
+# sample mDNSResponder conf file
+#
+#	name						type				domain	port	text record
+#	----						----				------	----	-----------
+	test						_http._tcp		local.	80
+	"Test With Spaces"	_http._tcp		local.	80		"path=/P" 

@@ -1,0 +1,156 @@
+In the event that bar does not operate propperly, then, if you are willing,
+the author is interested in hearing from you.  The first thing the author will
+want from you, apart from a description of the problem you are experiencing,
+is information about bar as it is configured now, and when it is configured
+with I/O optimizations turned off.
+
+To make this process easier for you the user, first try running the shell
+script ./troubleshooter.  It will assemble a file with all the output that the
+author will want regarding how bar configures, compiles, and runs on your
+system.
+
+However, if, by some chance, the ./troubleshooter script fails for
+you, then you can open this file in your favorite editor and follow the
+instructions below.
+
+
+
+*** NOTE: If ./troubleshooter worked for you, then you can skip the rest of
+this file.  Simply email a description of your problem to
+michaelpeek@users.sourceforge.net and attach the log file that
+./troubleshooter generated.  The questions below are only for people wishing
+to report a problem with bar for whom the ./troubleshooter script failed to
+run.
+
+
+
+
+STEP 1:
+
+When you run ./configure, if the configuration process finishes successfully
+you should see text at the end that lists bar's configuration options.  This
+text begins with the line "configure: Current configuration:", and should look
+something like this:
+
+configure: Current Configuration:
+configure: ----------------------
+configure:      Screen width -1 modifier: no
+configure:    Display twiddle by default: no
+configure: Use aligned memory allocation: yes (default page size: 4096)
+configure:              Use vectored I/O: yes
+configure:       Default I/O buffer size: 52488
+
+If you do not see lines like those listed above when you run ./configure, then 
+the configuration process is ending prematurely with an error.
+
+Q1) Does the configuration process complete propperly on your system?  (I.e.
+do you see the "Current Configuration" line?)
+
+If the configuration process is ending in error, back up your config.log file
+with the following command:
+
+$ mv config.log config.log.broken
+
+Then skip to step 4 below.
+
+
+
+STEP 2:
+
+After configuring bar, the next thing a user does is type "make" to build the
+program.  In the event that make fails, an error message should be printed to
+the screen.
+
+Q2) Does bar compile on your system?
+
+Q3) If it does not, what is the error that make prints to the screen?  (Try to
+cut-and-paste the exact text if possible.)
+
+If the compilation process is ending in error, back up your config.log file
+with the following command:
+
+$ mv config.log config.log.broken
+
+Then skip to step 4 below.
+
+
+
+STEP 3:
+
+After building bar, the next thing to do is test it by typing "make check".
+This will run tests on bar to see if it is at least capable of copying data
+correctly.  If all tests pass, you should see text similar to the following:
+
+==================
+All ? tests passed
+==================
+
+Q4) Does bar pass all of it's tests?
+
+Q5) If not, which tests fail?
+
+
+
+STEP 4:
+
+Bar contains some optimizations that take advantage of features available in
+most modern unix-like operating systems, specifically aligned memory
+allocation and vectored I/O.  Most of the time the configuration process is
+able to correctly determine whether or not these features are available and
+how to use them, but differences in one O/S to another, or even from one
+distribution to another of the same O/S, will cause changes in the way that
+these features are implemented.  While the author has tried as many tricks as
+he can think of to propperly test these features before using them in bar,
+sometimes something new comes along that was unforseen.  Therefore the next
+thing to do is to try building and testing bar without these optimizations.
+
+Try re-configuring bar, except this time specify --disable-use-memalign and
+--disable-use-iovec.  Your command line should look similar to the following:
+
+$ ./configure --disable-use-memalign --disable-use-iovec
+
+Q6) Does the configuration process complete propperly?
+
+If the configuration process is ending in error, skip to step 5 below.
+
+If bar does configure propperly, try to compile bar.
+
+$ make
+
+Q7) Does the compilation process complete propperly?
+
+Q8) If it does not, what is the error that make prints to the screen?
+
+If the compilation process is ending in error, skip to step 5 below.
+
+If bar compiles propperly, try testing bar.
+
+$ make check
+
+Q9) Does bar pass it's tests?
+
+Q10) If not, which tests fail?
+
+
+
+STEP 5:
+
+Although the author has access to several flavors of unix-like operating
+systems, your system may be different.
+
+Q11) Are you willing, and do you have the time to assist the author by testing
+improvements to bar?
+
+Q12) If so, do you have access to the internet via:
+a) email?
+b) web browser?
+
+
+
+STEP 6:
+
+Email this file to michaelpeek@users.sourceforge.net.  Attach your config.log
+file and, if you have a config.log.broken file, attach that as well.  Even if
+bar works for you without aligned memory and vectored I/O, this information
+can be useful to the author to improve future versions of bar.
+

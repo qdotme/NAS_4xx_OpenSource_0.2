@@ -1,0 +1,3 @@
+refclock_trak.o refclock_trak.o: refclock_trak.c ../config.h
+
+../config.h:

@@ -1,0 +1,599 @@
+AC_INIT(bar.c)
+AC_CANONICAL_SYSTEM
+AM_INIT_AUTOMAKE(bar,1.10.6)
+AM_CONFIG_HEADER(config.h)
+
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_LN_S
+AC_PROG_AWK
+
+AC_HEADER_STDC
+AC_CHECK_HEADERS([ \
+	assert.h \
+	ctype.h \
+	errno.h \
+	fcntl.h \
+	malloc.h \
+	stdarg.h \
+	stdio.h \
+	stdlib.h \
+	string.h \
+	strings.h \
+	sys/ioctl.h \
+	sys/select.h \
+	sys/stat.h \
+	sys/time.h \
+	sys/uio.h \
+	unistd.h \
+	signal.h \
+	termios.h \
+	])
+
+AC_CHECK_FUNCS([ \
+	posix_memalign \
+	select \
+	strerror \
+	sprintf \
+	])
+AC_FUNC_MALLOC
+AC_HEADER_TIME
+
+dnl
+dnl The following tests for Large File support reverse-engineered from 
+dnl the GNU core utilities: ftp://alpha.gnu.org/gnu/coreutils/
+dnl
+AC_MSG_CHECKING([if filesystem supports Large Files natively])
+if test "${ac_cv_c_native_large_file_support+set}" = set; then
+	AC_MSG_RESULT([(cached)] $ac_cv_c_native_large_file_support)
+else
+	AC_TRY_COMPILE(
+		[
+#include <sys/types.h>
+#define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+		]
+,
+		[
+  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
+		       && LARGE_OFF_T % 2147483647 == 1)
+		      ? 1 : -1];
+		]
+,
+		ac_cv_c_native_large_file_support=yes
+,
+		ac_cv_c_native_large_file_support=no
+	)
+	AC_MSG_RESULT($ac_cv_c_native_large_file_support)
+fi
+
+if test $ac_cv_c_native_large_file_support = no; then
+	AC_MSG_CHECKING([if _FILE_OFFSET_BITS needed for Large Files])
+	AC_TRY_COMPILE(
+		[
+#define _FILE_OFFSET_BITS 64
+#include <sys/types.h>
+#define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+		]
+		,
+		[
+  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
+		       && LARGE_OFF_T % 2147483647 == 1)
+		      ? 1 : -1];
+		]
+		,
+		ac_cv_c_need_file_offset_bits=yes
+		AC_DEFINE(_FILE_OFFSET_BITS,64,[Define if OS needs it for Large Files])
+		AC_MSG_RESULT([yes])
+		,
+		ac_cv_c_need_file_offset_bits=no
+		AC_MSG_RESULT([no])
+	)
+fi
+
+if test $ac_cv_c_native_large_file_support = no; then
+	AC_MSG_CHECKING([if _LARGE_FILES needed for Large Files])
+	if test $ac_cv_c_need_file_offset_bits = yes; then
+		ac_cv_c_need_large_files=no
+		AC_MSG_RESULT([no])
+	else
+		AC_TRY_COMPILE(
+			[
+#define _LARGE_FILES 1
+#include <sys/types.h>
+#define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+			]
+			,
+			[
+  int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721
+		       && LARGE_OFF_T % 2147483647 == 1)
+		      ? 1 : -1];
+			]
+			,
+			ac_cv_c_need_large_files=yes
+			AC_DEFINE(_LARGE_FILES,1,[Define if OS needs it for Large Files])
+			AC_MSG_RESULT([yes])
+			,
+			ac_cv_c_need_large_files=no
+			AC_MSG_RESULT([no])
+		)
+	fi
+fi
+
+dnl
+dnl Check to see if struct iovec is available
+dnl
+AC_MSG_CHECKING([for vectored I/O support])
+if test "${ac_cv_have_struct_iovec+set}" = set; then
+	AC_MSG_RESULT([(cached)] $ac_cv_have_struct_iovec)
+else
+	AC_TRY_COMPILE(
+		[
+#ifdef HAVE_SYS_UIO_H
+#include <sys/uio.h>
+#endif
+		],
+		[
+	struct iovec vec[2];
+
+	vec[0].iov_base = 0;
+	vec[0].iov_len = 0;
+		],
+		[ac_cv_have_struct_iovec=yes]
+		AC_DEFINE(HAVE_STRUCT_IOVEC,1,[Define if struct iovec found])
+		,
+		[ac_cv_have_struct_iovec=no]
+	)
+	AC_MSG_RESULT($ac_cv_have_struct_iovec)
+fi
+
+AC_CHECK_SIZEOF(unsigned char)
+AC_CHECK_SIZEOF(unsigned short)
+AC_CHECK_SIZEOF(unsigned int)
+AC_CHECK_SIZEOF(unsigned long)
+AC_CHECK_SIZEOF(unsigned long long)
+AC_CHECK_SIZEOF(size_t)
+AC_CHECK_DECLS(_SC_PAGE_SIZE)
+AC_CHECK_DECLS(_SC_PAGESIZE)
+
+ac_cv_default_sw_minus_one=0
+case "$target" in
+*-pc-cygwin) ac_cv_default_sw_minus_one=1 ;;
+esac
+AC_ARG_ENABLE(
+	sw-1,
+	AC_HELP_STRING(
+		[--enable-sw-1],
+		[Assume screen width - 1]
+		),
+	[ac_cv_default_sw_minus_one=1],
+	[ac_cv_default_sw_minus_one=0]
+	)
+AC_ARG_ENABLE(
+	sw-0,
+	AC_HELP_STRING(
+		[--enable-sw-0],
+		[Assume full screen width]
+		),
+	[ac_cv_default_sw_minus_one=0],
+	)
+AC_CACHE_CHECK(
+	[for default screen width adjustment],
+	[ac_cv_default_sw_minus_one],
+	[ac_cv_default_sw_minus_one=0]
+	)
+AC_DEFINE_UNQUOTED(
+	DEFAULT_SW_MINUS_ONE,
+	$ac_cv_default_sw_minus_one,
+	[Use a screen width adjustment of -1 by default]
+	)
+AC_SUBST(DEFAULT_SW_MINUS_ONE)
+
+AC_ARG_ENABLE(
+	[display-twiddle],
+	AC_HELP_STRING(
+		[--enable-display-twiddle],
+		[Enable twiddle display by default]
+		),
+	[ac_cv_default_display_twiddle=1],
+	[ac_cv_default_display_twiddle=0]
+	)
+AC_CACHE_CHECK(
+	[if twiddle display should be enabled by default],
+	[ac_cv_default_display_twiddle],
+	[ac_cv_default_display_twiddle=0]
+	)
+AC_DEFINE_UNQUOTED(
+	DEFAULT_DISPLAY_TWIDDLE,
+	$ac_cv_default_display_twiddle,
+	[Default twiddle display setting]
+	)
+AC_SUBST(DEFAULT_DISPLAY_TWIDDLE)
+
+AC_ARG_WITH(
+	[buffer-size],
+	AC_HELP_STRING([--with-buffer-size=SIZE],
+		[Default buffer size = SIZE bytes (default: 52488 (or 512KB))]
+		),
+	[ac_cv_default_buffer_size=$withval],
+	[ac_cv_default_buffer_size=52488]
+	)
+AC_CACHE_CHECK(
+	[default buffer size],
+	[ac_cv_default_buffer_size],
+	[ac_cv_default_buffer_size=52488]
+	)
+AC_DEFINE_UNQUOTED(
+	DEFAULT_BUFFER_SIZE,
+	$ac_cv_default_buffer_size,
+	[Use this default buffer size]
+	)
+AC_SUBST(DEFAULT_BUFFER_SIZE)
+
+if test "${ac_cv_func_sysconf}" = "yes"; then
+	AC_MSG_CHECKING([sysconf usability])
+	if test "${ac_cv_sysconf_works+set}" = set; then
+		AC_MSG_RESULT([(cached)] $ac_cv_sysconf_works)
+	else
+		AC_TRY_RUN(
+			[
+#include <unistd.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <errno.h>
+#include <stdio.h>
+
+#ifdef HAVE_SYSCONF
+#	if HAVE_DECL__SC_PAGE_SIZE == 1
+#		define PAGESIZE _SC_PAGE_SIZE
+#	else
+#		if HAVE_DECL__SC_PAGESIZE == 1
+#			define PAGESIZE _SC_PAGESIZE
+#		endif
+#	endif
+#	ifndef PAGESIZE
+#		error I dont know how to retrieve the size of a page using sysconf.
+#		undef HAVE_SYSCONF
+#	endif
+#endif
+
+int main(int argc, char *argv[])
+{
+	long page_size = 0;
+
+#ifdef HAVE_SYSCONF
+	page_size = sysconf(PAGESIZE);
+#endif
+	fprintf(stderr, "sysconf says the page size is: %ld\n", page_size);
+	assert(page_size != 0);
+	assert(page_size > 0);
+	assert(page_size % sizeof(void *) == 0);
+	return(0);
+}
+			]
+			,
+			ac_cv_sysconf_works="yes"
+			,
+			ac_cv_sysconf_works="no"
+		)
+		AC_MSG_RESULT($ac_cv_sysconf_works)
+	fi
+fi
+if test "${ac_cv_sysconf_works}" = "yes"; then
+	ac_cv_default_page_size=`cat config.log | grep '^sysconf says the page size is: ' | awk -F: '{print $2}' | sed 's, ,,g'`;
+fi
+AC_ARG_WITH(
+	[page-size],
+	AC_HELP_STRING([--with-page-size=SIZE],
+		[Default page size = SIZE bytes (default: as reported by sysconf, or 8192 (or 8KB))]
+		),
+	[ac_cv_default_page_size=$withval],
+	)
+if test "${ac_cv_default_page_size+set}" != set; then
+	ac_cv_default_page_size=8192
+fi
+AC_CACHE_CHECK(
+	[default page size],
+	[ac_cv_default_page_size],
+	[ac_cv_default_page_size=8192]
+	)
+AC_DEFINE_UNQUOTED(
+	DEFAULT_PAGE_SIZE,
+	$ac_cv_default_page_size,
+	[Use this default page size if cannot determine through sysconf]
+	)
+AC_SUBST(DEFAULT_PAGE_SIZE)
+
+AC_ARG_ENABLE(
+	[use-memalign],
+	AC_HELP_STRING(
+		[--disable-use-memalign],
+		[Disable aligned memory allocation (save memory, less than 1% performance decrease) (default: enabled)]
+		),
+	[ac_cv_use_memalign=$enableval],
+	[ac_cv_use_memalign="yes"]
+	)
+AC_CACHE_CHECK(
+	[if aligned memory allocation is enabled],
+	[ac_cv_use_memalign],
+	[ac_cv_use_memalign]
+	)
+if test "${ac_cv_use_memalign}" = "yes"; then
+	if test "${ac_cv_func_posix_memalign}" = "no"; then
+		ac_cv_use_memalign="no"
+	else
+		AC_MSG_CHECKING([for posix_memalign usability])
+		if test "${ac_cv_posix_memalign_works+set}" = set; then
+			AC_MSG_RESULT([(cached)] $ac_cv_posix_memalign_works)
+		else
+			AC_TRY_RUN(
+				[
+#include <unistd.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <errno.h>
+
+#ifdef HAVE_SYSCONF
+#	if HAVE_DECL__SC_PAGE_SIZE == 1
+#		define PAGESIZE _SC_PAGE_SIZE
+#	else
+#		if HAVE_DECL__SC_PAGESIZE == 1
+#			define PAGESIZE _SC_PAGESIZE
+#		endif
+#	endif
+#	ifndef PAGESIZE
+#		warning I dont know how to retrieve the size of a page using sysconf.
+#		warning Assuming page size is DEFAULT_PAGE_SIZE bytes.
+#		undef HAVE_SYSCONF
+#	endif
+#endif
+
+int main(int argc, char *argv[])
+{
+	long page_size = DEFAULT_PAGE_SIZE;
+	unsigned long long buffer_size = DEFAULT_PAGE_SIZE;
+	unsigned long long count = 0;
+	char * ptr = 0;
+	int ret_val = 0;
+	int einval = EINVAL;
+	int enomem = ENOMEM;
+
+#ifdef HAVE_SYSCONF
+	page_size = sysconf(PAGESIZE);
+#endif
+	assert(page_size > 0);
+	assert(page_size % sizeof(void *) == 0);
+	if (page_size > buffer_size) { buffer_size = page_size; }
+	buffer_size /= sizeof(void *);
+	buffer_size *= 2*sizeof(void *);
+	ret_val = posix_memalign((void *)&ptr,page_size,buffer_size);
+	assert(!(ret_val == einval));
+	assert(!(ret_val == enomem));
+	assert(ret_val == 0);
+	for (count = 0; count < buffer_size; count++) {
+		ptr[count] = 0;
+	}
+	free(ptr);
+	return(0);
+}
+				]
+,
+				ac_cv_posix_memalign_works=yes
+,
+				ac_cv_posix_memalign_works=no
+			)
+			AC_MSG_RESULT($ac_cv_posix_memalign_works)
+		fi
+
+		if test "${ac_cv_posix_memalign_works}" = "no"; then
+			AC_MSG_CHECKING([if posix_memalign requires _GNU_SOURCE to be defined])
+			if test "${ac_cv_posix_memalign_gnu_source+set}" = set; then
+				AC_MSG_RESULT([(cached)] $ac_cv_posix_memalign_gnu_source)
+			else
+				AC_TRY_RUN(
+					[
+#include <unistd.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <errno.h>
+
+#ifdef HAVE_SYSCONF
+#	if HAVE_DECL__SC_PAGE_SIZE == 1
+#		define PAGESIZE _SC_PAGE_SIZE
+#	else
+#		if HAVE_DECL__SC_PAGESIZE == 1
+#			define PAGESIZE _SC_PAGESIZE
+#		endif
+#	endif
+#	ifndef PAGESIZE
+#		warning I dont know how to retrieve the size of a page using sysconf.
+#		warning Assuming page size is DEFAULT_PAGE_SIZE bytes.
+#		undef HAVE_SYSCONF
+#	endif
+#endif
+
+#define _GNU_SOURCE 1
+
+int main(int argc, char *argv[])
+{
+	long page_size = DEFAULT_PAGE_SIZE;
+	unsigned long long buffer_size = DEFAULT_PAGE_SIZE;
+	unsigned long long count = 0;
+	char * ptr = 0;
+	int ret_val = 0;
+	int einval = EINVAL;
+	int enomem = ENOMEM;
+
+#ifdef HAVE_SYSCONF
+	page_size = sysconf(PAGESIZE);
+#endif
+	assert(page_size > 0);
+	assert(page_size % sizeof(void *) == 0);
+	if (page_size > buffer_size) { buffer_size = page_size; }
+	buffer_size /= sizeof(void *);
+	buffer_size *= 2*sizeof(void *);
+	ret_val = posix_memalign((void *)&ptr,page_size,buffer_size);
+	assert(!(ret_val == einval));
+	assert(!(ret_val == enomem));
+	assert(ret_val == 0);
+	for (count = 0; count < buffer_size; count++) {
+		ptr[count] = 0;
+	}
+	free(ptr);
+	return(0);
+}
+					]
+,
+					ac_cv_posix_memalign_gnu_source=yes
+					ac_cv_posix_memalign_works=yes
+					AC_DEFINE(_GNU_SOURCE,1,[Define if posix_memalign needs _GNU_SOURCE])
+					AC_MSG_RESULT([yes])
+,
+					ac_cv_posix_memalign_gnu_source=no
+					AC_MSG_RESULT([no])
+				)
+			fi
+		fi
+
+		if test "${ac_cv_posix_memalign_works}" = "no"; then
+			AC_MSG_CHECKING([if posix_memalign requires _XOPEN_SOURCE=600 to be defined])
+			if test "${ac_cv_posix_memalign_xopen_source+set}" = set; then
+				AC_MSG_RESULT([(cached)] $ac_cv_posix_memalign_xopen_source)
+			else
+				AC_TRY_RUN(
+					[
+#include <unistd.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <errno.h>
+
+#ifdef HAVE_SYSCONF
+#	if HAVE_DECL__SC_PAGE_SIZE == 1
+#		define PAGESIZE _SC_PAGE_SIZE
+#	else
+#		if HAVE_DECL__SC_PAGESIZE == 1
+#			define PAGESIZE _SC_PAGESIZE
+#		endif
+#	endif
+#	ifndef PAGESIZE
+#		warning I dont know how to retrieve the size of a page using sysconf.
+#		warning Assuming page size is DEFAULT_PAGE_SIZE bytes.
+#		undef HAVE_SYSCONF
+#	endif
+#endif
+
+#define _XOPEN_SOURCE 600
+
+int main(int argc, char *argv[])
+{
+	long page_size = DEFAULT_PAGE_SIZE;
+	unsigned long long buffer_size = DEFAULT_PAGE_SIZE;
+	unsigned long long count = 0;
+	char * ptr = 0;
+	int ret_val = 0;
+	int einval = EINVAL;
+	int enomem = ENOMEM;
+
+#ifdef HAVE_SYSCONF
+	page_size = sysconf(PAGESIZE);
+#endif
+	assert(page_size > 0);
+	assert(page_size % sizeof(void *) == 0);
+	if (page_size > buffer_size) { buffer_size = page_size; }
+	buffer_size /= sizeof(void *);
+	buffer_size *= 2*sizeof(void *);
+	ret_val = posix_memalign((void *)&ptr,page_size,buffer_size);
+	assert(!(ret_val == einval));
+	assert(!(ret_val == enomem));
+	assert(ret_val == 0);
+	for (count = 0; count < buffer_size; count++) {
+		ptr[count] = 0;
+	}
+	free(ptr);
+	return(0);
+}
+					]
+,
+					ac_cv_posix_memalign_xopen_source=yes
+					ac_cv_posix_memalign_works=yes
+					AC_DEFINE(_XOPEN_SOURCE,600,[Define if posix_memalign needs _XOPEN_SOURCE >= 600])
+					AC_MSG_RESULT([yes])
+,
+					ac_cv_posix_memalign_xopen_source=no
+					AC_MSG_RESULT([no])
+				)
+			fi
+		fi
+
+	fi
+fi
+AC_CACHE_CHECK(
+	[if aligned memory allocation is available],
+	[ac_cv_use_memalign],
+	[ac_cv_use_memalign]
+	)
+if test "${ac_cv_use_memalign}" = "yes"; then
+	AC_MSG_CHECKING([if aligned memory allocation is usable])
+	if test "${ac_cv_posix_memalign_works}" = "yes"; then
+		AC_MSG_RESULT([yes])
+	else
+		AC_MSG_RESULT([no])
+		ac_cv_use_memalign="no"
+	fi
+fi
+if test "${ac_cv_use_memalign}" = "yes"; then
+	AC_DEFINE(USE_MEMALIGN,1,[Use aligned memory allocation (if available)])
+fi
+
+AC_ARG_ENABLE(
+	[use-iovec],
+	AC_HELP_STRING(
+		[--disable-use-iovec],
+		[Disable vectored I/O (30-50% performance decrease) (default: enabled)]
+		),
+	[ac_cv_use_iovec=$enableval],
+	[ac_cv_use_iovec="yes"]
+	)
+AC_CACHE_CHECK(
+	[if vectored I/O is enabled],
+	[ac_cv_use_iovec],
+	[ac_cv_use_iovec]
+	)
+if test "${ac_cv_have_struct_iovec}" = "no"; then
+	ac_cv_use_iovec="no"
+fi
+AC_CACHE_CHECK(
+	[if vectored I/O is available],
+	[ac_cv_use_iovec],
+	[ac_cv_use_iovec]
+	)
+if test "${ac_cv_use_iovec}" = "yes"; then
+	AC_DEFINE(USE_IOVEC,1,[Use vectored I/O (if available)])
+fi
+
+AC_CONFIG_FILES([Makefile bar.1 doxygen.conf])
+AC_CONFIG_COMMANDS([test-script-preparation],[chmod u+x test-00?])
+AC_OUTPUT
+
+AC_MSG_NOTICE([])
+AC_MSG_NOTICE([Current Configuration:])
+AC_MSG_NOTICE([----------------------])
+if test "${ac_cv_default_sw_minus_one}" -eq 1; then
+AC_MSG_NOTICE([     Screen width -1 modifier: yes])
+else
+AC_MSG_NOTICE([     Screen width -1 modifier: no])
+fi
+if test "${ac_cv_default_display_twiddle}" -eq 1; then
+AC_MSG_NOTICE([   Display twiddle by default: yes])
+else
+AC_MSG_NOTICE([   Display twiddle by default: no])
+fi
+if test "${ac_cv_use_memalign}" = "yes"; then
+AC_MSG_NOTICE([Use aligned memory allocation:] $ac_cv_use_memalign [(default page size:] $ac_cv_default_page_size[)])
+else
+AC_MSG_NOTICE([Use aligned memory allocation:] $ac_cv_use_memalign)
+fi
+AC_MSG_NOTICE([             Use vectored I/O:] $ac_cv_use_iovec)
+AC_MSG_NOTICE([      Default I/O buffer size:] $ac_cv_default_buffer_size)
+AC_MSG_NOTICE([                 Install Path:] $prefix)
+AC_MSG_NOTICE([])
+
